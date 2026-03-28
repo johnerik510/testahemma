@@ -531,6 +531,255 @@ export const products: TestProduct[] = [
     dateModified: "2026-03-01",
     author: "Anna Lindström",
   },
+  {
+    slug: "medisera",
+    name: "Medisera",
+    shortDescription: "Komplett hälsokontroll via blodprov – beställ och få svar online",
+    description:
+      "Medisera är en svensk tjänst för hälsokontroller via blodprov. Du beställer online, tar provet hemma eller på ett av deras provtagningsställen och får digitala svar. Medisera erbjuder ett brett sortiment av blodtester, vitamintester och hormontester till konkurrenskraftiga priser.",
+    priceFrom: "295 kr",
+    priceNote: "Från 295 kr – hälsopaket från 595 kr",
+    affiliateUrl: "https://www.medisera.se",
+    // TODO: Replace with Adtraction tracking URL when testahemma.se channel is approved (program ID: 1963727333)
+    network: "adtraction",
+    adtractionProgramId: "1963727333",
+    ctaText: "Beställ hos Medisera",
+    categories: ["blodtester", "vitamintester", "hormontester", "kolesteroltester"],
+    rating: 8.6,
+    ratings: { accuracy: 8.5, ease: 8.8, speed: 8.5, value: 9.0, support: 8.5 },
+    testsIncluded: [
+      "Komplett blodstatus (CBC)", "Ferritin", "Järn",
+      "CRP (inflammation)", "Glukos", "HbA1c",
+      "Kolesterol (LDL/HDL/total)", "Triglycerider",
+      "Kreatinin", "eGFR",
+      "TSH (sköldkörtel)", "T3/T4",
+      "Vitamin D (25-OH)", "Vitamin B12", "Folat",
+      "Testosteron", "Östradiol", "DHEA-S",
+      "PSA (prostata)",
+    ],
+    sampleType: "Fingerblod eller venöst blodprov",
+    turnaround: "1–3 vardagar",
+    labCertification: "ISO 15189 certifierat laboratorium",
+    prescription: false,
+    features: [
+      "Brett sortiment av hemtester",
+      "ISO 15189 certifierat laboratorium",
+      "Snabba svar – inom 1–3 dagar",
+      "Provtagning hemma eller på provtagningsstation",
+      "Digitala svar via säker portal",
+    ],
+    pros: [
+      "Konkurrenskraftiga priser – bra valuta för pengarna",
+      "Snabb svarstid (1–3 vardagar)",
+      "Bred täckning – blod, vitaminer, hormoner och mer",
+      "ISO 15189-certifierat laboratorium",
+      "Flexibel provtagning – hemma eller på station",
+    ],
+    cons: [
+      "Något mindre känt varumärke än Werlabs",
+      "Ingen läkarkonsultation inkluderad i priset",
+    ],
+    review: {
+      intro:
+        "Medisera erbjuder hälsokontroller via blodprov med beställning och provsvar online. Tjänsten riktar sig till dig som vill ha en enkel och prisvärd väg till proaktiv hälsokontroll utan sjukhusbesök.",
+      accuracy:
+        "Medisera anlitar ett ISO 15189-certifierat laboratorium, vilket är den internationella standarden specifikt för medicinska laboratorier. Analyserna håller klinisk standard och referensvärdena är baserade på etablerade medicinsk normer.",
+      process:
+        "Beställ kitet online, ta fingerblodprov hemma med det medföljande lansettsettet, lägg i svarskuvertet och posta. Du kan också välja att ta provet på ett av Mediseras provtagningsställen för venöst blodprov.",
+      results:
+        "Svaren presenteras digitalt med referensintervall och tydliga markeringar för värden utanför normalintervallet. Gränssnittet är enkelt och överskådligt.",
+      price:
+        "Medisera är prisvärd med baspaket från 295 kr och hälsopaket från 595 kr. De erbjuder ofta kampanjpriser vilket gör dem till ett av de mer prisvärda alternativen på marknaden.",
+      verdict:
+        "Medisera är ett starkt val för dig som vill ha en prisvärd och pålitlig hälsokontroll. Kombinationen av ISO 15189-certifiering, snabb svarstid och låga priser gör dem konkurrenskraftiga – särskilt för vitamintester och grundläggande blodstatus.",
+    },
+    faqs: [
+      {
+        question: "Hur tar man blodprovet hos Medisera?",
+        answer:
+          "Du tar ett enkelt fingerblodprov hemma med det medföljande lansettsettet. Alternativt kan du besöka ett av Mediseras provtagningsställen för ett venöst blodprov. Fingerblodprovet tar ca 10 minuter.",
+      },
+      {
+        question: "Hur snabbt får man svar från Medisera?",
+        answer:
+          "Normalt 1–3 vardagar efter att laboratoriet tagit emot provet. Det är bland de snabbaste svarstiderna bland svenska hemtestleverantörer.",
+      },
+      {
+        question: "Är Mediseras tester lika tillförlitliga som sjukhustester?",
+        answer:
+          "Ja. Medisera använder ett ISO 15189-certifierat laboratorium, samma standard som används av sjukhuslaboratorier. Analysmetoderna är kliniskt validerade.",
+      },
+    ],
+    logoUrl: "https://images.unsplash.com/photo-1576671081837-49000212a370?w=200&h=80&fit=crop&auto=format",
+    productImageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop&auto=format",
+    datePublished: "2026-01-10",
+    dateModified: "2026-03-28",
+    author: "Anna Lindström",
+  },
+  {
+    slug: "gettested",
+    name: "GetTested",
+    shortDescription: "Diskreta STI-tester och hälsotester – snabbt och enkelt hemma",
+    description:
+      "GetTested är en svensk tjänst specialiserad på diskreta STI-tester och sexuell hälsa. Du beställer online, tar provet hemma med ett enkelt kit och skickar till deras ISO-certifierade laboratorium. Resultaten levereras digitalt inom 1–5 dagar.",
+    priceFrom: "489 kr",
+    priceNote: "Från 489 kr – paketpriser med flera tester tillgängliga",
+    affiliateUrl: "https://www.gettested.se",
+    network: "direct",
+    ctaText: "Beställ hos GetTested",
+    categories: ["sti-tester", "blodtester", "hormontester"],
+    rating: 8.5,
+    ratings: { accuracy: 8.8, ease: 9.0, speed: 8.5, value: 8.0, support: 8.5 },
+    testsIncluded: [
+      "Klamydia (NAAT/PCR)", "Gonorré (NAAT/PCR)",
+      "Syfilis (antikroppar)", "HIV 1+2 (antigen/antikropp)",
+      "Herpes simplex (IgG)", "HPV (högrisk)",
+      "Hepatit B (HBsAg)", "Hepatit C (antikroppar)",
+      "Mykoplasma", "Trichomonas",
+      "Testosteron", "Östradiol",
+      "Vitamin D (25-OH)", "B12",
+    ],
+    sampleType: "Urinprov, svabbar eller fingerblod (beroende på test)",
+    turnaround: "1–5 vardagar",
+    labCertification: "ISO 15189 certifierat laboratorium",
+    prescription: false,
+    features: [
+      "Specialiserat på STI och sexuell hälsa",
+      "Helt diskret – neutral förpackning",
+      "ISO 15189-certifierat laboratorium",
+      "Digitala svar utan att behöva kontakta vården",
+      "Heltäckande STI-paket tillgängliga",
+    ],
+    pros: [
+      "Bäst på diskreta STI-tester i Sverige",
+      "Heltäckande paneler för sexuell hälsa",
+      "Enkel provtagning – urin och svabbar",
+      "ISO 15189-certifierat laboratorium",
+      "Neutral, diskret leverans",
+    ],
+    cons: [
+      "Dyrare per enskilt test jämfört med breda blodtester",
+      "Begränsat utbud utanför STI/sexuell hälsa",
+    ],
+    review: {
+      intro:
+        "GetTested är en av Sveriges ledande tjänster för diskreta STI-tester hemma. De fokuserar på att göra testning för sexuellt överförbara infektioner enkel, diskret och tillgänglig utan besök på klinik.",
+      accuracy:
+        "GetTested använder ett ISO 15189-certifierat laboratorium med NAAT/PCR-teknik för bakteriella infektioner som klamydia och gonorré – samma metodik som används på kliniker. Sensitiviteten och specificiteten är kliniskt validerade.",
+      process:
+        "Provtagningsprocessen är enkel och diskret. Beroende på test tar du urinprov, svabbprov eller fingerblod. Kitet levereras i neutral förpackning och allt material för provtagning och returfrakt ingår.",
+      results:
+        "Svar levereras digitalt via en säker portal. Negativa svar ges som tydliga statusmarkeringar. Vid positiva svar erbjuder GetTested vägledning om nästa steg och kontakt med sjukvård.",
+      price:
+        "GetTested är prissat högre än generella blodtester men konkurrenskraftigt inom STI-segmentet. Paketpriserna för kombinationstester ger bra värde för den täckning man får.",
+      verdict:
+        "GetTested är förstahandsvalet för diskreta STI-tester i Sverige. Kombinationen av ISO 15189-certifiering, PCR-teknik, diskret leverans och enkel provtagning gör dem till det självklara valet för sexuell hälsotestning hemma.",
+    },
+    faqs: [
+      {
+        question: "Är GetTesteds STI-tester lika tillförlitliga som kliniktester?",
+        answer:
+          "Ja. GetTested använder NAAT/PCR-teknik i ett ISO 15189-certifierat laboratorium – exakt samma metodik som används på sexualmottagningar och kliniker. Sensitiviteten är >99% för klamydia och gonorré.",
+      },
+      {
+        question: "Hur diskret är leveransen från GetTested?",
+        answer:
+          "Helt diskret. Kitet levereras i neutral förpackning utan avsändaradress som avslöjar innehållet. Faktura och digitala kvitton är neutralt formulerade.",
+      },
+      {
+        question: "Vad händer om jag testar positivt?",
+        answer:
+          "GetTested kontaktar dig med vägledning om nästa steg. Du rekommenderas att kontakta din vårdcentral eller sexualmottagning för behandling. Smittspårning är obligatorisk för vissa STI i Sverige.",
+      },
+    ],
+    logoUrl: "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=200&h=80&fit=crop&auto=format",
+    productImageUrl: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&h=400&fit=crop&auto=format",
+    datePublished: "2026-01-15",
+    dateModified: "2026-03-28",
+    author: "Anna Lindström",
+  },
+  {
+    slug: "holistic",
+    name: "Holistic",
+    shortDescription: "Naturliga kosttillskott och hälsotester i ett – vetenskapsbaserat",
+    description:
+      "Holistic är ett välkänt svenskt varumärke inom naturliga kosttillskott som även erbjuder professionella hälsotester. Deras testsortiment täcker vitaminer, mineraler, hormoner och tarmhälsa med ISO-certifierade laboratorieanalyser. Resultat inkluderar personliga rekommendationer kopplade till deras kosttillskott.",
+    priceFrom: "549 kr",
+    priceNote: "Från 549 kr – hälsopaket från 1 200 kr",
+    affiliateUrl: "https://www.holistic.se/halsotester",
+    network: "direct",
+    ctaText: "Se tester hos Holistic",
+    categories: ["vitamintester", "tarmhalsa", "hormontester", "blodtester"],
+    rating: 8.3,
+    ratings: { accuracy: 8.5, ease: 8.0, speed: 7.5, value: 7.5, support: 8.5 },
+    testsIncluded: [
+      "Vitamin D (25-OH-D3)", "Vitamin B12", "Folat",
+      "Vitamin C", "Vitamin K2",
+      "Järn + Ferritin", "Zink", "Magnesium",
+      "Omega-3 Index", "Omega-6/Omega-3-kvot",
+      "Kortisol (salivprov)", "DHEA-S", "Testosteron",
+      "TSH", "fT4",
+      "Tarmflora (metagenomik)",
+    ],
+    sampleType: "Fingerblod, salivprov eller avföringsprov (beroende på test)",
+    turnaround: "5–10 vardagar",
+    labCertification: "ISO-certifierat laboratorium",
+    prescription: false,
+    features: [
+      "Integrerade kosttillskottsrekommendationer",
+      "ISO-certifierat laboratorium",
+      "Djupgående tarmfloraanalys via metagenomik",
+      "Resultatrapport med personliga hälsorekommendationer",
+      "Etablerat varumärke med 30 år i branschen",
+    ],
+    pros: [
+      "Etablerat och pålitligt varumärke",
+      "Personliga kosttillskottsrekommendationer baserade på ditt test",
+      "Brett urval av tester – vitaminer, mineraler, hormoner, tarm",
+      "Detaljerade resultatrapporter",
+    ],
+    cons: [
+      "Dyrare jämfört med konkurrenterna för liknande tester",
+      "Längre svarstid (5–10 dagar)",
+      "Rekommendationerna kopplas ofta till Holistics egna produkter",
+    ],
+    review: {
+      intro:
+        "Holistic är ett av Sveriges mest välkända varumärken inom naturmedicin och kosttillskott. Sedan 1992 har de erbjudit naturliga hälsoprodukter och har nu utvidgat sin verksamhet med professionella laboratorietester.",
+      accuracy:
+        "Holistic anlitar ett ISO-certifierat laboratorium och analysmetoderna är validerade. Tarmfloraanalysen använder metagenomik, en av de mer avancerade metoderna för mikrobiomanalys.",
+      process:
+        "Provtagningsprocessen varierar per test. Vitamintest kräver fingerblodprov, hormontest salivprov och tarmfloratest avföringsprov. Instruktionerna är tydliga och kiten är välutrustade.",
+      results:
+        "Resultatrapporten är detaljerad och inkluderar personliga rekommendationer baserade på dina värden, ofta kopplade till Holistics kosttillskott. Det ger ett integrerat perspektiv för dig som vill följa upp tester med supplementering.",
+      price:
+        "Holistic är något dyrare än konkurrenter för jämförbara enskilda tester, men paketpriserna ger rimligt värde för den djupgående analysen och de personliga rekommendationerna.",
+      verdict:
+        "Holistic är ett bra val för dig som redan använder eller är intresserad av kosttillskott och vill ha tester som integrerar med personliga supplementrekommendationer. För rent laboratorievärde erbjuder Werlabs eller Cerascreen mer per krona.",
+    },
+    faqs: [
+      {
+        question: "Är Holistics tester lika noggranna som sjukhusprover?",
+        answer:
+          "Ja, för de parametrar de mäter. Holistic anlitar ett ISO-certifierat laboratorium med validerade metoder. Tänk dock på att referensintervallen kan skilja sig något från sjukvårdens.",
+      },
+      {
+        question: "Kopplas testresultaten till kosttillskott automatiskt?",
+        answer:
+          "Ja. Holistics resultatrapport inkluderar rekommendationer om kosttillskott baserade på dina uppmätta värden. Du är givetvis fri att följa upp med vilken leverantör du vill.",
+      },
+      {
+        question: "Hur lång tid tar tarmfloraanalysen?",
+        answer:
+          "Tarmfloraanalysen (metagenomik) tar längre tid än blodtester – normalt 7–10 vardagar. Provtagningen sker med ett avföringsprov och är enkel att genomföra hemma.",
+      },
+    ],
+    logoUrl: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=200&h=80&fit=crop&auto=format",
+    productImageUrl: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=600&h=400&fit=crop&auto=format",
+    datePublished: "2026-01-20",
+    dateModified: "2026-03-28",
+    author: "Anna Lindström",
+  },
 ];
 
 export function getProductBySlug(slug: string): TestProduct | undefined {
