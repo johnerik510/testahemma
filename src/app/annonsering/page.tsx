@@ -33,7 +33,7 @@ export default function AnnonseringPage() {
           <p>Affiliatenätverken kan placera cookies för spårning av klick och konverteringar. Vi informerar om detta i vår cookie-banner och integritetspolicy. Du kan välja att neka cookies, vilket inte påverkar din möjlighet att använda sajten.</p>
 
           <h2>Kontakta oss för samarbete</h2>
-          <p>Är du en aktör inom hemtestning och vill samarbeta med oss? Skicka ett mejl till redaktionen via vår kontaktsida. Vi utvärderar alla samarbetsförfrågningar utifrån om produkten uppfyller våra kvalitetskrav.</p>
+          <p>Är du en aktör inom hemtestning och vill samarbeta med oss? Skicka ett mejl till <a href="mailto:vpniskguiden@proton.me" className="text-teal-600 hover:underline">vpniskguiden@proton.me</a>. Vi utvärderar alla samarbetsförfrågningar utifrån om produkten uppfyller våra kvalitetskrav.</p>
         </div>
       </main>
       <Footer />

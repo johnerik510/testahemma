@@ -19,7 +19,7 @@ export default function IntegritetspolicyPage() {
         <p className="text-sm text-gray-400 mb-6">Senast uppdaterad: mars 2026</p>
         <div className="prose-guide">
           <h2>Personuppgiftsansvarig</h2>
-          <p>Testahemma.se är personuppgiftsansvarig för behandlingen av personuppgifter på denna webbplats. Vi behandlar personuppgifter i enlighet med EU:s dataskyddsförordning (GDPR).</p>
+          <p>Testahemma.se är personuppgiftsansvarig för behandlingen av personuppgifter på denna webbplats. Vi behandlar personuppgifter i enlighet med EU:s dataskyddsförordning (GDPR). Kontakt: <a href="mailto:vpniskguiden@proton.me" className="text-teal-600 hover:underline">vpniskguiden@proton.me</a></p>
 
           <h2>Vilka uppgifter samlar vi in?</h2>
           <p>Vi samlar in följande uppgifter när du besöker sajten:</p>
@@ -37,7 +37,7 @@ export default function IntegritetspolicyPage() {
           <p>Vi säljer aldrig personuppgifter. Vi delar anonymiserad data med Google Analytics och Ahrefs Analytics för webbanalyos. Affiliatenätverken mottar klick- och konverteringsdata per avtal.</p>
 
           <h2>Dina rättigheter</h2>
-          <p>Du har rätt att begära tillgång till, rättelse av eller radering av dina personuppgifter. Kontakta oss via kontaktsidan för att utöva dina rättigheter.</p>
+          <p>Du har rätt att begära tillgång till, rättelse av eller radering av dina personuppgifter. Kontakta oss på <a href="mailto:vpniskguiden@proton.me" className="text-teal-600 hover:underline">vpniskguiden@proton.me</a> för att utöva dina rättigheter.</p>
 
           <h2>Dataskyddsmyndigheten</h2>
           <p>Om du anser att vi behandlar dina personuppgifter felaktigt har du rätt att lämna in ett klagomål till Integritetsskyddsmyndigheten (IMY) på imy.se.</p>

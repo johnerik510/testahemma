@@ -20,6 +20,9 @@ export default function OmOssPage() {
         <div className="prose-guide">
           <p>Testahemma.se är Sveriges oberoende guide till hemtestningskit. Vi hjälper dig navigera det växande utbudet av hälsotester du kan beställa hem – utan läkarremiss, utan kö och utan onödig kostnad.</p>
 
+          <h2>Grundare</h2>
+          <p>Testahemma.se grundades av John Erik Johansson.</p>
+
           <h2>Varför vi grundade sajten</h2>
           <p>Hemtestmarknaden i Sverige har exploderat de senaste åren. Med dussintals aktörer, hundratals tester och varierande laboratoriekvalitet är det svårt att veta vad som faktiskt är värt att köpa. Vi skapade Testahemma.se för att ge dig en ärlig, datadrivet och oberoende vägledning.</p>
 
@@ -33,7 +36,7 @@ export default function OmOssPage() {
           <p>Innehållet på Testahemma.se är informativt och ersätter inte medicinsk rådgivning, diagnos eller behandling. Vid oro för din hälsa ska du alltid kontakta läkare eller annan behörig vårdpersonal.</p>
 
           <h2>Kontakta oss</h2>
-          <p>Har du frågor, hittat ett fel eller vill samarbeta? <Link href="/kontakt/">Kontakta oss här.</Link></p>
+          <p>Har du frågor, hittat ett fel eller vill samarbeta? Mejla oss på <a href="mailto:vpniskguiden@proton.me" className="text-teal-600 hover:underline">vpniskguiden@proton.me</a> eller besök vår <Link href="/kontakt/">kontaktsida</Link>.</p>
         </div>
       </main>
       <Footer />

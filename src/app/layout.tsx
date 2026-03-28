@@ -72,8 +72,13 @@ const organizationSchema = {
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "editorial",
+    email: "vpniskguiden@proton.me",
     url: "https://www.testahemma.se/kontakt/",
     availableLanguage: "Swedish",
+  },
+  founder: {
+    "@type": "Person",
+    name: "John Erik Johansson",
   },
 };
 

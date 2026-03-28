@@ -19,15 +19,19 @@ export default function KontaktPage() {
         <p className="text-gray-600 mb-8">Har du frågor om våra recensioner, hittat felaktig information eller vill diskutera ett samarbete? Vi hör gärna av dig.</p>
 
         <div className="space-y-4 mb-10">
+          <div className="bg-white border border-gray-100 rounded-xl p-5 shadow-sm">
+            <h3 className="font-bold text-gray-900 mb-1">Grundare</h3>
+            <p className="text-sm text-gray-500 mb-2">John Erik Johansson</p>
+          </div>
           {[
-            { title: "Redaktionella frågor", desc: "Felaktigheter, uppdateringsönskemål eller kompletteringar av recensioner.", email: "redaktion@testahemma.se" },
-            { title: "Samarbetsförfrågningar", desc: "Affiliatesamarbeten, produkttester eller PR-förfrågningar.", email: "samarbete@testahemma.se" },
-            { title: "GDPR och integritet", desc: "Frågor om personuppgiftsbehandling eller begäran om radering.", email: "gdpr@testahemma.se" },
+            { title: "Redaktionella frågor", desc: "Felaktigheter, uppdateringsönskemål eller kompletteringar av recensioner." },
+            { title: "Samarbetsförfrågningar", desc: "Affiliatesamarbeten, produkttester eller PR-förfrågningar." },
+            { title: "GDPR och integritet", desc: "Frågor om personuppgiftsbehandling eller begäran om radering." },
           ].map((item) => (
             <div key={item.title} className="bg-white border border-gray-100 rounded-xl p-5 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-1">{item.title}</h3>
               <p className="text-sm text-gray-500 mb-2">{item.desc}</p>
-              <a href={`mailto:${item.email}`} className="text-teal-600 font-medium text-sm hover:underline">{item.email}</a>
+              <a href="mailto:vpniskguiden@proton.me" className="text-teal-600 font-medium text-sm hover:underline">vpniskguiden@proton.me</a>
             </div>
           ))}
         </div>
