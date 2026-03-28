@@ -113,7 +113,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         )}
 
         {/* Addrevenue Easylinks – auto-konverterar direktlänkar till tracking-URLs */}
-        <Script src="https://addrevenue.io/easylinks.min.js?c=3467521" strategy="lazyOnload" />
+        <Script src="https://addrevenue.io/easylinks.min.js?c=3467323" strategy="lazyOnload" />
 
         {/* Microsoft Clarity – gratis heatmaps, set NEXT_PUBLIC_CLARITY_ID i Vercel */}
         {process.env.NEXT_PUBLIC_CLARITY_ID && (
