@@ -8,7 +8,9 @@ import ProductTable from "@/components/ProductTable";
 import FaqAccordion from "@/components/FaqAccordion";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
+import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
+import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Hormontester hemma 2026 — Jämförelse | Testahemma.se",
@@ -32,6 +34,8 @@ const faqs = [
 
 export default function HormontesterPage() {
   const products = getProductsByCategory("hormontester");
+  const top = products[0];
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-hormontester-sticky`) : "";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -155,6 +159,15 @@ export default function HormontesterPage() {
 
         <FaqAccordion items={faqs} title="Vanliga frågor om hormontester" />
       </main>
+      {top && (
+        <StickyCTA
+          product={top.name}
+          price={`Fr\u00e5n ${top.priceFrom}`}
+          url={topUrl}
+          text={top.ctaText || "Best\u00e4ll nu"}
+          label="B\u00e4st i test"
+        />
+      )}
       <Footer />
     </>
   );

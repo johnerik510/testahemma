@@ -8,7 +8,9 @@ import ProductTable from "@/components/ProductTable";
 import FaqAccordion from "@/components/FaqAccordion";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
+import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
+import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Tarmhälsa & Mikrobiomtest Hemma 2026 | Testahemma.se",
@@ -32,6 +34,8 @@ const faqs = [
 
 export default function TarmhalsaPage() {
   const products = getProductsByCategory("tarmhalsa");
+  const top = products[0];
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-tarmhalsa-sticky`) : "";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -143,6 +147,15 @@ export default function TarmhalsaPage() {
 
         <FaqAccordion items={faqs} title="Vanliga frågor om tarmfloratester" />
       </main>
+      {top && (
+        <StickyCTA
+          product={top.name}
+          price={`Fr\u00e5n ${top.priceFrom}`}
+          url={topUrl}
+          text={top.ctaText || "Best\u00e4ll nu"}
+          label="B\u00e4st i test"
+        />
+      )}
       <Footer />
     </>
   );

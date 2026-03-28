@@ -11,6 +11,7 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import FaqAccordion from "@/components/FaqAccordion";
 import RatingBars from "@/components/RatingBar";
 import ProductCard from "@/components/ProductCard";
+import StickyCTA from "@/components/StickyCTA";
 import { products, getProductBySlug, getAllProductSlugs } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
@@ -322,22 +323,12 @@ export default async function RecensionPage({ params }: Props) {
         )}
       </main>
 
-      {/* Sticky CTA (mobile) */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 shadow-lg p-3 flex items-center justify-between gap-3 md:hidden z-40">
-        <div>
-          <div className="text-sm font-bold text-gray-900">{p.name}</div>
-          <div className="text-xs text-gray-500">Från {p.priceFrom}</div>
-        </div>
-        <AffiliateButton
-          href={affiliateHref}
-          productName={p.name}
-          network={p.network}
-          location={`TH-${p.slug}-recension-sticky`}
-          price={p.priceFrom}
-          text="Beställ nu"
-          size="sm"
-        />
-      </div>
+      <StickyCTA
+        product={p.name}
+        price={`Från ${p.priceFrom}`}
+        url={affiliateHref}
+        text={p.ctaText || "Beställ nu"}
+      />
 
       <Footer />
     </>

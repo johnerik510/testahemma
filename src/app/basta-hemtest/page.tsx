@@ -8,7 +8,9 @@ import ProductTable from "@/components/ProductTable";
 import FaqAccordion from "@/components/FaqAccordion";
 import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
+import StickyCTA from "@/components/StickyCTA";
 import { products } from "@/data/products";
+import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Bästa Hemtest 2026 – Jämförelse av Sveriges Topptester",
@@ -27,6 +29,8 @@ const faqs = [
 
 export default function BastaHemtestPage() {
   const sorted = [...products].sort((a, b) => b.rating - a.rating);
+  const top = sorted[0];
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-basta-hemtest-sticky`) : "";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -202,6 +206,15 @@ export default function BastaHemtestPage() {
 
         <FaqAccordion items={faqs} title="Vanliga frågor om bästa hemtest" />
       </main>
+      {top && (
+        <StickyCTA
+          product={top.name}
+          price={`Fr\u00e5n ${top.priceFrom}`}
+          url={topUrl}
+          text={top.ctaText || "Best\u00e4ll nu"}
+          label="B\u00e4st i test"
+        />
+      )}
       <Footer />
     </>
   );

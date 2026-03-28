@@ -8,7 +8,9 @@ import ProductTable from "@/components/ProductTable";
 import FaqAccordion from "@/components/FaqAccordion";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
+import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
+import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Vitamintester Hemma 2026 – D-vitamin, B12 & Mer",
@@ -48,6 +50,8 @@ const faqs = [
 
 export default function VitamintesterPage() {
   const products = getProductsByCategory("vitamintester");
+  const top = products[0];
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-vitamintester-sticky`) : "";
   return (
     <>
       <script
@@ -123,6 +127,15 @@ export default function VitamintesterPage() {
 
         <FaqAccordion items={faqs} title="Vanliga frågor om vitamintester" />
       </main>
+      {top && (
+        <StickyCTA
+          product={top.name}
+          price={`Fr\u00e5n ${top.priceFrom}`}
+          url={topUrl}
+          text={top.ctaText || "Best\u00e4ll nu"}
+          label="B\u00e4st i test"
+        />
+      )}
       <Footer />
     </>
   );
