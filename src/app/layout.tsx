@@ -107,6 +107,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Script src="https://analytics.ahrefs.com/analytics.js" data-key={process.env.NEXT_PUBLIC_AHREFS_KEY} strategy="lazyOnload" />
         )}
 
+        {/* Addrevenue Easylinks – auto-konverterar direktlänkar till tracking-URLs */}
+        <Script src="https://addrevenue.io/easylinks.min.js?c=3467521" strategy="lazyOnload" />
+
         {/* Microsoft Clarity – gratis heatmaps, set NEXT_PUBLIC_CLARITY_ID i Vercel */}
         {process.env.NEXT_PUBLIC_CLARITY_ID && (
           <Script id="clarity" strategy="lazyOnload">
