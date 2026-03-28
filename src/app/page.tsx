@@ -65,17 +65,17 @@ export default function HomePage() {
 
       <main>
         {/* Hero */}
-        <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-20 px-4">
+        <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-10 sm:py-12 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-white/20 rounded-full px-4 py-1.5 text-sm font-medium mb-6">
               <span className="w-2 h-2 bg-teal-300 rounded-full animate-pulse"></span>
               Sveriges oberoende hemtestguide 2026
             </div>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4">
               Hitta rätt hemtest
               <span className="block text-teal-200 mt-1">– direkt hem till dig</span>
             </h1>
-            <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-teal-100 mb-6 max-w-2xl mx-auto leading-relaxed">
               Vi testar och jämför blodtester, hormontester, STI-tester, vitamintester och mer.
               Inga köer. Inget läkarbesök. Svar digitalt inom dagar.
             </p>
