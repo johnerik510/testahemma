@@ -193,8 +193,8 @@ export const products: TestProduct[] = [
     priceFrom: "299 kr",
     priceNote: "Från 299 kr för enskilt test – komplett STI-panel 699 kr",
     affiliateUrl: "https://www.testmottagningen.se",
-    // TODO: Replace with AddRevenue tracking URL when approved for Testmottagningen program
-    network: "addrevenue",
+    // No confirmed affiliate program found — using direct link
+    network: "direct",
     ctaText: "Beställ diskret hos Testmottagningen",
     categories: ["sti-tester", "blodtester"],
     rating: 9.0,
@@ -368,8 +368,8 @@ export const products: TestProduct[] = [
     priceFrom: "1 495 kr",
     priceNote: "Tarmfloraanalys från 1 495 kr – djupanalys 2 495 kr",
     affiliateUrl: "https://www.biovis.se",
-    // TODO: Replace with AddRevenue tracking URL when approved for Biovis program
-    network: "addrevenue",
+    // No confirmed affiliate program found — using direct link
+    network: "direct",
     ctaText: "Analysera din tarmflora hos Biovis",
     categories: ["tarmhalsa"],
     rating: 9.1,
