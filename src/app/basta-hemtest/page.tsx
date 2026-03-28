@@ -13,8 +13,8 @@ import { products } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Bästa Hemtest 2026 – Jämförelse av Sveriges Topptester",
-  description: "Vi har testat och jämfört Sveriges bästa hemtestningskit 2026. Werlabs, Cerascreen, Testmottagningen och fler. Hitta rätt test från 299 kr.",
+  title: "Bästa Hemtest 2026 – Werlabs, Cerascreen och Testmottagningen Jämförda",
+  description: "Vilket hemtest är bäst 2026? Vi testar Werlabs, Cerascreen, Testmottagningen och Biovis. SWEDAC-ackrediterade lab. Pris fr. 299 kr. Se topplistan.",
   alternates: { canonical: "https://www.testahemma.se/basta-hemtest/" },
 };
 
