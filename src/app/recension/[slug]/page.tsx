@@ -12,6 +12,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import RatingBars from "@/components/RatingBar";
 import ProductCard from "@/components/ProductCard";
 import { products, getProductBySlug, getAllProductSlugs } from "@/data/products";
+import { buildAffiliateUrl } from "@/lib/tracking";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -46,6 +47,13 @@ export default async function RecensionPage({ params }: Props) {
   if (!p) notFound();
 
   const others = products.filter((x) => x.slug !== p.slug).slice(0, 3);
+  const affiliateHref = buildAffiliateUrl(
+    p.affiliateUrl,
+    p.network,
+    p.adtractionProgramId,
+    p.addRevenueProgramId,
+    `TH-${p.slug}-recension`
+  );
 
   const reviewSchema = {
     "@context": "https://schema.org",
@@ -156,7 +164,7 @@ export default async function RecensionPage({ params }: Props) {
 
               <div className="mt-5 flex flex-wrap gap-3">
                 <AffiliateButton
-                  href={p.affiliateUrl}
+                  href={affiliateHref}
                   productName={p.name}
                   network={p.network}
                   location={`TH-${p.slug}-recension-hero`}
@@ -226,7 +234,7 @@ export default async function RecensionPage({ params }: Props) {
               <p className="text-gray-700 leading-relaxed">{p.review.verdict}</p>
               <div className="mt-4">
                 <AffiliateButton
-                  href={p.affiliateUrl}
+                  href={affiliateHref}
                   productName={p.name}
                   network={p.network}
                   location={`TH-${p.slug}-recension-verdict`}
@@ -281,7 +289,7 @@ export default async function RecensionPage({ params }: Props) {
               </dl>
               <div className="mt-5">
                 <AffiliateButton
-                  href={p.affiliateUrl}
+                  href={affiliateHref}
                   productName={p.name}
                   network={p.network}
                   location={`TH-${p.slug}-recension-sidebar`}
@@ -321,7 +329,7 @@ export default async function RecensionPage({ params }: Props) {
           <div className="text-xs text-gray-500">Från {p.priceFrom}</div>
         </div>
         <AffiliateButton
-          href={p.affiliateUrl}
+          href={affiliateHref}
           productName={p.name}
           network={p.network}
           location={`TH-${p.slug}-recension-sticky`}

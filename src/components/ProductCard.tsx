@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import AffiliateButton from "@/components/AffiliateButton";
+import { buildAffiliateUrl } from "@/lib/tracking";
 import type { TestProduct } from "@/types/product";
 
 interface ProductCardProps {
@@ -11,6 +12,13 @@ interface ProductCardProps {
 
 export default function ProductCard({ product, position = "list", rank }: ProductCardProps) {
   const subId = `TH-${product.slug}-${position}`;
+  const href = buildAffiliateUrl(
+    product.affiliateUrl,
+    product.network,
+    product.adtractionProgramId,
+    product.addRevenueProgramId,
+    subId
+  );
 
   return (
     <div className="bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow p-6">
@@ -77,7 +85,7 @@ export default function ProductCard({ product, position = "list", rank }: Produc
 
           <div className="flex items-center gap-3 mt-4 flex-wrap">
             <AffiliateButton
-              href={product.affiliateUrl}
+              href={href}
               productName={product.name}
               network={product.network}
               location={subId}
