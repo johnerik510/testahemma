@@ -7,8 +7,8 @@ import FaqAccordion from "@/components/FaqAccordion";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "PSA-test Hemma – Prostatahälsa och Vad Värdet Betyder | Testahemma.se",
-  description: "Guide till PSA-testning hemma. Vad är normalt PSA-värde per åldersgrupp? Vem bör testa och hur ofta? Allt om PSA, prostatacancer och godartad prostataförstoring.",
+  title: "PSA-test Hemma – Prostatahälsa och PSA-värden",
+  description: "Guide till PSA-testning hemma. Vad är normalt PSA-värde per åldersgrupp? Vem bör testa sig och hur ofta? Allt om PSA och prostatacancer.",
   alternates: { canonical: "https://www.testahemma.se/guider/psa-test-prostata/" },
 };
 

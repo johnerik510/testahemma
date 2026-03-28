@@ -11,14 +11,13 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import { getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Vitamintester Hemma 2026 — D-vitamin, B12 & mer | Testahemma.se",
-  description: "Testa dina vitaminnivåer hemma. Jämför D-vitamintest, B12-test och omega-3 index. Svar inom 3–5 dagar. Från 299 kr.",
+  title: "Vitamintester Hemma 2026 – D-vitamin, B12 & Mer",
+  description: "Testa dina vitaminnivåer hemma. Jämför D-vitamintest, B12-test och omega-3 index. Svar inom 3-5 dagar. Från 299 kr.",
   alternates: { canonical: "https://www.testahemma.se/vitamintester/" },
   openGraph: {
-    title: "Vitamintester Hemma 2026 — D-vitamin, B12 & mer | Testahemma.se",
+    title: "Vitamintester Hemma 2026 – D-vitamin, B12 & Mer",
     description: "Testa dina vitaminnivåer hemma. Jämför D-vitamintest, B12-test och omega-3 index. Svar inom 3–5 dagar. Från 299 kr.",
     url: "https://www.testahemma.se/vitamintester/",
-    images: [{ url: "/opengraph-image.jpg" }],
   },
 };
 

@@ -18,7 +18,6 @@ export const metadata: Metadata = {
     title: "Tarmhälsa & Mikrobiomtest Hemma 2026 | Testahemma.se",
     description: "Analysera din tarmflora hemma med DNA-sekvensering. Få personliga kostråd baserade på dina tarmbakterier. Från 1 495 kr.",
     url: "https://www.testahemma.se/tarmhalsa/",
-    images: [{ url: "/opengraph-image.jpg" }],
   },
 };
 

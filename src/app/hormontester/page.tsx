@@ -18,7 +18,6 @@ export const metadata: Metadata = {
     title: "Hormontester hemma 2026 \u2014 J\u00e4mf\u00f6relse | Testahemma.se",
     description: "Testa dina hormonnivåer hemma. Jämför tester för testosteron, östrogen, sköldkörtel och kortisol. Svar inom 3–7 dagar.",
     url: "https://www.testahemma.se/hormontester/",
-    images: [{ url: "/opengraph-image.jpg" }],
   },
 };
 

@@ -7,8 +7,8 @@ import FaqAccordion from "@/components/FaqAccordion";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Kolesterolvärden – Vad är Normalt och Farligt? | Testahemma.se",
-  description: "Komplett guide till kolesterolvärden. Vad är normalt LDL, HDL och totalt kolesterol per åldersgrupp? Vad orsakar högt kolesterol och hur sänker du det? Testa hemma.",
+  title: "Kolesterolvärden – Normalt, Högt och Farligt",
+  description: "Komplett guide till kolesterolvärden. Vad är normalt LDL, HDL och totalt kolesterol? Vad orsakar högt kolesterol och hur sänker du det?",
   alternates: { canonical: "https://www.testahemma.se/guider/kolesterol-varden/" },
 };
 
@@ -96,10 +96,10 @@ export default function KolesterolVardenPage() {
           <table className="w-full text-sm">
             <thead className="bg-gray-50">
               <tr>
-                <th className="px-4 py-3 text-left font-semibold text-gray-700">Värde</th>
-                <th className="px-4 py-3 text-left font-semibold text-green-700">Optimalt</th>
-                <th className="px-4 py-3 text-left font-semibold text-yellow-700">Gränsfall</th>
-                <th className="px-4 py-3 text-left font-semibold text-red-700">Förhöjt</th>
+                <th scope="col" className="px-4 py-3 text-left font-semibold text-gray-700">Värde</th>
+                <th scope="col" className="px-4 py-3 text-left font-semibold text-green-700">Optimalt</th>
+                <th scope="col" className="px-4 py-3 text-left font-semibold text-yellow-700">Gränsfall</th>
+                <th scope="col" className="px-4 py-3 text-left font-semibold text-red-700">Förhöjt</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">

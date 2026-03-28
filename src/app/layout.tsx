@@ -26,13 +26,11 @@ export const metadata: Metadata = {
     siteName: "Testahemma.se",
     title: "Testahemma.se – Bästa Hemtester för Sverige 2026",
     description: "Sveriges guide till hemtestningskit. Oberoende tester och jämförelser.",
-    images: [{ url: "/opengraph-image.jpg", width: 1200, height: 630, alt: "Testahemma.se" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Testahemma.se – Bästa Hemtester för Sverige 2026",
     description: "Sveriges guide till hemtestningskit.",
-    images: ["/opengraph-image.jpg"],
   },
   alternates: {
     canonical: "https://www.testahemma.se/",

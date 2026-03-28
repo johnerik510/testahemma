@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Hur fungerar hemtest? Steg för steg 2026 | Testahemma.se",
-  description: "En komplett steg-för-steg-guide till hela processen med ett hemtestningskit – från beställning och provtagning till analys och svar. Provtagningstyper, tips och vanliga misstag.",
+  description: "Steg-för-steg-guide till hemtestningskit. Från beställning och provtagning till analys och svar. Provtagningstyper, tips och vanliga misstag.",
   alternates: { canonical: "https://www.testahemma.se/guider/hur-fungerar-hemtest/" },
 };
 

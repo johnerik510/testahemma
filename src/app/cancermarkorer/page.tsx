@@ -11,7 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import { getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Cancermarkörer Hemma 2026 – PSA, CA-125 & CEA | Testahemma.se",
+  title: "Cancermarkörer Hemma 2026 – PSA, CA-125 & CEA",
   description: "Testa cancermarkörer hemma utan remiss. PSA för prostata, CA-125, CEA och AFP. Proaktiv hälsokontroll – alltid följ upp med läkare.",
   alternates: { canonical: "https://www.testahemma.se/cancermarkorer/" },
 };

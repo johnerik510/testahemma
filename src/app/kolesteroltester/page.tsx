@@ -18,7 +18,6 @@ export const metadata: Metadata = {
     title: "Kolesteroltest hemma 2026 \u2014 J\u00e4mf\u00f6relse | Testahemma.se",
     description: "Mät ditt kolesterol hemma. Testa LDL, HDL, totalt kolesterol och triglycerider utan läkarbesök. Från 395 kr med svar inom dagar.",
     url: "https://www.testahemma.se/kolesteroltester/",
-    images: [{ url: "/opengraph-image.jpg" }],
   },
 };
 
@@ -146,9 +145,9 @@ export default function KolesteroltesterPage() {
             <table className="w-full text-sm text-left">
               <thead className="bg-gray-50 text-gray-700 font-semibold">
                 <tr>
-                  <th className="px-4 py-3">Markör</th>
-                  <th className="px-4 py-3">Optimalt värde</th>
-                  <th className="px-4 py-3">Förhöjt / risk</th>
+                  <th scope="col" className="px-4 py-3">Markör</th>
+                  <th scope="col" className="px-4 py-3">Optimalt värde</th>
+                  <th scope="col" className="px-4 py-3">Förhöjt / risk</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100 text-gray-600">

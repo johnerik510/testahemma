@@ -7,8 +7,8 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Tolka dina blodvärden – Vad betyder resultaten? | Testahemma.se",
-  description: "Förstå dina blodprovsresultat. Lär dig vad hemoglobin, CRP, ferritin, TSH, kolesterol, blodsocker och B12 betyder, vilka nivåer som är normala och när du bör agera.",
+  title: "Tolka Dina Blodvärden – Vad Betyder Resultaten?",
+  description: "Förstå dina blodprovsresultat. Lär dig vad hemoglobin, CRP, ferritin, TSH, kolesterol och B12 betyder, vilka nivåer som är normala och när du bör agera.",
   alternates: { canonical: "https://www.testahemma.se/guider/tolka-blodvarden/" },
 };
 
@@ -101,10 +101,10 @@ export default function TolkaBlodvardenPage() {
           <table className="w-full text-sm">
             <thead className="bg-gray-50 text-gray-600 text-left">
               <tr>
-                <th className="px-4 py-3 font-semibold">Värde</th>
-                <th className="px-4 py-3 font-semibold">Normalintervall</th>
-                <th className="px-4 py-3 font-semibold hidden md:table-cell">Lågt kan tyda på</th>
-                <th className="px-4 py-3 font-semibold hidden md:table-cell">Högt kan tyda på</th>
+                <th scope="col" className="px-4 py-3 font-semibold">Värde</th>
+                <th scope="col" className="px-4 py-3 font-semibold">Normalintervall</th>
+                <th scope="col" className="px-4 py-3 font-semibold hidden md:table-cell">Lågt kan tyda på</th>
+                <th scope="col" className="px-4 py-3 font-semibold hidden md:table-cell">Högt kan tyda på</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">

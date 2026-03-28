@@ -7,7 +7,7 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "D-vitaminbrist: 8 Symtom och Hur Du Testar Hemma | Testahemma.se",
+  title: "D-vitaminbrist: 8 Symtom och Hur Du Testar",
   description: "D-vitaminbrist är extremt vanlig i Sverige. Lär dig de 8 vanligaste symtomen och hur du enkelt testar dina D-vitaminnivåer hemma med ett blodprov.",
   alternates: { canonical: "https://www.testahemma.se/guider/d-vitaminbrist-symtom/" },
 };
