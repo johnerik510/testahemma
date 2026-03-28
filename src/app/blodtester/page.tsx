@@ -11,9 +11,15 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import { getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Bästa Blodtester Hemma 2026 – Jämförelse & Guide",
+  title: "Bästa Blodtester Hemma 2026 — Jämförelse & Guide",
   description: "Jämför Sveriges bästa hemblodtester. Vi testar Werlabs, Diagnostikdirekt och fler. Pris från 395 kr – SWEDAC-ackrediterat lab.",
   alternates: { canonical: "https://www.testahemma.se/blodtester/" },
+  openGraph: {
+    title: "Bästa Blodtester Hemma 2026 — Jämförelse & Guide",
+    description: "Jämför Sveriges bästa hemblodtester. Vi testar Werlabs, Diagnostikdirekt och fler. Pris från 395 kr – SWEDAC-ackrediterat lab.",
+    url: "https://www.testahemma.se/blodtester/",
+    images: [{ url: "/opengraph-image.jpg" }],
+  },
 };
 
 const faqs = [

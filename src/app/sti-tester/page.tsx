@@ -11,9 +11,15 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import { getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "STI-tester Hemma 2026 – Diskret & Snabbt | Testahemma.se",
+  title: "STI-tester Hemma 2026 — Diskret & Snabbt | Testahemma.se",
   description: "Testa dig för könssjukdomar hemma – klamydia, gonorré, HIV och mer. Diskret leverans, svar inom 1–3 dagar. Jämför de bästa STI-testerna.",
   alternates: { canonical: "https://www.testahemma.se/sti-tester/" },
+  openGraph: {
+    title: "STI-tester Hemma 2026 — Diskret & Snabbt | Testahemma.se",
+    description: "Testa dig för könssjukdomar hemma – klamydia, gonorré, HIV och mer. Diskret leverans, svar inom 1–3 dagar.",
+    url: "https://www.testahemma.se/sti-tester/",
+    images: [{ url: "/opengraph-image.jpg" }],
+  },
 };
 
 const faqs = [

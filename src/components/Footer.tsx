@@ -83,7 +83,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>&copy; {new Date().getFullYear()} TestаHemma.se – Oberoende hemtestguide</p>
+          <p>&copy; {new Date().getFullYear()} TestaHemma.se — Oberoende hemtestguide</p>
           <p>
             Sajten innehåller affiliatelänkar. Vi kan erhålla provision vid köp via våra länkar – utan extra kostnad för dig.{" "}
             <Link href="/annonsering/" className="underline hover:text-gray-400">Läs mer</Link>

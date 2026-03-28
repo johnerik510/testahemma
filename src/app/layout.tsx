@@ -85,9 +85,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+      </head>
+      <body className="antialiased min-h-screen flex flex-col">
+        {children}
+        <CookieConsent />
 
         {/* Google Consent Mode v2 – GDPR default DENY */}
         <Script id="consent-mode-default" strategy="beforeInteractive">
@@ -102,19 +106,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Ahrefs Web Analytics – set NEXT_PUBLIC_AHREFS_KEY in Vercel env vars */}
         {process.env.NEXT_PUBLIC_AHREFS_KEY && (
-          <Script src="https://analytics.ahrefs.com/analytics.js" data-key={process.env.NEXT_PUBLIC_AHREFS_KEY} strategy="afterInteractive" />
+          <Script src="https://analytics.ahrefs.com/analytics.js" data-key={process.env.NEXT_PUBLIC_AHREFS_KEY} strategy="lazyOnload" />
         )}
 
         {/* Microsoft Clarity – gratis heatmaps, set NEXT_PUBLIC_CLARITY_ID i Vercel */}
         {process.env.NEXT_PUBLIC_CLARITY_ID && (
-          <Script id="clarity" strategy="afterInteractive">
+          <Script id="clarity" strategy="lazyOnload">
             {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${process.env.NEXT_PUBLIC_CLARITY_ID}");`}
           </Script>
         )}
-      </head>
-      <body className="antialiased min-h-screen flex flex-col">
-        {children}
-        <CookieConsent />
       </body>
     </html>
   );

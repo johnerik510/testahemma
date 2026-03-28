@@ -11,9 +11,15 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import { getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Kolesteroltest Hemma 2026 – LDL, HDL & Triglycerider | Testahemma.se",
+  title: "Kolesteroltest hemma 2026 — Jämförelse | Testahemma.se",
   description: "Mät ditt kolesterol hemma. Testa LDL, HDL, totalt kolesterol och triglycerider utan läkarbesök. Från 395 kr med svar inom dagar.",
   alternates: { canonical: "https://www.testahemma.se/kolesteroltester/" },
+  openGraph: {
+    title: "Kolesteroltest hemma 2026 \u2014 J\u00e4mf\u00f6relse | Testahemma.se",
+    description: "Mät ditt kolesterol hemma. Testa LDL, HDL, totalt kolesterol och triglycerider utan läkarbesök. Från 395 kr med svar inom dagar.",
+    url: "https://www.testahemma.se/kolesteroltester/",
+    images: [{ url: "/opengraph-image.jpg" }],
+  },
 };
 
 const faqs = [

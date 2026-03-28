@@ -11,9 +11,15 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import { getProductsByCategory } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Hormontester Hemma 2026 – Testosteron, Östrogen & TSH | Testahemma.se",
+  title: "Hormontester hemma 2026 — Jämförelse | Testahemma.se",
   description: "Testa dina hormonnivåer hemma. Jämför tester för testosteron, östrogen, sköldkörtel och kortisol. Svar inom 3–7 dagar.",
   alternates: { canonical: "https://www.testahemma.se/hormontester/" },
+  openGraph: {
+    title: "Hormontester hemma 2026 \u2014 J\u00e4mf\u00f6relse | Testahemma.se",
+    description: "Testa dina hormonnivåer hemma. Jämför tester för testosteron, östrogen, sköldkörtel och kortisol. Svar inom 3–7 dagar.",
+    url: "https://www.testahemma.se/hormontester/",
+    images: [{ url: "/opengraph-image.jpg" }],
+  },
 };
 
 const faqs = [

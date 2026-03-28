@@ -55,7 +55,7 @@ export default function ProductCard({ product, position = "list", rank }: Produc
 
           {/* Star rating */}
           <div className="flex items-center gap-2 mt-2">
-            <div className="flex">
+            <div className="flex" role="img" aria-label={`Betyg: ${product.rating.toFixed(1)} av 10`}>
               {[1, 2, 3, 4, 5].map((star) => (
                 <svg
                   key={star}
