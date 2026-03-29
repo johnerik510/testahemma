@@ -153,6 +153,45 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Providers */}
+        <section className="py-10 px-4 max-w-7xl mx-auto">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h2 className="text-2xl font-bold text-gray-900">Testleverantörer vi har recenserat</h2>
+              <p className="text-gray-500 mt-1 text-sm">9 leverantörer jämförda och betygsatta</p>
+            </div>
+            <Link href="/basta-hemtest/" className="hidden sm:inline-flex items-center gap-1 text-teal-600 text-sm font-medium hover:underline">
+              Jämför alla
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {[
+              { slug: "werlabs", name: "Werlabs", rating: "9.2" },
+              { slug: "cerascreen", name: "Cerascreen", rating: "8.8" },
+              { slug: "testmottagningen", name: "Testmottagningen", rating: "8.6" },
+              { slug: "diagnostikdirekt", name: "Diagnostikdirekt", rating: "8.4" },
+              { slug: "biovis", name: "Biovis", rating: "8.2" },
+              { slug: "verisana", name: "Verisana", rating: "8.0" },
+              { slug: "medisera", name: "Medisera", rating: "7.8" },
+              { slug: "gettested", name: "GetTested", rating: "7.6" },
+              { slug: "holistic", name: "Holistic", rating: "7.5" },
+            ].map((provider) => (
+              <Link
+                key={provider.slug}
+                href={`/recension/${provider.slug}/`}
+                className="group bg-white border border-gray-100 rounded-xl p-4 shadow-sm hover:shadow-md hover:border-teal-200 transition-all text-center"
+              >
+                <div className="text-xs font-bold text-teal-600 bg-teal-50 rounded-lg px-2 py-1 inline-block mb-2">{provider.rating}/10</div>
+                <h3 className="font-semibold text-gray-900 group-hover:text-teal-600 transition-colors text-sm">{provider.name}</h3>
+                <span className="mt-2 inline-block text-xs text-teal-600 font-medium">Läs recension</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         {/* How it works */}
         <HowItWorks />
 
@@ -200,6 +239,12 @@ export default function HomePage() {
               { slug: "d-vitaminbrist-symtom", title: "D-vitaminbrist: 8 symtom och hur du testar hemma", cat: "Vitamintester" },
               { slug: "sti-testa-hemma", title: "STI-testning hemma – diskret och enkelt", cat: "STI-tester" },
               { slug: "tolka-blodvarden", title: "Tolka dina blodvärden – vad betyder resultaten?", cat: "Blodtester" },
+              { slug: "b12-brist-symtom", title: "B12-brist: symtom och hur du testar hemma", cat: "Vitamintester" },
+              { slug: "jarnbrist-symtom", title: "Järnbrist: symtom, orsaker och test hemma", cat: "Blodtester" },
+              { slug: "hormoner-och-halsa", title: "Hormoner och hälsa – vad påverkar dina nivåer?", cat: "Hormontester" },
+              { slug: "klamydia-test-hemma", title: "Klamydiatest hemma – snabbt och diskret", cat: "STI-tester" },
+              { slug: "sköldkörteltest-hemma", title: "Sköldkörteltest hemma – mät TSH, T3 och T4", cat: "Hormontester" },
+              { slug: "tarmflora-halsa", title: "Tarmflora och hälsa – förbättra din mikrobiom", cat: "Tarmhälsa" },
             ].map((guide) => (
               <Link key={guide.slug} href={`/guider/${guide.slug}/`}
                 className="group bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all">

@@ -12,21 +12,40 @@ const categories = [
 ];
 
 const guides = [
-  { slug: "d-vitaminbrist-symtom", name: "D-vitaminbrist symtom" },
   { slug: "vad-ar-hemtest", name: "Vad är hemtest?" },
   { slug: "hur-fungerar-hemtest", name: "Hur fungerar hemtest?" },
-  { slug: "sti-testa-hemma", name: "STI – testa hemma" },
-  { slug: "hormoner-och-halsa", name: "Hormoner och hälsa" },
   { slug: "tolka-blodvarden", name: "Tolka dina blodvärden" },
+  { slug: "d-vitaminbrist-symtom", name: "D-vitaminbrist symtom" },
+  { slug: "b12-brist-symtom", name: "B12-brist symtom" },
+  { slug: "jarnbrist-symtom", name: "Järnbrist symtom" },
+  { slug: "sti-testa-hemma", name: "STI – testa hemma" },
+  { slug: "klamydia-test-hemma", name: "Klamydiatest hemma" },
+  { slug: "hormoner-och-halsa", name: "Hormoner och hälsa" },
+  { slug: "testosteron-test-hemma", name: "Testosterontest hemma" },
+  { slug: "sköldkörteltest-hemma", name: "Sköldkörteltest hemma" },
   { slug: "kolesterol-varden", name: "Kolesterolvärden guide" },
   { slug: "tarmflora-halsa", name: "Tarmflora och hälsa" },
+  { slug: "allergitestning-guide", name: "Allergitestning guide" },
+  { slug: "psa-test-prostata", name: "PSA-test prostata" },
+];
+
+const providers = [
+  { slug: "werlabs", name: "Werlabs recension" },
+  { slug: "cerascreen", name: "Cerascreen recension" },
+  { slug: "testmottagningen", name: "Testmottagningen recension" },
+  { slug: "diagnostikdirekt", name: "Diagnostikdirekt recension" },
+  { slug: "biovis", name: "Biovis recension" },
+  { slug: "verisana", name: "Verisana recension" },
+  { slug: "medisera", name: "Medisera recension" },
+  { slug: "gettested", name: "GetTested recension" },
+  { slug: "holistic", name: "Holistic recension" },
 ];
 
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <svg className="w-6 h-6 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -64,6 +83,19 @@ export default function Footer() {
                 <li key={guide.slug}>
                   <Link href={`/guider/${guide.slug}/`} className="text-sm hover:text-white transition-colors">
                     {guide.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Testleverantörer</h3>
+            <ul className="space-y-2">
+              {providers.map((p) => (
+                <li key={p.slug}>
+                  <Link href={`/recension/${p.slug}/`} className="text-sm hover:text-white transition-colors">
+                    {p.name}
                   </Link>
                 </li>
               ))}
