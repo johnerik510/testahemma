@@ -28,7 +28,9 @@ const guides = [
   { slug: "kolesterol-varden", title: "Kolesterolvärden – vad är normalt och farligt?", cat: "Hjärthälsa", desc: "En guide till LDL, HDL och triglycerider. Vad är normalt, vad är riskabelt och när bör du testa?" },
   { slug: "tarmflora-halsa", title: "Tarmflora och hälsa – varför dina tarmbakterier spelar roll", cat: "Tarmhälsa", desc: "Din tarmflora påverkar immunförsvar, humör och ämnesomsättning. Lär dig mer och förstå din mikrobiomanalys." },
   { slug: "psa-test-prostata", title: "PSA-test hemma – prostatahälsa och vad värdet betyder", cat: "Cancermarkörer", desc: "Guide till PSA-testning hemma. Vad är normalt PSA? Vem bör testa och hur ofta?" },
+  { slug: "jarnbrist-symtom", title: "Järnbrist: Symtom, orsaker och test hemma", cat: "Blodtester", desc: "Järnbrist drabbar var tredje fertil kvinna i Sverige. Lär dig symtomen, referensvärdena och hur du testar ferritin hemma." },
   { slug: "allergitestning-guide", title: "Allergitestning hemma – mat, pollen och djur", cat: "Allergi", desc: "Hur fungerar hemallergitester? Vad kan testas och hur tillförlitliga är resultaten?" },
+  { slug: "klamydia-test-hemma", title: "Klamydia test hemma – diskret, snabbt och enkelt", cat: "STI", desc: "Klamydia är Sveriges vanligaste könssjukdom. Testa hemma diskret utan läkarbesök. Guide till symtom, provtagning och vad ett positivt svar innebär." },
 ];
 
 export default function GuiderPage() {

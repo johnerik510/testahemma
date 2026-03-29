@@ -113,6 +113,10 @@ export default function StiTesterPage() {
             <Link href="/guider/sti-testa-hemma/" className="text-teal-700 underline hover:text-teal-900">
               Hur man testar sig för STI hemma
             </Link>
+            {" "}eller vår fördjupade guide om{" "}
+            <Link href="/guider/klamydia-test-hemma/" className="text-teal-700 underline hover:text-teal-900">
+              klamydia test hemma
+            </Link>
             .
           </p>
         </section>

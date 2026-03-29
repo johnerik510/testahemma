@@ -125,6 +125,10 @@ export default function BlodtesterPage() {
           Vill du veta mer om hur du tolkar dina provsvar?{" "}
           <Link href="/guider/tolka-blodvarden/" className="text-teal-700 underline hover:text-teal-900">
             Lär dig tolka blodvärden
+          </Link>.{" "}
+          Misstänker du järnbrist? Läs vår guide:{" "}
+          <Link href="/guider/jarnbrist-symtom/" className="text-teal-700 underline hover:text-teal-900">
+            Järnbrist – symtom och test hemma
           </Link>.
         </p>
 
