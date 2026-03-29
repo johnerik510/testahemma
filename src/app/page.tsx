@@ -160,12 +160,20 @@ export default function HomePage() {
               <h2 className="text-2xl font-bold text-gray-900">Testleverantörer vi har recenserat</h2>
               <p className="text-gray-500 mt-1 text-sm">9 leverantörer jämförda och betygsatta</p>
             </div>
-            <Link href="/basta-hemtest/" className="hidden sm:inline-flex items-center gap-1 text-teal-600 text-sm font-medium hover:underline">
-              Jämför alla
-              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
+            <div className="hidden sm:flex items-center gap-3">
+              <Link href="/jamfor-hemmatester/" className="inline-flex items-center gap-1 text-teal-600 text-sm font-medium hover:underline">
+                Jämförelsetabell
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link href="/basta-hemtest/" className="inline-flex items-center gap-1 text-teal-600 text-sm font-medium hover:underline">
+                Se alla
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             {[
