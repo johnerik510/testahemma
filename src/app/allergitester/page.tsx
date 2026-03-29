@@ -13,11 +13,11 @@ import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Allergitester Hemma 2026 – Mat, Pollen & Djur",
+  title: "Allergitester Hemma 2026 – Mat, pollen och djur (jämförelse)",
   description: "Testa allergi och intolerans hemma. Mät IgE-reaktioner mot hundratals ämnen. Svar inom dagar. Från 699 kr.",
   alternates: { canonical: "https://www.testahemma.se/allergitester/" },
   openGraph: {
-    title: "Allergitester Hemma 2026 – Mat, Pollen & Djur",
+    title: "Allergitester Hemma 2026 – Mat, pollen och djur (jämförelse)",
     description: "Testa allergi och intolerans hemma. Mät IgE-reaktioner mot hundratals ämnen. Svar inom dagar. Från 699 kr.",
     url: "https://www.testahemma.se/allergitester/",
   },

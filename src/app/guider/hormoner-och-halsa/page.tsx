@@ -7,7 +7,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Hormoner och Hälsa – Hormonella Obalanser",
+  title: "Hormoner och Hälsa 2026 – Hormonella obalanser och tester",
   description: "Förstå hur hormoner påverkar din hälsa. Lär dig om testosteron, östrogen, kortisol, TSH och DHEA – och hur du testar dem hemma med ett enkelt blodprov.",
   alternates: { canonical: "https://www.testahemma.se/guider/hormoner-och-halsa/" },
 };
