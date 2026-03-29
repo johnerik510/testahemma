@@ -408,6 +408,29 @@ export default function JamforHemmatesterPage() {
           ))}
         </div>
 
+        {/* Head-to-head comparisons */}
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Direktjämförelser</h2>
+        <p className="text-gray-600 mb-5">
+          Osäker på vilken leverantör du ska välja? Läs våra direktjämförelser för att se vem som
+          vinner kategori för kategori.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+          <Link
+            href="/werlabs-vs-cerascreen/"
+            className="group block bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-teal-200 transition-all"
+          >
+            <div className="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-1">
+              Direktjämforelse
+            </div>
+            <div className="font-bold text-gray-900 text-base group-hover:text-teal-600 transition-colors">
+              Werlabs vs Cerascreen 2026
+            </div>
+            <div className="text-sm text-gray-500 mt-1">
+              SWEDAC-ackreditering mot bredaste testutbud — vilket passar dig?
+            </div>
+          </Link>
+        </div>
+
         {/* FAQ */}
         <FaqAccordion items={faqs} title="Vanliga frågor om hemmatester" />
 
