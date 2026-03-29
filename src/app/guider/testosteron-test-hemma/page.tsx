@@ -155,7 +155,7 @@ export default function TestosteronTestHemmaPage() {
             <div className="text-sm text-teal-700">Fingerblodsprov – svar inom 3–5 dagar – ackrediterat laboratorium</div>
           </div>
           <Link href="/hormontester/" className="shrink-0 bg-teal-600 text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-teal-700 transition-colors">
-            Jamfor Sveriges basta hormontester &rarr;
+            Jämför Sveriges bästa hormontester &rarr;
           </Link>
         </div>
 

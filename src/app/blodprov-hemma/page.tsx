@@ -103,7 +103,7 @@ export default function BlodprovHemmaPage() {
           {products.length} tester jämförda – senast uppdaterad mars 2026
         </p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
-          Med hemblodprov kan du mata over 100 olika blodvärden utan att boka
+          Med hemblodprov kan du mäta över 100 olika blodvärden utan att boka
           tid på vårdcentral. Ingen remiss behövs. Beställ online, ta provet
           hemma och få digitala svar inom 2–5 dagar.{" "}
           <Link

@@ -95,7 +95,7 @@ export default function KlamydiaTestHemmaPage() {
           </ul>
           <p>Diskretion är garanterad: paketet levereras i neutralt emballage utan avsändarens namn eller produktbeskrivning, och inget synligt på eventuell faktura eller kontoutdrag.</p>
 
-          <h2>Vilka ska testa sig for klamydia?</h2>
+          <h2>Vilka ska testa sig för klamydia?</h2>
           <p>Svenska smittskyddsmyndigheter och ungdomsmottagningar rekommenderar testning för följande grupper:</p>
           <ul>
             <li><strong>Alla sexuellt aktiva under 25 ar:</strong> Den svenska riktlinjen är att testa sig minst en gång per år, oavsett om du har symtom eller inte. Klamydia är vanligast i åldersgruppen 15–29 år.</li>

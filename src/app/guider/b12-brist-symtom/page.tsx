@@ -145,7 +145,7 @@ export default function B12BristSymtomPage() {
             <div className="text-sm text-teal-700">Fingerblodsprov – svar inom 3–5 dagar – enkelt och pålitligt</div>
           </div>
           <Link href="/vitamintester/" className="shrink-0 bg-teal-600 text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-teal-700 transition-colors">
-            Jamfor Sveriges basta vitamintester &rarr;
+            Jämför Sveriges bästa vitamintester &rarr;
           </Link>
         </div>
 
