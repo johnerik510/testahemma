@@ -67,19 +67,18 @@ export default function HomePage() {
 
       <main>
         {/* Hero */}
-        <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-10 sm:py-12 px-4">
+        <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-6 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 bg-white/20 rounded-full px-4 py-1.5 text-sm font-medium mb-6">
+            <div className="inline-flex items-center gap-2 bg-white/20 rounded-full px-4 py-1.5 text-sm font-medium mb-3">
               <span className="w-2 h-2 bg-teal-300 rounded-full animate-pulse"></span>
               Sveriges oberoende hemtestguide 2026
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4">
+            <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-2">
               Hitta rätt hemtest
               <span className="block text-teal-200 mt-1">– direkt hem till dig</span>
             </h1>
-            <p className="text-xl text-teal-100 mb-6 max-w-2xl mx-auto leading-relaxed">
-              Vi testar och jämför blodtester, hormontester, STI-tester, vitamintester och mer.
-              Inga köer. Inget läkarbesök. Svar digitalt inom dagar.
+            <p className="text-base text-teal-100 mb-4 max-w-2xl mx-auto">
+              Vi testar och jämför hemtester – blod, hormoner, STI, vitaminer och mer. Svar digitalt inom dagar.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/basta-hemtest/" className="bg-white text-teal-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-teal-50 transition-colors shadow-lg">
@@ -89,7 +88,7 @@ export default function HomePage() {
                 Hur fungerar hemtest?
               </Link>
             </div>
-            <div className="flex flex-wrap justify-center gap-6 mt-10 text-sm text-teal-200">
+            <div className="flex flex-wrap justify-center gap-4 mt-4 text-xs text-teal-200">
               {["Oberoende tester", "GDPR-säkert", "Ackrediterade laboratorier", "Från 299 kr"].map((t) => (
                 <span key={t} className="flex items-center gap-1.5">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
