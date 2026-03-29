@@ -10,7 +10,7 @@ export const products: TestProduct[] = [
   {
     slug: "werlabs",
     name: "Werlabs",
-    shortDescription: "Sveriges ledande hemblodtest – brett utbud, snabba svar",
+    shortDescription: "Hemblodtest: järn, B12, D-vitamin, TSH, kolesterol, HbA1c m.fl. – SWEDAC-lab, svar 2–4 dagar",
     description:
       "Werlabs är Sveriges mest populära tjänst för hemblodprov. Du beställer online, tar ett enkelt fingerblodprov hemma med det medföljande lansettsettet, och skickar provet till deras SWEDAC-ackrediterade laboratorium. Digitala svar inom 2–4 vardagar.",
     priceFrom: "495 kr",
@@ -98,7 +98,7 @@ export const products: TestProduct[] = [
   {
     slug: "cerascreen",
     name: "Cerascreen",
-    shortDescription: "Europas ledande hemtest – vitaminer, allergier och hormoner",
+    shortDescription: "50+ hemtester: D-vitamin, B12, allergi (295 ämnen), kortisol, tarmflora – från 299 kr",
     description:
       "Cerascreen är Europas mest sålda hemtest-varumärke med över 2 miljoner sålda tester. De erbjuder ett brett sortiment: vitamintester (D-vitamin, B12, omega-3), allergitester, hormontester och tarmhälsatester. Prover tas med fingerblod eller salivprov.",
     priceFrom: "299 kr",
@@ -187,7 +187,7 @@ export const products: TestProduct[] = [
   {
     slug: "testmottagningen",
     name: "Testmottagningen",
-    shortDescription: "Diskret STI-testning hemma – klamydia, HIV och mer",
+    shortDescription: "STI-test hemma: klamydia, gonorré, HIV, syfilis, herpes, HPV – anonymt paket, svar 1–3 dagar",
     description:
       "Testmottagningen är Sveriges specialisttjänst för diskret hemtestning av könssjukdomar. De erbjuder tester för klamydia, gonorré, syfilis, HIV, herpes och HPV – levererade i anonymt paket. Svar digitalt inom 1–3 dagar.",
     priceFrom: "299 kr",
@@ -279,7 +279,7 @@ export const products: TestProduct[] = [
   {
     slug: "diagnostikdirekt",
     name: "Diagnostikdirekt",
-    shortDescription: "Professionella blodtester direkt – utan remiss",
+    shortDescription: "Blodprov utan remiss: PSA, cancermarkörer, hormoner, kolesterol – venöst prov eller hemkit",
     description:
       "Diagnostikdirekt erbjuder ett brett utbud av kliniska blodtester direkt till konsumenten utan remiss. Med provtagningsstationer runt om i Sverige kan du antingen ta provet hemma eller besöka en station för venöst blodprov – som ger ännu mer exakta resultat.",
     priceFrom: "395 kr",
@@ -362,7 +362,7 @@ export const products: TestProduct[] = [
   {
     slug: "biovis",
     name: "Biovis",
-    shortDescription: "Sveriges ledande tarmfloraanalys – personliga kostråd",
+    shortDescription: "Tarmfloraanalys hemma: DNA-sekvensering av 500+ bakteriestammar, personliga kostråd – fr. 1 495 kr",
     description:
       "Biovis är ett ledande svenskt laboratorium specialiserat på tarmhälsa och mikrobiomanalys. Deras tarmfloratest analyserar sammansättningen av dina tarmbakterier med avancerad DNA-sekvensering och ger personliga rekommendationer för att förbättra din maghälsa.",
     priceFrom: "1 495 kr",
@@ -453,7 +453,7 @@ export const products: TestProduct[] = [
   {
     slug: "verisana",
     name: "Verisana",
-    shortDescription: "Tyskt precisionslabb – hormoner, STI och vitaminer till Sverige",
+    shortDescription: "Hormontest hemma: testosteron, kortisol (dygnskurva), östradiol, STI-panel – fr. 349 kr",
     description:
       "Verisana är ett tyskt laboratorieföretag som skickar hemtester till hela Europa inklusive Sverige. De specialiserar sig på hormonella tester, STI-tester och mikronäringsamneanalys. Analyserna utförs i ett tyskt ISO-certifierat laboratorium.",
     priceFrom: "349 kr",
@@ -534,7 +534,7 @@ export const products: TestProduct[] = [
   {
     slug: "medisera",
     name: "Medisera",
-    shortDescription: "Komplett hälsokontroll via blodprov – beställ och få svar online",
+    shortDescription: "Blodtest hemma: blodstatus, D-vitamin, järn, TSH, kolesterol, HbA1c – ISO 15189-lab, svar 1–3 dagar",
     description:
       "Medisera är en svensk tjänst för hälsokontroller via blodprov. Du beställer online, tar provet hemma eller på ett av deras provtagningsställen och får digitala svar. Medisera erbjuder ett brett sortiment av blodtester, vitamintester och hormontester till konkurrenskraftiga priser.",
     priceFrom: "295 kr",
@@ -619,7 +619,7 @@ export const products: TestProduct[] = [
   {
     slug: "gettested",
     name: "GetTested",
-    shortDescription: "Diskreta STI-tester och hälsotester – snabbt och enkelt hemma",
+    shortDescription: "STI-test hemma: klamydia, HIV, gonorré, herpes, HPV – ISO 15189-lab, diskret leverans fr. 489 kr",
     description:
       "GetTested är en svensk tjänst specialiserad på diskreta STI-tester och sexuell hälsa. Du beställer online, tar provet hemma med ett enkelt kit och skickar till deras ISO-certifierade laboratorium. Resultaten levereras digitalt inom 1–5 dagar.",
     priceFrom: "489 kr",
