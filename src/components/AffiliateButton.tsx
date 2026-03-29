@@ -4,7 +4,7 @@ import { trackAffiliateClick } from "@/lib/tracking";
 interface AffiliateButtonProps {
   href: string;
   productName: string;
-  network: "adtraction" | "addrevenue" | "direct";
+  network: "adtraction" | "addrevenue" | "awin" | "direct";
   location: string;
   price?: string;
   text?: string;

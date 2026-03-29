@@ -53,7 +53,7 @@ const faqs = [
 export default function KolesteroltesterPage() {
   const products = getProductsByCategory("kolesteroltester");
   const top = products[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-kolesteroltester-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-kolesteroltester-sticky`, top.awinProgramId) : "";
 
   const jsonLd = {
     "@context": "https://schema.org",

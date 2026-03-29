@@ -31,7 +31,8 @@ export default function ProductTable({ products, pageSlug = "table" }: ProductTa
               p.network,
               p.adtractionProgramId,
               p.addRevenueProgramId,
-              subId
+              subId,
+              p.awinProgramId
             );
             return (
               <tr key={p.slug} className={i % 2 === 0 ? "bg-white" : "bg-gray-50/50"}>

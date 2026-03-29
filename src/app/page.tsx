@@ -222,7 +222,7 @@ export default function HomePage() {
       <StickyCTA
         product={topProducts[0].name}
         price={`Från ${topProducts[0].priceFrom} kr`}
-        url={buildAffiliateUrl(topProducts[0].affiliateUrl, topProducts[0].network, topProducts[0].adtractionProgramId, topProducts[0].addRevenueProgramId, 'TH-homepage-sticky')}
+        url={buildAffiliateUrl(topProducts[0].affiliateUrl, topProducts[0].network, topProducts[0].adtractionProgramId, topProducts[0].addRevenueProgramId, 'TH-homepage-sticky', topProducts[0].awinProgramId)}
         text="Se bästa hemtestet"
         label="Bäst i test 2026"
       />

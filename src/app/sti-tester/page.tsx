@@ -61,7 +61,7 @@ const jsonLd = {
 export default function StiTesterPage() {
   const products = getProductsByCategory("sti-tester");
   const top = products[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-sti-tester-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-sti-tester-sticky`, top.awinProgramId) : "";
 
   return (
     <>

@@ -53,7 +53,8 @@ export default async function RecensionPage({ params }: Props) {
     p.network,
     p.adtractionProgramId,
     p.addRevenueProgramId,
-    `TH-${p.slug}-recension`
+    `TH-${p.slug}-recension`,
+    p.awinProgramId
   );
 
   const reviewSchema = {

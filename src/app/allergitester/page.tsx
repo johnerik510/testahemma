@@ -59,7 +59,7 @@ const faqs = [
 export default function AllergitesterPage() {
   const products = getProductsByCategory("allergitester");
   const top = products[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-allergitester-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-allergitester-sticky`, top.awinProgramId) : "";
 
   const jsonLd = {
     "@context": "https://schema.org",

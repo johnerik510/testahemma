@@ -35,7 +35,7 @@ const faqs = [
 export default function TarmhalsaPage() {
   const products = getProductsByCategory("tarmhalsa");
   const top = products[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-tarmhalsa-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-tarmhalsa-sticky`, top.awinProgramId) : "";
 
   const jsonLd = {
     "@context": "https://schema.org",

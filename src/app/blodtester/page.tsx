@@ -57,7 +57,7 @@ const jsonLd = {
 export default function BlodtesterPage() {
   const products = getProductsByCategory("blodtester");
   const top = products[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-blodtester-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-blodtester-sticky`, top.awinProgramId) : "";
   return (
     <>
       <script

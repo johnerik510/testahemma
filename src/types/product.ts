@@ -18,13 +18,12 @@ export interface TestProduct {
   priceFrom: string;
   priceNote?: string;
 
-  // Affiliate — replace direct URLs with Adtraction/AddRevenue tracking URLs when approved
+  // Affiliate — replace direct URLs with tracking URLs when approved
   affiliateUrl: string;
-  // Adtraction format: https://track.adtraction.com/t/t?a=PROGRAM_ID&as=PUBLISHER_ID&t=2&tk=1&url=ENCODED_DEST
-  // AddRevenue format: https://www.addrevenue.io/click?program=PROGRAM_ID&epi=SUB_ID&url=ENCODED_DEST
-  network: "adtraction" | "addrevenue" | "direct";
+  network: "adtraction" | "addrevenue" | "awin" | "direct";
   adtractionProgramId?: string; // fill when approved by Adtraction
   addRevenueProgramId?: string; // fill when approved by AddRevenue
+  awinProgramId?: string; // fill when approved by Awin (merchant ID / awinmid)
   ctaText: string;
 
   // Categories

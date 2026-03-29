@@ -62,7 +62,7 @@ const jsonLd = {
 export default function CancermarkPage() {
   const products = getProductsByCategory("cancermarkorer");
   const top = products[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-cancermarkorer-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-cancermarkorer-sticky`, top.awinProgramId) : "";
   return (
     <>
       <script

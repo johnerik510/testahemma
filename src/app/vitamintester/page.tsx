@@ -51,7 +51,7 @@ const faqs = [
 export default function VitamintesterPage() {
   const products = getProductsByCategory("vitamintester");
   const top = products[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-vitamintester-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-vitamintester-sticky`, top.awinProgramId) : "";
   return (
     <>
       <script

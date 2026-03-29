@@ -35,7 +35,7 @@ const faqs = [
 export default function BastaHemtestPage() {
   const sorted = [...products].sort((a, b) => b.rating - a.rating);
   const top = sorted[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-basta-hemtest-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-basta-hemtest-sticky`, top.awinProgramId) : "";
 
   const jsonLd = {
     "@context": "https://schema.org",

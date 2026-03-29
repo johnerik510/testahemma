@@ -16,8 +16,8 @@ export const products: TestProduct[] = [
     priceFrom: "495 kr",
     priceNote: "Från 495 kr för baspaket – fullständig hälsopanel 1 695 kr",
     affiliateUrl: "https://werlabs.se",
-    // TODO: Replace with Adtraction tracking URL when approved for Werlabs program
-    network: "adtraction",
+    network: "awin",
+    awinProgramId: "", // TODO: fill with Awin merchant ID when approved (apply at awin.com, search "Werlabs")
     ctaText: "Beställ hos Werlabs",
     categories: ["blodtester", "hormontester", "vitamintester", "kolesteroltester", "cancermarkorer"],
     rating: 9.2,

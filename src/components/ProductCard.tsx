@@ -17,7 +17,8 @@ export default function ProductCard({ product, position = "list", rank }: Produc
     product.network,
     product.adtractionProgramId,
     product.addRevenueProgramId,
-    subId
+    subId,
+    product.awinProgramId
   );
 
   return (

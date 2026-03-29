@@ -12,7 +12,7 @@ declare global {
  */
 export function trackAffiliateClick(
   productName: string,
-  network: "adtraction" | "addrevenue" | "direct",
+  network: "adtraction" | "addrevenue" | "awin" | "direct",
   location: string,
   price?: string
 ) {
@@ -36,22 +36,26 @@ export function trackAffiliateClick(
  */
 export function buildAffiliateUrl(
   affiliateUrl: string,
-  network: "adtraction" | "addrevenue" | "direct",
+  network: "adtraction" | "addrevenue" | "awin" | "direct",
   adtractionProgramId?: string,
   addRevenueProgramId?: string,
-  subId?: string
+  subId?: string,
+  awinProgramId?: string
 ): string {
   const encodedUrl = encodeURIComponent(affiliateUrl);
   const sub = subId || "testahemma";
 
   if (network === "adtraction" && adtractionProgramId) {
-    // Replace YOUR_PUBLISHER_ID with your Adtraction publisher ID from se.adtraction.com
     const PUBLISHER_ID = process.env.NEXT_PUBLIC_ADTRACTION_PUBLISHER_ID || "YOUR_PUBLISHER_ID";
     return `https://track.adtraction.com/t/t?a=${adtractionProgramId}&as=${PUBLISHER_ID}&t=2&tk=1&epi=${sub}&url=${encodedUrl}`;
   }
 
+  if (network === "awin" && awinProgramId) {
+    const AWIN_ID = process.env.NEXT_PUBLIC_AWIN_PUBLISHER_ID || "YOUR_AWIN_ID";
+    return `https://www.awin1.com/cread.php?awinmid=${awinProgramId}&awinaffid=${AWIN_ID}&ued=${encodedUrl}`;
+  }
+
   if (network === "addrevenue" && addRevenueProgramId) {
-    // Replace YOUR_PUBLISHER_ID with your AddRevenue publisher ID from addrevenue.io
     return `https://www.addrevenue.io/click?program=${addRevenueProgramId}&epi=${sub}&url=${encodedUrl}`;
   }
 

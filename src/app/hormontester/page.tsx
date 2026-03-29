@@ -35,7 +35,7 @@ const faqs = [
 export default function HormontesterPage() {
   const products = getProductsByCategory("hormontester");
   const top = products[0];
-  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-hormontester-sticky`) : "";
+  const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-hormontester-sticky`, top.awinProgramId) : "";
 
   const jsonLd = {
     "@context": "https://schema.org",
