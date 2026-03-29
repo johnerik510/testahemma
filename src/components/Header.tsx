@@ -93,6 +93,9 @@ export default function Header() {
             <Link href="/basta-hemtest/" className="text-gray-700 hover:text-teal-600 font-medium text-sm transition-colors">
               Bästa hemtest
             </Link>
+            <Link href="/jamfor-hemmatester/" className="text-gray-700 hover:text-teal-600 font-medium text-sm transition-colors">
+              Jämför
+            </Link>
             <Link href="/guider/" className="text-gray-700 hover:text-teal-600 font-medium text-sm transition-colors">
               Guider
             </Link>
@@ -148,8 +151,17 @@ export default function Header() {
           <Link href="/guider/" className="block px-3 py-2 rounded-lg text-gray-700 hover:bg-teal-50" onClick={() => setMobileOpen(false)}>
             Guider
           </Link>
+          <Link href="/jamfor-hemmatester/" className="block px-3 py-2 rounded-lg text-gray-700 hover:bg-teal-50" onClick={() => setMobileOpen(false)}>
+            Jämför leverantörer
+          </Link>
           <Link href="/om-oss/" className="block px-3 py-2 rounded-lg text-gray-700 hover:bg-teal-50" onClick={() => setMobileOpen(false)}>
             Om oss
+          </Link>
+          <Link href="/hur-vi-testar/" className="block px-3 py-2 rounded-lg text-gray-700 hover:bg-teal-50" onClick={() => setMobileOpen(false)}>
+            Hur vi testar
+          </Link>
+          <Link href="/kontakt/" className="block px-3 py-2 rounded-lg text-gray-700 hover:bg-teal-50" onClick={() => setMobileOpen(false)}>
+            Kontakt
           </Link>
         </nav>
       )}

@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const categories = [
   { slug: "blodtester", name: "Blodtester" },
+  { slug: "blodprov-hemma", name: "Blodprov hemma" },
   { slug: "hormontester", name: "Hormontester" },
   { slug: "sti-tester", name: "STI-tester" },
   { slug: "vitamintester", name: "Vitamintester" },
@@ -107,6 +108,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/basta-hemtest/" className="text-sm hover:text-white transition-colors">Bästa hemtest 2026</Link></li>
               <li><Link href="/jamfor-hemmatester/" className="text-sm hover:text-white transition-colors">Jämför leverantörer</Link></li>
+              <li><Link href="/guider/" className="text-sm hover:text-white transition-colors">Alla guider</Link></li>
               <li><Link href="/om-oss/" className="text-sm hover:text-white transition-colors">Om oss</Link></li>
               <li><Link href="/hur-vi-testar/" className="text-sm hover:text-white transition-colors">Hur vi testar</Link></li>
               <li><Link href="/annonsering/" className="text-sm hover:text-white transition-colors">Annonsering & affiliate</Link></li>
