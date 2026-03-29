@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
-  <rect width="200" height="80" rx="12" fill="#d97706"/>
-  <text y="55" font-size="42" font-weight="bold" text-anchor="middle" x="100" font-family="Arial,sans-serif" fill="white">V</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" fill="none">
+  <path d="M16 6 L28 10 L28 26 C28 34 22 40 16 44 C10 40 4 34 4 26 L4 10 Z" stroke="#1565c0" stroke-width="2" fill="#e3f2fd"/>
+  <polyline points="9,25 14,31 23,19" stroke="#1565c0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="40" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600" fill="#1565c0">Verisana</text>
 </svg>

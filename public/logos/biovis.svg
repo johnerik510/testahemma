@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
-  <rect width="200" height="80" rx="12" fill="#16a34a"/>
-  <text y="55" font-size="42" font-weight="bold" text-anchor="middle" x="100" font-family="Arial,sans-serif" fill="white">B</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 50" fill="none">
+  <circle cx="11" cy="17" r="5.5" fill="#2e7d32"/>
+  <circle cx="11" cy="33" r="5.5" fill="#66bb6a"/>
+  <circle cx="24" cy="11" r="4.5" fill="#66bb6a"/>
+  <circle cx="24" cy="39" r="4.5" fill="#2e7d32"/>
+  <line x1="11" y1="17" x2="24" y2="11" stroke="#2e7d32" stroke-width="1.5" opacity="0.5"/>
+  <line x1="11" y1="33" x2="24" y2="39" stroke="#2e7d32" stroke-width="1.5" opacity="0.5"/>
+  <text x="38" y="32" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#2e7d32">BioVis</text>
 </svg>

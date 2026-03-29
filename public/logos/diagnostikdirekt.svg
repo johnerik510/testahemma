@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
-  <rect width="200" height="80" rx="12" fill="#2563eb"/>
-  <text y="55" font-size="42" font-weight="bold" text-anchor="middle" x="100" font-family="Arial,sans-serif" fill="white">D</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 50" fill="none">
+  <rect x="1" y="10" width="30" height="30" rx="6" fill="#0070c9"/>
+  <line x1="16" y1="17" x2="16" y2="33" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <line x1="8" y1="25" x2="24" y2="25" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <text x="42" y="32" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0070c9">Diagnostik</text>
+  <text x="159" y="32" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#444">Direkt</text>
 </svg>
