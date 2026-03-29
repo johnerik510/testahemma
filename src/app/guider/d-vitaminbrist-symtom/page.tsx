@@ -83,7 +83,7 @@ export default function DVitaminbristPage() {
           <p>D-vitamin är essentiellt för muskelfunktion. Brist kan ge diffus muskelvärk, stelhet och svaghet – symtom som ofta feltolkas som fibromyalgi eller åldersrelaterade besvär.</p>
 
           <h3>3. Nedstämdhet och depression</h3>
-          <p>D-vitaminreceptorer finns i hjärnområden som reglerar humör, inklusive hippocampus och hypothalamus. Lågt D-vitamin korrelerar med depression och är vanligt vid säsongsberoende depression (SAD).</p>
+          <p>D-vitaminreceptorer finns i hjärnområden som reglerar humör, inklusive hippocampus och hypothalamus. Lågt D-vitamin korrelerar med depression – en av Sveriges mest utbredda <a href="https://folksjukdomar.se" target="_blank" rel="noopener">folksjukdomar</a> – och är vanligt vid säsongsberoende depression (SAD).</p>
 
           <h3>4. Nedsatt immunförsvar och frekventa infektioner</h3>
           <p>D-vitamin aktiverar immunförsvarets T-celler och B-celler. Brist ökar mottagligheten för luftvägsinfektioner, förkylning och influensa. Metaanalyser visar att tillskott minskar risken för akuta luftvägsinfektioner.</p>

@@ -69,7 +69,7 @@ export default function BlodtesterPage() {
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Blodtester", href: "/blodtester/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Bästa blodtester hemma 2026</h1>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
-          Hemblodtester gör det möjligt att mäta hundratals blodvärden utan att boka tid på vårdcentral. Vi har testat och jämfört Sveriges ledande aktörer – från SWEDAC-ackrediterade laboratorier till mer prisvärda alternativ.
+          Hemblodtester gör det möjligt att mäta hundratals blodvärden utan att boka tid på vårdcentral. Blodprover kan avslöja tidiga tecken på <a href="https://folksjukdomar.se" target="_blank" rel="noopener">folksjukdomar</a> som diabetes, hjärt-kärlsjukdom och sköldkörtelrubbningar. Vi har testat och jämfört Sveriges ledande aktörer – från SWEDAC-ackrediterade laboratorier till mer prisvärda alternativ.
         </p>
         <MedicalDisclaimer />
         <AffiliateDisclaimer />
@@ -111,7 +111,7 @@ export default function BlodtesterPage() {
             { namn: "Hormonpanel", innehall: "Testosteron, östrogen, progesteron, TSH, T4", for: "Trötthet, humörsvängningar, fertilitet" },
             { namn: "Vitaminpanel", innehall: "D-vitamin, B12, folsyra, järn, ferritin", for: "Trötthet, immunförsvar, vegankost" },
             { namn: "Hjärt-kärlpanel", innehall: "LDL, HDL, triglycerider, homocystein, CRP", for: "Familjehistorik av hjärtsjukdom" },
-            { namn: "Diabetesuppföljning", innehall: "Blodsocker (fasteglukos), HbA1c, insulin", for: "Riskbedömning eller uppföljning" },
+            { namn: "Diabetesuppföljning", innehall: "Blodsocker (fasteglukos), HbA1c, insulin", for: "Riskbedömning eller uppföljning av diabetes" },
           ].map((panel) => (
             <div key={panel.namn} className="border border-gray-200 rounded-lg p-4 bg-white">
               <p className="font-semibold text-gray-900">{panel.namn}</p>
