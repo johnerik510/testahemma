@@ -14,8 +14,13 @@ import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Cancermarkörer Hemma 2026 – PSA, CA-125 & CEA",
-  description: "Testa cancermarkörer hemma utan remiss. PSA för prostata, CA-125, CEA och AFP. Proaktiv hälsokontroll – alltid följ upp med läkare.",
+  description: "Testa cancermarkörer hemma utan remiss. Jämför PSA för prostata, CA-125, CEA och AFP. Proaktiv hälsokontroll med svar inom dagar – alltid följ upp med läkare.",
   alternates: { canonical: "https://www.testahemma.se/cancermarkorer/" },
+  openGraph: {
+    title: "Cancermarkörer Hemma 2026 – PSA, CA-125 & CEA",
+    description: "Testa cancermarkörer hemma utan remiss. Jämför PSA för prostata, CA-125, CEA och AFP. Proaktiv hälsokontroll med svar inom dagar – alltid följ upp med läkare.",
+    url: "https://www.testahemma.se/cancermarkorer/",
+  },
 };
 
 const faqs = [
@@ -76,8 +81,9 @@ export default function CancermarkPage() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           Cancermarkörer hemma 2026 – PSA och mer
         </h1>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
-          Proaktiv hälsokontroll med cancermarkörer – PSA, CA-125, CEA och AFP – utan remiss och utan kö. Cancer är en av Sveriges vanligaste <a href="https://folksjukdomar.se" target="_blank" rel="noopener">folksjukdomar</a>, och tidig upptäckt kan vara avgörande. Hemtester mäter blotnivåer som kan indikera ökad risk och motivera vidare utredning.
+          Proaktiv hälsokontroll med cancermarkörer – PSA, CA-125, CEA och AFP – utan remiss och utan kö. Cancer är en av Sveriges vanligaste <a href="https://folksjukdomar.se" target="_blank" rel="noopener">folksjukdomar</a>, och tidig upptäckt kan vara avgörande. Hemtester mäter blodnivåer som kan indikera ökad risk och motivera vidare utredning.
         </p>
 
         <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 text-sm text-red-800 my-4 flex items-start gap-3">
@@ -155,7 +161,7 @@ export default function CancermarkPage() {
 
         {/* Teal CTA block */}
         <section className="mt-10 bg-teal-50 border border-teal-200 rounded-xl px-6 py-6">
-          <h2 className="text-xl font-bold text-teal-900 mb-2">Forstår du ditt PSA-svar?</h2>
+          <h2 className="text-xl font-bold text-teal-900 mb-2">Förstår du ditt PSA-svar?</h2>
           <p className="text-teal-800 text-sm leading-relaxed mb-4">
             PSA-värdet ensamt berättar inte hela historien. I vår guide går vi igenom vad olika PSA-nivåer innebär, när du bör kontakta sjukvården och vad som händer vid en vidare utredning.
           </p>
@@ -163,7 +169,7 @@ export default function CancermarkPage() {
             href="/guider/psa-test-prostata/"
             className="inline-block bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors"
           >
-            Las PSA-guiden
+            Läs PSA-guiden
           </Link>
         </section>
 

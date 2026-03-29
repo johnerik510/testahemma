@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "Allergitestning Hemma – Mat, Pollen och Djur | Testahemma.se",
   description: "Guide till hemallergitestning. Vilka allergiämnen kan testas? Hur fungerar IgE-tester? Skillnad mellan allergi och intolerans – och vad du gör med svaret.",
   alternates: { canonical: "https://www.testahemma.se/guider/allergitestning-guide/" },
+  openGraph: {
+    title: "Allergitestning Hemma – Mat, Pollen och Djur | Testahemma.se",
+    description: "Guide till hemallergitestning. Vilka allergiämnen kan testas? Hur fungerar IgE-tester? Skillnad mellan allergi och intolerans – och vad du gör med svaret.",
+    url: "https://www.testahemma.se/guider/allergitestning-guide/",
+  },
 };
 
 const faqs = [

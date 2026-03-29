@@ -13,9 +13,14 @@ import { products } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Bästa Hemtest 2026 – Werlabs, Cerascreen och Testmottagningen Jämförda",
+  title: "Bästa Hemtest 2026 – Topplista & Jämförelse",
   description: "Vilket hemtest är bäst 2026? Vi testar Werlabs, Cerascreen, Testmottagningen och Biovis. SWEDAC-ackrediterade lab. Pris fr. 299 kr. Se topplistan.",
   alternates: { canonical: "https://www.testahemma.se/basta-hemtest/" },
+  openGraph: {
+    title: "Bästa Hemtest 2026 – Topplista & Jämförelse",
+    description: "Vilket hemtest är bäst 2026? Vi testar Werlabs, Cerascreen, Testmottagningen och Biovis. SWEDAC-ackrediterade lab. Pris fr. 299 kr. Se topplistan.",
+    url: "https://www.testahemma.se/basta-hemtest/",
+  },
 };
 
 const faqs = [
@@ -58,6 +63,7 @@ export default function BastaHemtestPage() {
       <main className="max-w-5xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Bästa hemtest", href: "/basta-hemtest/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Bästa hemtester 2026 – komplett jämförelse</h1>
+        <p className="text-sm text-gray-500 mb-3">{sorted.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Vi har testat och jämfört Sveriges ledande hemtestningskit. Oavsett om du vill mäta blodvärden, hormoner, STI, vitaminer eller tarmhälsa – här hittar du rätt test för dina behov.
         </p>

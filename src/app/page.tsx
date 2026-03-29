@@ -5,8 +5,10 @@ import Footer from "@/components/Footer";
 import HowItWorks from "@/components/HowItWorks";
 import ProductCard from "@/components/ProductCard";
 import FaqAccordion from "@/components/FaqAccordion";
+import StickyCTA from "@/components/StickyCTA";
 import { getTopProducts } from "@/data/products";
 import { categories } from "@/data/categories";
+import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Testahemma.se – Bästa Hemtester för Sverige 2026",
@@ -100,11 +102,40 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Top 3 products — above the fold */}
+        <section className="py-8 px-4 max-w-5xl mx-auto">
+          <div className="flex items-center justify-between mb-5">
+            <div>
+              <h2 className="text-2xl font-bold text-gray-900">Bästa hemtesterna 2026</h2>
+              <p className="text-gray-500 text-sm mt-1">9 tester jämförda – senast uppdaterad mars 2026</p>
+            </div>
+            <Link href="/basta-hemtest/" className="hidden sm:inline-flex items-center gap-1 text-teal-600 text-sm font-medium hover:underline">
+              Se alla
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+          <div className="space-y-5">
+            {topProducts.map((product, i) => (
+              <ProductCard key={product.slug} product={product} position="homepage-featured" rank={i + 1} />
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <Link href="/basta-hemtest/" className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:underline">
+              Se alla hemtester och jämförelser
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </section>
+
         {/* Categories */}
-        <section className="py-16 px-4 max-w-7xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900">Välj testkategori</h2>
-            <p className="text-gray-500 mt-2">8 kategorier – hitta testet som passar dig</p>
+        <section className="py-10 px-4 max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold text-gray-900">Välj testkategori</h2>
+            <p className="text-gray-500 mt-2 text-sm">8 kategorier – hitta testet som passar dig</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {categories.map((cat) => (
@@ -124,27 +155,6 @@ export default function HomePage() {
 
         {/* How it works */}
         <HowItWorks />
-
-        {/* Top 3 products */}
-        <section className="py-16 px-4 max-w-5xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900">Bästa hemtesterna 2026</h2>
-            <p className="text-gray-500 mt-2">Våra topprekommendationer – noggrant testade och jämförda</p>
-          </div>
-          <div className="space-y-5">
-            {topProducts.map((product, i) => (
-              <ProductCard key={product.slug} product={product} position="homepage-featured" rank={i + 1} />
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <Link href="/basta-hemtest/" className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:underline">
-              Se alla hemtester och jämförelser
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
-          </div>
-        </section>
 
         {/* Trust section */}
         <section className="bg-gray-50 py-14 px-4">
@@ -209,6 +219,13 @@ export default function HomePage() {
         </section>
       </main>
 
+      <StickyCTA
+        product={topProducts[0].name}
+        price={`Från ${topProducts[0].priceFrom} kr`}
+        url={buildAffiliateUrl(topProducts[0].affiliateUrl, topProducts[0].network, topProducts[0].adtractionProgramId, topProducts[0].addRevenueProgramId, 'TH-homepage-sticky')}
+        text="Se bästa hemtestet"
+        label="Bäst i test 2026"
+      />
       <Footer />
     </>
   );

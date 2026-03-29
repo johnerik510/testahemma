@@ -67,7 +67,7 @@ const organizationSchema = {
   name: "Testahemma.se",
   url: "https://www.testahemma.se",
   logo: "https://www.testahemma.se/favicon.svg",
-  foundingDate: "2026",
+  foundingDate: "2025",
   areaServed: "SE",
   contactPoint: {
     "@type": "ContactPoint",

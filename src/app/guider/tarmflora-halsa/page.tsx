@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "Tarmflora och Hälsa 2026 – Tarmbakteriernas roll och tester",
   description: "Lär dig om tarmflorans påverkan på immunförsvar, humör och ämnesomsättning. Guide till tarmfloratester hemma och hur du förbättrar din maghälsa.",
   alternates: { canonical: "https://www.testahemma.se/guider/tarmflora-halsa/" },
+  openGraph: {
+    title: "Tarmflora och Hälsa 2026 – Tarmbakteriernas roll och tester",
+    description: "Lär dig om tarmflorans påverkan på immunförsvar, humör och ämnesomsättning. Guide till tarmfloratester hemma och hur du förbättrar din maghälsa.",
+    url: "https://www.testahemma.se/guider/tarmflora-halsa/",
+  },
 };
 
 const faqs = [

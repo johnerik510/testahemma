@@ -14,11 +14,11 @@ import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Kolesteroltest hemma 2026 — Jämförelse | Testahemma.se",
-  description: "Mät ditt kolesterol hemma. Testa LDL, HDL, totalt kolesterol och triglycerider utan läkarbesök. Från 395 kr med svar inom dagar.",
+  description: "Mät ditt kolesterol hemma utan remiss. Testa LDL, HDL, totalt kolesterol och triglycerider med ackrediterat lab. Från 395 kr – svar inom dagar.",
   alternates: { canonical: "https://www.testahemma.se/kolesteroltester/" },
   openGraph: {
     title: "Kolesteroltest hemma 2026 \u2014 J\u00e4mf\u00f6relse | Testahemma.se",
-    description: "Mät ditt kolesterol hemma. Testa LDL, HDL, totalt kolesterol och triglycerider utan läkarbesök. Från 395 kr med svar inom dagar.",
+    description: "Mät ditt kolesterol hemma utan remiss. Testa LDL, HDL, totalt kolesterol och triglycerider med ackrediterat lab. Från 395 kr – svar inom dagar.",
     url: "https://www.testahemma.se/kolesteroltester/",
   },
 };
@@ -65,7 +65,7 @@ export default function KolesteroltesterPage() {
       "@type": "ListItem",
       position: i + 1,
       name: p.name,
-      url: `https://www.testahemma.se/kolesteroltester/${p.slug}/`,
+      url: `https://www.testahemma.se/recension/${p.slug}/`,
     })),
   };
 
@@ -87,6 +87,7 @@ export default function KolesteroltesterPage() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           Kolesteroltest hemma 2026
         </h1>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-6 leading-relaxed">
           Högt kolesterol är tyst – inga symtom, men stor risk för hjärt-kärlsjukdom. Med ett hemtest kan du mäta LDL, HDL och triglycerider enkelt hemma och agera tidigt.
         </p>
@@ -115,7 +116,7 @@ export default function KolesteroltesterPage() {
           </p>
 
           <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">
-            Nar bör man testa kolesterolet?
+            När bör man testa kolesterolet?
           </h3>
           <p className="text-gray-600 leading-relaxed mb-3">
             För friska vuxna utan riskfaktorer rekommenderas en första kontroll från 40 års ålder. Har du nära släktingar med tidig hjärt-kärlsjukdom, familjär hyperkolesterolemi, högt blodtryck eller diabetes bör du testa tidigare – redan i 20–25-årsåldern. Regelbunden uppföljning är viktig eftersom kolesterolet kan stiga utan att du märker av det.
@@ -140,7 +141,7 @@ export default function KolesteroltesterPage() {
         {/* Referensvärden */}
         <section className="mt-10">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            Referensvärden for kolesterol
+            Referensvärden för kolesterol
           </h2>
           <p className="text-gray-600 mb-4 leading-relaxed">
             Nedanstående riktvärden gäller friska vuxna utan känd hjärt-kärlsjukdom. Vid konstaterad sjukdom eller hög risk är målvärdena striktare – rådfråga din läkare.
@@ -189,14 +190,14 @@ export default function KolesteroltesterPage() {
             </table>
           </div>
           <p className="text-xs text-gray-400 mt-2">
-            Kalla: Socialstyrelsen och Europeiska kardiologsällskapet (ESC). Värdena är riktlinjer – individuell bedömning görs av läkare.
+            Källa: Socialstyrelsen och Europeiska kardiologsällskapet (ESC). Värdena är riktlinjer – individuell bedömning görs av läkare.
           </p>
         </section>
 
         {/* CTA-block */}
         <section className="mt-10 rounded-xl bg-teal-50 border border-teal-200 px-6 py-7">
           <h2 className="text-xl font-bold text-teal-900 mb-2">
-            Vill du forstå dina kolesterolvärden på djupet?
+            Vill du förstå dina kolesterolvärden på djupet?
           </h2>
           <p className="text-teal-800 mb-4 leading-relaxed">
             Lär dig vad LDL, HDL, triglycerider och kolesterol/HDL-kvoten egentligen betyder – och vad du kan göra om ett värde är utanför referensintervallet.
@@ -205,7 +206,7 @@ export default function KolesteroltesterPage() {
             href="/guider/kolesterol-varden/"
             className="inline-block bg-teal-700 hover:bg-teal-800 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors"
           >
-            Las var guide om kolesterolvarden
+            Läs vår guide om kolesterolvärden
           </Link>
         </section>
 

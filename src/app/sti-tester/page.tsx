@@ -45,7 +45,7 @@ const faqs = [
     answer: "Det beror på vilken STI som testas. Klamydia och gonorré diagnosticeras vanligtvis via urinprov eller svabb. HIV, syfilis och hepatit kräver blodprov – antingen via ett litet stickprov på fingret (fingerstick) eller venblod. Herpes och HPV testas med svabb från slemhinnor. Paneltest skickar med alla provtagningsinstrument i ett paket.",
   },
   {
-    question: "Ar STI-tester diskreta?",
+    question: "Är STI-tester diskreta?",
     answer: "Ja. Seriösa aktörer skickar alltid i neutralt ytterpaket utan avsändarinformation som avslöjar innehållet. Betalningen syns på kontoutdraget under ett generiskt företagsnamn. Svaret levereras digitalt via en säker portal eller e-post – inte med vanlig post.",
   },
 ];
@@ -81,6 +81,7 @@ export default function StiTesterPage() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           STI-tester hemma 2026 – diskret och snabbt
         </h1>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Moderna STI-hemtester gör det enkelt att testa sig för könssjukdomar utan att besöka klinik. Diskret leverans, anonym provtagning och svar digitalt inom 1–3 dagar.
         </p>
@@ -171,7 +172,7 @@ export default function StiTesterPage() {
             href="/guider/sti-testa-hemma/"
             className="shrink-0 rounded-xl bg-teal-700 px-6 py-3 text-white font-semibold hover:bg-teal-800 transition-colors"
           >
-            Las guiden
+            Läs guiden
           </Link>
         </div>
 

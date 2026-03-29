@@ -14,11 +14,11 @@ import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Bästa Blodtester Hemma 2026 — Jämförelse & Guide",
-  description: "Jämför Sveriges bästa hemblodtester. Vi testar Werlabs, Diagnostikdirekt och fler. Pris från 395 kr – SWEDAC-ackrediterat lab.",
+  description: "Jämför Sveriges bästa hemblodtester 2026. Vi testar Werlabs, Diagnostikdirekt och fler. Pris från 395 kr – SWEDAC-ackrediterat lab. Svar inom dagar.",
   alternates: { canonical: "https://www.testahemma.se/blodtester/" },
   openGraph: {
     title: "Bästa Blodtester Hemma 2026 — Jämförelse & Guide",
-    description: "Jämför Sveriges bästa hemblodtester. Vi testar Werlabs, Diagnostikdirekt och fler. Pris från 395 kr – SWEDAC-ackrediterat lab.",
+    description: "Jämför Sveriges bästa hemblodtester 2026. Vi testar Werlabs, Diagnostikdirekt och fler. Pris från 395 kr – SWEDAC-ackrediterat lab. Svar inom dagar.",
     url: "https://www.testahemma.se/blodtester/",
   },
 };
@@ -43,13 +43,13 @@ const jsonLd = {
       "@type": "ListItem",
       "position": 1,
       "name": "Werlabs Stor hälsokontroll",
-      "url": "https://www.testahemma.se/blodtester/werlabs/"
+      "url": "https://www.testahemma.se/recension/werlabs/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Diagnostikdirekt Baspaket",
-      "url": "https://www.testahemma.se/blodtester/diagnostikdirekt/"
+      "url": "https://www.testahemma.se/recension/diagnostikdirekt/"
     }
   ]
 };
@@ -68,6 +68,7 @@ export default function BlodtesterPage() {
       <main className="max-w-5xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Blodtester", href: "/blodtester/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Bästa blodtester hemma 2026</h1>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Hemblodtester gör det möjligt att mäta hundratals blodvärden utan att boka tid på vårdcentral. Blodprover kan avslöja tidiga tecken på <a href="https://folksjukdomar.se" target="_blank" rel="noopener">folksjukdomar</a> som diabetes, hjärt-kärlsjukdom och sköldkörtelrubbningar. Vi har testat och jämfört Sveriges ledande aktörer – från SWEDAC-ackrediterade laboratorier till mer prisvärda alternativ.
         </p>

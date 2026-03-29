@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "Kolesterolvärden – Normalt, Högt och Farligt",
   description: "Komplett guide till kolesterolvärden. Vad är normalt LDL, HDL och totalt kolesterol? Vad orsakar högt kolesterol och hur sänker du det?",
   alternates: { canonical: "https://www.testahemma.se/guider/kolesterol-varden/" },
+  openGraph: {
+    title: "Kolesterolvärden – Normalt, Högt och Farligt",
+    description: "Komplett guide till kolesterolvärden. Vad är normalt LDL, HDL och totalt kolesterol? Vad orsakar högt kolesterol och hur sänker du det?",
+    url: "https://www.testahemma.se/guider/kolesterol-varden/",
+  },
 };
 
 const faqs = [

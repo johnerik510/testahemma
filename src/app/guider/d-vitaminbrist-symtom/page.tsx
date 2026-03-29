@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "D-vitaminbrist 2026 – 8 Symtom och hur du testar hemma",
   description: "D-vitaminbrist är extremt vanlig i Sverige. Lär dig de 8 vanligaste symtomen och hur du enkelt testar dina D-vitaminnivåer hemma med ett blodprov.",
   alternates: { canonical: "https://www.testahemma.se/guider/d-vitaminbrist-symtom/" },
+  openGraph: {
+    title: "D-vitaminbrist 2026 – 8 Symtom och hur du testar hemma",
+    description: "D-vitaminbrist är extremt vanlig i Sverige. Lär dig de 8 vanligaste symtomen och hur du enkelt testar dina D-vitaminnivåer hemma med ett blodprov.",
+    url: "https://www.testahemma.se/guider/d-vitaminbrist-symtom/",
+  },
 };
 
 const faqs = [

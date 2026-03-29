@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "Tolka Dina Blodvärden – Vad Betyder Resultaten?",
   description: "Förstå dina blodprovsresultat. Lär dig vad hemoglobin, CRP, ferritin, TSH, kolesterol och B12 betyder, vilka nivåer som är normala och när du bör agera.",
   alternates: { canonical: "https://www.testahemma.se/guider/tolka-blodvarden/" },
+  openGraph: {
+    title: "Tolka Dina Blodvärden – Vad Betyder Resultaten?",
+    description: "Förstå dina blodprovsresultat. Lär dig vad hemoglobin, CRP, ferritin, TSH, kolesterol och B12 betyder, vilka nivåer som är normala och när du bör agera.",
+    url: "https://www.testahemma.se/guider/tolka-blodvarden/",
+  },
 };
 
 const values = [

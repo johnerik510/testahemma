@@ -14,11 +14,11 @@ import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Allergitester Hemma 2026 – Mat, pollen och djur (jämförelse)",
-  description: "Testa allergi och intolerans hemma. Mät IgE-reaktioner mot hundratals ämnen. Svar inom dagar. Från 699 kr.",
+  description: "Testa allergi och intolerans hemma utan remiss. Mät IgE-reaktioner mot hundratals ämnen – mat, pollen och djur. Svar inom dagar. Pris från 699 kr.",
   alternates: { canonical: "https://www.testahemma.se/allergitester/" },
   openGraph: {
     title: "Allergitester Hemma 2026 – Mat, pollen och djur (jämförelse)",
-    description: "Testa allergi och intolerans hemma. Mät IgE-reaktioner mot hundratals ämnen. Svar inom dagar. Från 699 kr.",
+    description: "Testa allergi och intolerans hemma utan remiss. Mät IgE-reaktioner mot hundratals ämnen – mat, pollen och djur. Svar inom dagar. Pris från 699 kr.",
     url: "https://www.testahemma.se/allergitester/",
   },
 };
@@ -71,7 +71,7 @@ export default function AllergitesterPage() {
       "@type": "ListItem",
       position: i + 1,
       name: p.name,
-      url: `https://www.testahemma.se/allergitester/${p.slug}/`,
+      url: `https://www.testahemma.se/recension/${p.slug}/`,
     })),
   };
 
@@ -93,6 +93,7 @@ export default function AllergitesterPage() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           Allergitester &amp; intolerenstester hemma 2026
         </h1>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Ta reda på exakt vad du reagerar på – mat, pollen, djur eller mögel – med ett enkelt blodprov hemma. Upp till 295 allergiämnen i ett test.
         </p>
@@ -153,7 +154,7 @@ export default function AllergitesterPage() {
               href="/guider/allergitestning-guide/"
               className="text-teal-700 underline hover:text-teal-900"
             >
-              Lesen vår kompletta guide om allergitestning hemma
+              Läs vår kompletta guide om allergitestning hemma
             </Link>
             .
           </p>
@@ -194,7 +195,7 @@ export default function AllergitesterPage() {
 
         {/* CTA-block */}
         <section className="mt-12 bg-teal-700 rounded-xl px-6 py-8 text-white">
-          <h2 className="text-xl font-bold mb-2">Osaker på vilket test som passar dig?</h2>
+          <h2 className="text-xl font-bold mb-2">Osäker på vilket test som passar dig?</h2>
           <p className="text-teal-100 mb-4 leading-relaxed">
             Se vår samlade guide med de bästa hemtesterna inom alla kategorier – rangordnade efter noggrannhet, pris och hur många ämnen som täcks.
           </p>
@@ -202,7 +203,7 @@ export default function AllergitesterPage() {
             href="/basta-hemtest/"
             className="inline-block bg-white text-teal-800 font-semibold px-5 py-2.5 rounded-lg hover:bg-teal-50 transition-colors"
           >
-            Se basta hemtester 2026
+            Se bästa hemtester 2026
           </Link>
         </section>
 

@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "STI-testning Hemma – Diskret, Snabbt och Enkelt",
   description: "Komplett guide till STI-testning hemma. Vilka könssjukdomar kan testas? Hur diskret är det? Hur snabbt får man svar? Allt du behöver veta.",
   alternates: { canonical: "https://www.testahemma.se/guider/sti-testa-hemma/" },
+  openGraph: {
+    title: "STI-testning Hemma – Diskret, Snabbt och Enkelt",
+    description: "Komplett guide till STI-testning hemma. Vilka könssjukdomar kan testas? Hur diskret är det? Hur snabbt får man svar? Allt du behöver veta.",
+    url: "https://www.testahemma.se/guider/sti-testa-hemma/",
+  },
 };
 
 const faqs = [

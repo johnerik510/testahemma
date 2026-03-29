@@ -14,11 +14,11 @@ import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Vitamintester Hemma 2026 – D-vitamin, B12 & Mer",
-  description: "Testa dina vitaminnivåer hemma. Jämför D-vitamintest, B12-test och omega-3 index. Svar inom 3-5 dagar. Från 299 kr.",
+  description: "Testa dina vitaminnivåer hemma utan remiss. Jämför D-vitamintest, B12-test och omega-3 index. Ackrediterat lab, svar inom 3–5 dagar. Pris från 299 kr.",
   alternates: { canonical: "https://www.testahemma.se/vitamintester/" },
   openGraph: {
     title: "Vitamintester Hemma 2026 – D-vitamin, B12 & Mer",
-    description: "Testa dina vitaminnivåer hemma. Jämför D-vitamintest, B12-test och omega-3 index. Svar inom 3–5 dagar. Från 299 kr.",
+    description: "Testa dina vitaminnivåer hemma utan remiss. Jämför D-vitamintest, B12-test och omega-3 index. Ackrediterat lab, svar inom 3–5 dagar. Pris från 299 kr.",
     url: "https://www.testahemma.se/vitamintester/",
   },
 };
@@ -62,6 +62,7 @@ export default function VitamintesterPage() {
       <main className="max-w-5xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Vitamintester", href: "/vitamintester/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Vitamintester hemma 2026</h1>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Vitaminbrist är vanligare än man tror – särskilt D-vitamin och B12 i Sverige. Med ett enkelt hemtest kan du kontrollera dina nivåer och agera med rätt kosttillskott.
         </p>

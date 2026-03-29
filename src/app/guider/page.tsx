@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   title: "Hälsoguider – Hemtestning & Hälsovärden | Testahemma.se",
   description: "Kompletta guider om hemtestning, hälsovärden och hur du tolkar dina provsvar. D-vitamin, STI, hormoner, blodvärden och mer.",
   alternates: { canonical: "https://www.testahemma.se/guider/" },
+  openGraph: {
+    title: "Hälsoguider – Hemtestning & Hälsovärden | Testahemma.se",
+    description: "Kompletta guider om hemtestning, hälsovärden och hur du tolkar dina provsvar. D-vitamin, STI, hormoner, blodvärden och mer.",
+    url: "https://www.testahemma.se/guider/",
+  },
 };
 
 const guides = [

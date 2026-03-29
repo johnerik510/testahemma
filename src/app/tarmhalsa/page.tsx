@@ -14,11 +14,11 @@ import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Tarmhälsa & Mikrobiomtest Hemma 2026 | Testahemma.se",
-  description: "Analysera din tarmflora hemma med DNA-sekvensering. Få personliga kostråd baserade på dina tarmbakterier. Från 1 495 kr.",
+  description: "Analysera din tarmflora hemma med avancerad DNA-sekvensering. Jämför mikrobiomtester, få personliga kostråd baserade på dina tarmbakterier. Från 1 495 kr.",
   alternates: { canonical: "https://www.testahemma.se/tarmhalsa/" },
   openGraph: {
     title: "Tarmhälsa & Mikrobiomtest Hemma 2026 | Testahemma.se",
-    description: "Analysera din tarmflora hemma med DNA-sekvensering. Få personliga kostråd baserade på dina tarmbakterier. Från 1 495 kr.",
+    description: "Analysera din tarmflora hemma med avancerad DNA-sekvensering. Jämför mikrobiomtester, få personliga kostråd baserade på dina tarmbakterier. Från 1 495 kr.",
     url: "https://www.testahemma.se/tarmhalsa/",
   },
 };
@@ -48,7 +48,7 @@ export default function TarmhalsaPage() {
       "@type": "ListItem",
       "position": i + 1,
       "name": p.name,
-      "url": `https://www.testahemma.se/tarmhalsa/${p.slug}/`,
+      "url": `https://www.testahemma.se/recension/${p.slug}/`,
     })),
   };
 
@@ -62,6 +62,7 @@ export default function TarmhalsaPage() {
       <main className="max-w-5xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Tarmhälsa & Mikrobiom", href: "/tarmhalsa/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Tarmhälsa & mikrobiomtest hemma 2026</h1>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Din tarmflora påverkar allt från immunförsvar och ämnesomsättning till psykisk hälsa. Med ett modernt mikrobiomtest kartlägger du dina tarmbakterier med avancerad DNA-teknik – hemma, utan remiss.
         </p>

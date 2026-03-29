@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "PSA-test Hemma – Prostatahälsa och PSA-värden",
   description: "Guide till PSA-testning hemma. Vad är normalt PSA-värde per åldersgrupp? Vem bör testa sig och hur ofta? Allt om PSA och prostatacancer.",
   alternates: { canonical: "https://www.testahemma.se/guider/psa-test-prostata/" },
+  openGraph: {
+    title: "PSA-test Hemma – Prostatahälsa och PSA-värden",
+    description: "Guide till PSA-testning hemma. Vad är normalt PSA-värde per åldersgrupp? Vem bör testa sig och hur ofta? Allt om PSA och prostatacancer.",
+    url: "https://www.testahemma.se/guider/psa-test-prostata/",
+  },
 };
 
 const faqs = [

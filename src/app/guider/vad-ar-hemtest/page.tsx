@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "Vad är ett hemtest? – Komplett guide 2026 | Testahemma.se",
   description: "Allt du behöver veta om hemtestningskit – hur de fungerar, vad de kostar, vilka är pålitliga och när du bör använda dem.",
   alternates: { canonical: "https://www.testahemma.se/guider/vad-ar-hemtest/" },
+  openGraph: {
+    title: "Vad är ett hemtest? – Komplett guide 2026 | Testahemma.se",
+    description: "Allt du behöver veta om hemtestningskit – hur de fungerar, vad de kostar, vilka är pålitliga och när du bör använda dem.",
+    url: "https://www.testahemma.se/guider/vad-ar-hemtest/",
+  },
 };
 
 const faqs = [

@@ -14,11 +14,11 @@ import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
   title: "Hormontester hemma 2026 — Jämförelse | Testahemma.se",
-  description: "Testa dina hormonnivåer hemma. Jämför tester för testosteron, östrogen, sköldkörtel och kortisol. Svar inom 3–7 dagar.",
+  description: "Testa dina hormonnivåer hemma utan remiss. Jämför tester för testosteron, östrogen, sköldkörtel och kortisol. Ackrediterat lab – svar inom 3–7 dagar.",
   alternates: { canonical: "https://www.testahemma.se/hormontester/" },
   openGraph: {
     title: "Hormontester hemma 2026 \u2014 J\u00e4mf\u00f6relse | Testahemma.se",
-    description: "Testa dina hormonnivåer hemma. Jämför tester för testosteron, östrogen, sköldkörtel och kortisol. Svar inom 3–7 dagar.",
+    description: "Testa dina hormonnivåer hemma utan remiss. Jämför tester för testosteron, östrogen, sköldkörtel och kortisol. Ackrediterat lab – svar inom 3–7 dagar.",
     url: "https://www.testahemma.se/hormontester/",
   },
 };
@@ -61,6 +61,7 @@ export default function HormontesterPage() {
       <main className="max-w-5xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Hormontester", href: "/hormontester/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Hormontester hemma 2026</h1>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Hormonella obalanser kan orsaka trötthet, viktuppgång och humörsvängningar. Med ett hemhormonstest kan du enkelt kartlägga dina nivåer utan läkarremiss.
         </p>

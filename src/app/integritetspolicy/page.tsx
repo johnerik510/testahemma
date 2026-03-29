@@ -34,7 +34,7 @@ export default function IntegritetspolicyPage() {
           <p>Affiliatenätverken (Adtraction, AddRevenue) placerar sessionscookies för konverteringsspårning när du klickar på affiliatelänkar. Dessa cookies är nödvändiga för att säkerställa att eventuell provision krediteras korrekt.</p>
 
           <h2>Delning av uppgifter</h2>
-          <p>Vi säljer aldrig personuppgifter. Vi delar anonymiserad data med Google Analytics och Ahrefs Analytics för webbanalyos. Affiliatenätverken mottar klick- och konverteringsdata per avtal.</p>
+          <p>Vi säljer aldrig personuppgifter. Vi delar anonymiserad data med Google Analytics och Ahrefs Analytics för webbanalys. Affiliatenätverken mottar klick- och konverteringsdata per avtal.</p>
 
           <h2>Dina rättigheter</h2>
           <p>Du har rätt att begära tillgång till, rättelse av eller radering av dina personuppgifter. Kontakta oss på <a href="mailto:vpniskguiden@proton.me" className="text-teal-600 hover:underline">vpniskguiden@proton.me</a> för att utöva dina rättigheter.</p>

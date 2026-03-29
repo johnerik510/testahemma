@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "Hormoner och Hälsa 2026 – Hormonella obalanser och tester",
   description: "Förstå hur hormoner påverkar din hälsa. Lär dig om testosteron, östrogen, kortisol, TSH och DHEA – och hur du testar dem hemma med ett enkelt blodprov.",
   alternates: { canonical: "https://www.testahemma.se/guider/hormoner-och-halsa/" },
+  openGraph: {
+    title: "Hormoner och Hälsa 2026 – Hormonella obalanser och tester",
+    description: "Förstå hur hormoner påverkar din hälsa. Lär dig om testosteron, östrogen, kortisol, TSH och DHEA – och hur du testar dem hemma med ett enkelt blodprov.",
+    url: "https://www.testahemma.se/guider/hormoner-och-halsa/",
+  },
 };
 
 const faqs = [
