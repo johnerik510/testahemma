@@ -30,13 +30,13 @@ export default function ProductCard({ product, position = "list", rank }: Produc
           </div>
         )}
         <div className="shrink-0">
-          <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center">
+          <div className="w-20 h-20 sm:w-24 sm:h-24 bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center">
             <Image
               src={product.logoUrl}
               alt={`${product.name} logotyp`}
-              width={64}
-              height={64}
-              className="object-cover w-full h-full"
+              width={96}
+              height={96}
+              className="object-contain w-full h-full p-1"
             />
           </div>
         </div>
