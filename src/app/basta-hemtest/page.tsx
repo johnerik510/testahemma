@@ -106,6 +106,7 @@ export default function BastaHemtestPage() {
             <ul className="space-y-1 text-sm text-gray-700">
               <li><Link href="/blodtester/" className="text-teal-600 hover:underline font-medium">Blodtester</Link> – hemoglobin, ferritin, CRP, glukos och allmän hälsostatus</li>
               <li><Link href="/hormontester/" className="text-teal-600 hover:underline font-medium">Hormontester</Link> – TSH, testosteron, östradiol, kortisol</li>
+              <li><Link href="/fertilitetstester/" className="text-teal-600 hover:underline font-medium">Fertilitetstester</Link> – AMH, FSH, äggstocksreserv och spermieanalys</li>
               <li><Link href="/sti-tester/" className="text-teal-600 hover:underline font-medium">STI-tester</Link> – klamydia, gonorré, syfilis, HIV</li>
               <li><Link href="/vitamintester/" className="text-teal-600 hover:underline font-medium">Vitamintester</Link> – D-vitamin, B12, folat, järn</li>
               <li><Link href="/tarmhalsa/" className="text-teal-600 hover:underline font-medium">Tarmhälsa</Link> – mikrobiom, tarmflora, matsmältningsproblem</li>
@@ -165,6 +166,7 @@ export default function BastaHemtestPage() {
             { name: "Blodtester", href: "/blodtester/" },
             { name: "Vitamintester", href: "/vitamintester/" },
             { name: "Hormontester", href: "/hormontester/" },
+            { name: "Fertilitetstester", href: "/fertilitetstester/" },
             { name: "STI-tester", href: "/sti-tester/" },
             { name: "Allergitester", href: "/allergitester/" },
             { name: "Kolesteroltester", href: "/kolesteroltester/" },

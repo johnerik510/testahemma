@@ -81,6 +81,16 @@ export const categories: Category[] = [
     color: "pink",
     keywords: ["kolesteroltest hemma", "LDL test", "HDL test", "hjärtmarkör test"],
   },
+  {
+    slug: "fertilitetstester",
+    name: "Fertilitetstester",
+    description: "Testa din fertilitet hemma – AMH, FSH, spermier och hormonpaneler",
+    longDescription:
+      "Fertilitetstester hemma mäter hormoner kopplade till fortplantning – AMH (äggstocksreserv), FSH, LH, östradiol och progesteron för kvinnor samt testosteron och spermieanalys för män. Ge dig ett första svar utan att boka tid på klinik.",
+    icon: "",
+    color: "rose",
+    keywords: ["fertilitetstest hemma", "AMH test", "äggstocksreserv test", "spermieanalys hemma", "hormontest fertilitet"],
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

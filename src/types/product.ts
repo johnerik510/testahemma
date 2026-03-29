@@ -6,7 +6,8 @@ export type CategorySlug =
   | "allergitester"
   | "tarmhalsa"
   | "cancermarkorer"
-  | "kolesteroltester";
+  | "kolesteroltester"
+  | "fertilitetstester";
 
 export interface TestProduct {
   slug: string;
