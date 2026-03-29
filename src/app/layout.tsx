@@ -3,7 +3,8 @@ import Script from "next/script";
 import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-XXXXXXXXXX";
+const GA_ID = "G-BNVKZPZ2V4";
+const CLARITY_ID = "w2ss43nm9z";
 
 export const metadata: Metadata = {
   title: {
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || "",
+    google: "08dd6e7b9f43c73f",
   },
   icons: {
     icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
@@ -115,12 +116,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Addrevenue Easylinks – auto-konverterar direktlänkar till tracking-URLs */}
         <Script src="https://addrevenue.io/easylinks.min.js?c=3467323" strategy="lazyOnload" />
 
-        {/* Microsoft Clarity – gratis heatmaps, set NEXT_PUBLIC_CLARITY_ID i Vercel */}
-        {process.env.NEXT_PUBLIC_CLARITY_ID && (
-          <Script id="clarity" strategy="lazyOnload">
-            {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${process.env.NEXT_PUBLIC_CLARITY_ID}");`}
-          </Script>
-        )}
+        {/* Microsoft Clarity – heatmaps & session recordings */}
+        <Script id="clarity" strategy="lazyOnload">
+          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${CLARITY_ID}");`}
+        </Script>
       </body>
     </html>
   );
