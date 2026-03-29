@@ -132,7 +132,12 @@ export default function BlodtesterPage() {
           </Link>.
         </p>
 
-        <div className="bg-teal-700 rounded-xl p-6 sm:p-8 mt-12 text-white">
+        <p className="text-sm text-gray-500 mt-2 mb-10">
+          Söker du efter ett enskilt blodprov? Se vår sida om{" "}
+          <Link href="/blodprov-hemma/" className="text-teal-700 underline hover:text-teal-900">blodprov hemma</Link>.
+        </p>
+
+        <div className="bg-teal-700 rounded-xl p-6 sm:p-8 mt-0 text-white">
           <h2 className="text-xl sm:text-2xl font-bold mb-2">Osäker på vilket test som passar dig?</h2>
           <p className="text-teal-100 mb-4">
             Vi har sammanställt en guide till det bästa hemtestet baserat på syfte, budget och metod – med tydliga rekommendationer per kategori.

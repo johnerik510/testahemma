@@ -13,7 +13,7 @@ const guides = [
   "sti-testa-hemma", "hormoner-och-halsa", "tolka-blodvarden",
   "kolesterol-varden", "tarmflora-halsa", "psa-test-prostata",
   "allergitestning-guide", "b12-brist-symtom", "sköldkörteltest-hemma",
-  "testosteron-test-hemma",
+  "testosteron-test-hemma", "jarnbrist-symtom", "klamydia-test-hemma",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${BASE}/`, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
     { url: `${BASE}/basta-hemtest/`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
+    { url: `${BASE}/blodprov-hemma/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     ...categories.map((c) => ({
       url: `${BASE}/${c}/`,
       lastModified: now,
