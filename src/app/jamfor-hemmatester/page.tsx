@@ -429,6 +429,20 @@ export default function JamforHemmatesterPage() {
               SWEDAC-ackreditering mot bredaste testutbud — vilket passar dig?
             </div>
           </Link>
+          <Link
+            href="/werlabs-vs-medisera/"
+            className="group block bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-teal-200 transition-all"
+          >
+            <div className="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-1">
+              Direktjämforelse
+            </div>
+            <div className="font-bold text-gray-900 text-base group-hover:text-teal-600 transition-colors">
+              Werlabs vs Medisera 2026
+            </div>
+            <div className="text-sm text-gray-500 mt-1">
+              Två svenska alternativ — SWEDAC vs ISO 15189, pris och svarstid
+            </div>
+          </Link>
         </div>
 
         {/* FAQ */}
