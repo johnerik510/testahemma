@@ -110,6 +110,7 @@ export default function VitamintesterPage() {
           </ul>
           <p>
             Vill du förstå hur du tolkar dina provsvar? Läs vår guide om att <Link href="/guider/tolka-blodvarden/">tolka blodvärden från hemtest</Link>.
+            {" "}Se även vår fördjupade guide om <Link href="/guider/b12-brist-symtom/" className="text-teal-700 underline hover:text-teal-900">B12-brist – symtom, test och behandling</Link>.
           </p>
         </div>
 

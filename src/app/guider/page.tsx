@@ -18,9 +18,12 @@ export const metadata: Metadata = {
 const guides = [
   { slug: "vad-ar-hemtest", title: "Vad är ett hemtest? – Komplett guide", cat: "Grundguider", desc: "Allt du behöver veta om hemtestningskit – hur de fungerar, vad de kostar och när du bör använda dem." },
   { slug: "hur-fungerar-hemtest", title: "Hur fungerar hemtest? Steg för steg", cat: "Grundguider", desc: "Från beställning till svar – en enkel genomgång av hela processen med ett hemtestningskit." },
-  { slug: "d-vitaminbrist-symtom", title: "D-vitaminbrist: 8 symtom och hur du testar hemma", cat: "Vitaminer", desc: "D-vitaminbrist är extremt vanlig i Sverige. Lär dig känna igen symtomen och hur du enkelt testar dina nivåer hemma." },
   { slug: "tolka-blodvarden", title: "Tolka dina blodvärden – vad betyder resultaten?", cat: "Blodtester", desc: "En lättförståelig guide till de vanligaste blodvärdena – hemoglobin, CRP, ferritin, kolesterol och mer." },
+  { slug: "d-vitaminbrist-symtom", title: "D-vitaminbrist: 8 symtom och hur du testar hemma", cat: "Vitaminer", desc: "D-vitaminbrist är extremt vanlig i Sverige. Lär dig känna igen symtomen och hur du enkelt testar dina nivåer hemma." },
+  { slug: "b12-brist-symtom", title: "B12-brist: Symtom, test och behandling", cat: "Vitaminer", desc: "B12-brist kan ge allvarliga neurologiska skador. Lär dig symtomen, riskgrupperna och hur du testar B12 hemma." },
   { slug: "hormoner-och-halsa", title: "Hormoner och hälsa – guide till hormonella obalanser", cat: "Hormoner", desc: "Hur hormoner påverkar din hälsa och när du bör testa dina nivåer hemma." },
+  { slug: "testosteron-test-hemma", title: "Testosteron test hemma – symtom, värden och guide", cat: "Hormoner", desc: "Var fjärde man över 40 har lågt testosteron. Lär dig symtomen, referensvärdena och hur du testar hemma." },
+  { slug: "sköldkörteltest-hemma", title: "Sköldkörteltest hemma – TSH, T4 och vad värdena betyder", cat: "Hormoner", desc: "Sköldkörtelproblem drabbar 1 av 10 svenskar. Testa TSH och T4 hemma och förstå vad resultaten innebär." },
   { slug: "sti-testa-hemma", title: "STI-testning hemma – diskret, snabbt och enkelt", cat: "STI", desc: "Allt om diskret STI-testning hemma. Vilka könssjukdomar kan testas? Hur snabbt? Vad kostar det?" },
   { slug: "kolesterol-varden", title: "Kolesterolvärden – vad är normalt och farligt?", cat: "Hjärthälsa", desc: "En guide till LDL, HDL och triglycerider. Vad är normalt, vad är riskabelt och när bör du testa?" },
   { slug: "tarmflora-halsa", title: "Tarmflora och hälsa – varför dina tarmbakterier spelar roll", cat: "Tarmhälsa", desc: "Din tarmflora påverkar immunförsvar, humör och ämnesomsättning. Lär dig mer och förstå din mikrobiomanalys." },

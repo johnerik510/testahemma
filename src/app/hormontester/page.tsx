@@ -135,11 +135,17 @@ export default function HormontesterPage() {
           ))}
         </div>
 
-        <p className="text-gray-600 mb-8">
+        <p className="text-gray-600 mb-4">
           Vill du fördjupa dig i hur hormoner påverkar din hälsa? Läs vår guide om{" "}
           <Link href="/guider/hormoner-och-halsa/" className="text-teal-700 underline hover:text-teal-900">
-            hormoner och halsa
+            hormoner och hälsa
           </Link>.
+        </p>
+        <p className="text-gray-600 mb-8">
+          Relaterade guider:{" "}
+          <Link href="/guider/testosteron-test-hemma/" className="text-teal-700 underline hover:text-teal-900">Testosteron test hemma</Link>
+          {" – "}
+          <Link href="/guider/sköldkörteltest-hemma/" className="text-teal-700 underline hover:text-teal-900">Sköldkörteltest hemma (TSH &amp; T4)</Link>
         </p>
 
         {/* Teal CTA block */}
