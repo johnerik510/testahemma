@@ -22,15 +22,15 @@ export default function ProductCard({ product, position = "list", rank }: Produc
   );
 
   return (
-    <div className="bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow p-6">
-      <div className="flex items-start gap-4">
+    <div className="bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow p-4 sm:p-6">
+      <div className="flex items-start gap-3 sm:gap-4">
         {rank && (
-          <div className="shrink-0 w-8 h-8 bg-teal-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
+          <div className="shrink-0 w-7 h-7 sm:w-8 sm:h-8 bg-teal-600 text-white rounded-full flex items-center justify-center text-xs sm:text-sm font-bold">
             {rank}
           </div>
         )}
         <div className="shrink-0">
-          <div className="w-16 h-16 bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center">
+          <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center">
             <Image
               src={product.logoUrl}
               alt={`${product.name} logotyp`}
@@ -41,18 +41,16 @@ export default function ProductCard({ product, position = "list", rank }: Produc
           </div>
         </div>
         <div className="flex-1 min-w-0">
-          <div className="flex items-start justify-between gap-2 flex-wrap">
-            <div>
-              <Link href={`/recension/${product.slug}/`} className="text-lg font-bold text-gray-900 hover:text-teal-600 transition-colors">
-                {product.name}
-              </Link>
-              <p className="text-sm text-gray-500 mt-0.5">{product.shortDescription}</p>
-            </div>
-            <div className="text-right shrink-0">
-              <div className="text-xl font-bold text-gray-900">{product.priceFrom}</div>
+          <div className="flex items-start justify-between gap-2">
+            <Link href={`/recension/${product.slug}/`} className="text-base sm:text-lg font-bold text-gray-900 hover:text-teal-600 transition-colors leading-tight">
+              {product.name}
+            </Link>
+            <div className="text-right shrink-0 ml-2">
+              <div className="text-lg sm:text-xl font-bold text-gray-900 whitespace-nowrap">{product.priceFrom} kr</div>
               <div className="text-xs text-gray-400">från</div>
             </div>
           </div>
+          <p className="text-xs sm:text-sm text-gray-500 mt-0.5">{product.shortDescription}</p>
 
           {/* Star rating */}
           <div className="flex items-center gap-2 mt-2">
@@ -60,7 +58,7 @@ export default function ProductCard({ product, position = "list", rank }: Produc
               {[1, 2, 3, 4, 5].map((star) => (
                 <svg
                   key={star}
-                  className={`w-4 h-4 ${star <= Math.round(product.rating / 2) ? "text-yellow-400" : "text-gray-200"}`}
+                  className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${star <= Math.round(product.rating / 2) ? "text-yellow-400" : "text-gray-200"}`}
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -68,15 +66,15 @@ export default function ProductCard({ product, position = "list", rank }: Produc
                 </svg>
               ))}
             </div>
-            <span className="text-sm font-semibold text-gray-700">{product.rating.toFixed(1)}/10</span>
-            <span className="text-xs text-gray-400">&bull; {product.turnaround}</span>
+            <span className="text-xs sm:text-sm font-semibold text-gray-700">{product.rating.toFixed(1)}/10</span>
+            <span className="hidden sm:inline text-xs text-gray-400">&bull; {product.turnaround}</span>
           </div>
 
           {/* Top features */}
-          <ul className="mt-3 space-y-1">
+          <ul className="mt-2 sm:mt-3 space-y-1">
             {product.features.slice(0, 3).map((f, i) => (
-              <li key={i} className="flex items-center gap-2 text-sm text-gray-600">
-                <svg className="w-4 h-4 text-teal-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <li key={i} className="flex items-center gap-2 text-xs sm:text-sm text-gray-600">
+                <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-teal-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 {f}
@@ -84,7 +82,7 @@ export default function ProductCard({ product, position = "list", rank }: Produc
             ))}
           </ul>
 
-          <div className="flex items-center gap-3 mt-4 flex-wrap">
+          <div className="flex items-center gap-3 mt-3 sm:mt-4 flex-wrap">
             <AffiliateButton
               href={href}
               productName={product.name}
@@ -94,7 +92,7 @@ export default function ProductCard({ product, position = "list", rank }: Produc
               text={product.ctaText}
               size="sm"
             />
-            <Link href={`/recension/${product.slug}/`} className="text-sm text-teal-600 hover:underline font-medium">
+            <Link href={`/recension/${product.slug}/`} className="text-xs sm:text-sm text-teal-600 hover:underline font-medium">
               Läs recension →
             </Link>
           </div>

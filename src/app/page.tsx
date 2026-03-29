@@ -46,7 +46,7 @@ const homepageFaqs = [
 ];
 
 export default function HomePage() {
-  const topProducts = getTopProducts(3);
+  const topProducts = getTopProducts(9);
 
   const itemListSchema = {
     "@context": "https://schema.org",
@@ -107,7 +107,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-5">
             <div>
               <h2 className="text-2xl font-bold text-gray-900">Bästa hemtesterna 2026</h2>
-              <p className="text-gray-500 text-sm mt-1">9 tester jämförda – senast uppdaterad mars 2026</p>
+              <p className="text-gray-500 text-sm mt-1">Alla 9 leverantörer jämförda – senast uppdaterad mars 2026</p>
             </div>
             <Link href="/basta-hemtest/" className="hidden sm:inline-flex items-center gap-1 text-teal-600 text-sm font-medium hover:underline">
               Se alla
