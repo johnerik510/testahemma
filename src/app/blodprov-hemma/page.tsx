@@ -89,7 +89,7 @@ export default function BlodprovHemmaPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
-      <main className="max-w-5xl mx-auto px-4 py-10">
+      <main className="max-w-5xl mx-auto px-4 py-6">
         <BreadcrumbNav
           items={[
             { name: "Hem", href: "/" },

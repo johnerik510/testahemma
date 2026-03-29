@@ -110,7 +110,7 @@ export default async function RecensionPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
 
-      <main className="max-w-5xl mx-auto px-4 py-10">
+      <main className="max-w-5xl mx-auto px-4 py-6">
         <BreadcrumbNav items={[
           { name: "Hem", href: "/" },
           { name: "Bästa hemtest", href: "/basta-hemtest/" },

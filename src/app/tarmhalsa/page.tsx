@@ -59,7 +59,7 @@ export default function TarmhalsaPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
-      <main className="max-w-5xl mx-auto px-4 py-10">
+      <main className="max-w-5xl mx-auto px-4 py-6">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Tarmhälsa & Mikrobiom", href: "/tarmhalsa/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Tarmhälsa & mikrobiomtest hemma 2026</h1>
         <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
