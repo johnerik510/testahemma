@@ -12,7 +12,8 @@ const guides = [
   "d-vitaminbrist-symtom", "vad-ar-hemtest", "hur-fungerar-hemtest",
   "sti-testa-hemma", "hormoner-och-halsa", "tolka-blodvarden",
   "kolesterol-varden", "tarmflora-halsa", "psa-test-prostata",
-  "allergitestning-guide",
+  "allergitestning-guide", "b12-brist-symtom", "sköldkörteltest-hemma",
+  "testosteron-test-hemma",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
