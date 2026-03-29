@@ -67,31 +67,32 @@ export default function HomePage() {
 
       <main>
         {/* Hero */}
-        <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-6 px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 bg-white/20 rounded-full px-4 py-1.5 text-sm font-medium mb-3">
-              <span className="w-2 h-2 bg-teal-300 rounded-full animate-pulse"></span>
+        <section className="bg-gradient-to-br from-teal-700 via-teal-600 to-cyan-600 text-white py-8 px-4 relative overflow-hidden">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.08)_0%,_transparent_60%)] pointer-events-none" aria-hidden="true" />
+          <div className="max-w-4xl mx-auto text-center relative">
+            <div className="inline-flex items-center gap-2 bg-white text-teal-700 rounded-full px-4 py-1.5 text-sm font-bold mb-4 shadow-sm">
+              <span className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></span>
               Sveriges oberoende hemtestguide 2026
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-2">
+            <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight mb-3 tracking-tight">
               Hitta rätt hemtest
-              <span className="block text-teal-200 mt-1">– direkt hem till dig</span>
+              <span className="block text-cyan-200 mt-1">– direkt hem till dig</span>
             </h1>
-            <p className="text-base text-teal-100 mb-4 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-teal-100 mb-5 max-w-2xl mx-auto leading-relaxed">
               Vi testar och jämför hemtester – blod, hormoner, STI, vitaminer och mer. Svar digitalt inom dagar.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/basta-hemtest/" className="bg-white text-teal-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-teal-50 transition-colors shadow-lg">
+              <Link href="/basta-hemtest/" className="bg-white text-teal-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-cyan-50 transition-colors shadow-lg">
                 Se bästa hemtesterna
               </Link>
-              <Link href="/guider/vad-ar-hemtest/" className="border-2 border-white/50 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/10 transition-colors">
+              <Link href="/guider/vad-ar-hemtest/" className="border-2 border-white/60 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/10 transition-colors">
                 Hur fungerar hemtest?
               </Link>
             </div>
-            <div className="flex flex-wrap justify-center gap-4 mt-4 text-xs text-teal-200">
+            <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 mt-5 text-xs text-teal-100 font-medium">
               {["Oberoende tester", "GDPR-säkert", "Ackrediterade laboratorier", "Från 299 kr"].map((t) => (
                 <span key={t} className="flex items-center gap-1.5">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-cyan-300" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   {t}
@@ -137,18 +138,31 @@ export default function HomePage() {
             <p className="text-gray-500 mt-2 text-sm">8 kategorier – hitta testet som passar dig</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {categories.map((cat) => (
-              <Link key={cat.slug} href={`/${cat.slug}/`}
-                className="group bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-teal-200 transition-all text-center">
-                <div className="w-10 h-10 bg-teal-50 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <svg className="w-5 h-5 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-gray-900 group-hover:text-teal-600 transition-colors text-sm">{cat.name}</h3>
-                <p className="text-xs text-gray-400 mt-1 leading-tight">{cat.description.slice(0, 50)}…</p>
-              </Link>
-            ))}
+            {categories.map((cat) => {
+              const colorMap: Record<string, { bg: string; icon: string; border: string; text: string; iconPath: string }> = {
+                red:    { bg: "bg-red-50",    icon: "text-red-500",    border: "hover:border-red-200",    text: "group-hover:text-red-600",    iconPath: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" },
+                purple: { bg: "bg-purple-50", icon: "text-purple-500", border: "hover:border-purple-200", text: "group-hover:text-purple-600", iconPath: "M13 10V3L4 14h7v7l9-11h-7z" },
+                teal:   { bg: "bg-teal-50",   icon: "text-teal-600",   border: "hover:border-teal-200",   text: "group-hover:text-teal-600",   iconPath: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+                yellow: { bg: "bg-amber-50",  icon: "text-amber-500",  border: "hover:border-amber-200",  text: "group-hover:text-amber-600",  iconPath: "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" },
+                green:  { bg: "bg-green-50",  icon: "text-green-600",  border: "hover:border-green-200",  text: "group-hover:text-green-600",  iconPath: "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" },
+                orange: { bg: "bg-orange-50", icon: "text-orange-500", border: "hover:border-orange-200", text: "group-hover:text-orange-600", iconPath: "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" },
+                blue:   { bg: "bg-blue-50",   icon: "text-blue-600",   border: "hover:border-blue-200",   text: "group-hover:text-blue-600",   iconPath: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" },
+                pink:   { bg: "bg-pink-50",   icon: "text-pink-500",   border: "hover:border-pink-200",   text: "group-hover:text-pink-600",   iconPath: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" },
+              };
+              const c = colorMap[cat.color] ?? colorMap["teal"];
+              return (
+                <Link key={cat.slug} href={`/${cat.slug}/`}
+                  className={`group bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md ${c.border} transition-all text-center`}>
+                  <div className={`w-10 h-10 ${c.bg} rounded-xl flex items-center justify-center mx-auto mb-3`}>
+                    <svg className={`w-5 h-5 ${c.icon}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={c.iconPath} />
+                    </svg>
+                  </div>
+                  <h3 className={`font-semibold text-gray-900 ${c.text} transition-colors text-sm`}>{cat.name}</h3>
+                  <p className="text-xs text-gray-400 mt-1 leading-tight">{cat.description.slice(0, 50)}…</p>
+                </Link>
+              );
+            })}
           </div>
         </section>
 

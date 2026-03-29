@@ -35,8 +35,8 @@ export default function AffiliateButton({
   };
 
   const variantClasses = {
-    primary: "bg-teal-600 text-white hover:bg-teal-700 shadow-md hover:shadow-lg",
-    secondary: "bg-orange-500 text-white hover:bg-orange-600 shadow-md hover:shadow-lg",
+    primary: "bg-gradient-to-r from-teal-600 to-teal-500 text-white hover:from-teal-700 hover:to-teal-600 shadow-md hover:shadow-lg active:scale-[0.98]",
+    secondary: "bg-gradient-to-r from-orange-500 to-orange-400 text-white hover:from-orange-600 hover:to-orange-500 shadow-md hover:shadow-lg active:scale-[0.98]",
     outline: "border-2 border-teal-600 text-teal-600 hover:bg-teal-50",
   };
 
