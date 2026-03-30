@@ -471,6 +471,34 @@ export default function JamforHemmatesterPage() {
               Bred hälsopanel mot djupgående hormonspecialist
             </div>
           </Link>
+          <Link
+            href="/werlabs-vs-verisana/"
+            className="group block bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-teal-200 transition-all"
+          >
+            <div className="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-1">
+              Direktjämforelse
+            </div>
+            <div className="font-bold text-gray-900 text-base group-hover:text-teal-600 transition-colors">
+              Werlabs vs Verisana 2026
+            </div>
+            <div className="text-sm text-gray-500 mt-1">
+              SWEDAC-blodvärden mot tyskt hormon- och mikrobiomspecialistlab
+            </div>
+          </Link>
+          <Link
+            href="/gettested-vs-testmottagningen/"
+            className="group block bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-teal-200 transition-all"
+          >
+            <div className="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-1">
+              Direktjämforelse
+            </div>
+            <div className="font-bold text-gray-900 text-base group-hover:text-teal-600 transition-colors">
+              GetTested vs Testmottagningen 2026
+            </div>
+            <div className="text-sm text-gray-500 mt-1">
+              Bäst STI-test hemma — pris, diskrethet och testutbud jämfört
+            </div>
+          </Link>
         </div>
 
         {/* FAQ */}
