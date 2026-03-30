@@ -32,7 +32,30 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+    <header className="sticky top-0 z-50 shadow-sm">
+      {/* USP-bar */}
+      <div className="bg-teal-700 text-white text-xs font-semibold py-2 px-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-center gap-4 sm:gap-8 flex-wrap">
+          <span className="flex items-center gap-1.5">
+            <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
+            30+ hemtester granskade
+          </span>
+          <span className="hidden sm:flex items-center gap-1.5">
+            <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
+            Oberoende &amp; ärliga tester
+          </span>
+          <span className="hidden md:flex items-center gap-1.5">
+            <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
+            Uppdaterat 2026
+          </span>
+          <span className="hidden md:flex items-center gap-1.5">
+            <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
+            Alltid gratis guide
+          </span>
+        </div>
+      </div>
+      {/* Vit navbar */}
+      <div className="bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -129,6 +152,7 @@ export default function Header() {
         </div>
       </div>
 
+      </div>
       {mobileOpen && (
         <nav className="md:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-1" aria-label="Mobilnavigering">
           <Link href="/basta-hemtest/" className="block px-3 py-2 rounded-lg text-gray-700 hover:bg-teal-50 font-medium" onClick={() => setMobileOpen(false)}>
