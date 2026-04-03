@@ -253,6 +253,11 @@ export default function WerlabsVsMediseraPage() {
         <div className="mt-10 pt-8 border-t border-gray-100">
           <h3 className="font-bold text-gray-700 mb-4">Fler jämförelser och guider</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Link href="/gettested-vs-werlabs/" className="group block bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-teal-200 transition-all">
+              <div className="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-1">Direktjämförelse</div>
+              <div className="font-bold text-gray-900 text-base group-hover:text-teal-600 transition-colors">GetTested vs Werlabs 2026</div>
+              <div className="text-sm text-gray-500 mt-1">Internationell bredd mot SWEDAC-kvalitet</div>
+            </Link>
             <Link href="/werlabs-vs-cerascreen/" className="group block bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-teal-200 transition-all">
               <div className="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-1">Direktjämförelse</div>
               <div className="font-bold text-gray-900 text-base group-hover:text-teal-600 transition-colors">Werlabs vs Cerascreen 2026</div>

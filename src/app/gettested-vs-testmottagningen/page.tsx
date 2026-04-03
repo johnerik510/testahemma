@@ -291,6 +291,7 @@ export default function GetTestedVsTestmottagningenPage() {
             <li><Link href="/recension/testmottagningen/" className="text-blue-700 hover:underline">Testmottagningen recension 2026 — fullständig genomgång</Link></li>
             <li><Link href="/sti-tester/" className="text-blue-700 hover:underline">Bästa STI-tester 2026 — diskret hemmatest</Link></li>
             <li><Link href="/jamfor-hemmatester/" className="text-blue-700 hover:underline">Jämför alla hemmatestleverantörer 2026</Link></li>
+            <li><Link href="/gettested-vs-werlabs/" className="text-blue-700 hover:underline">GetTested vs Werlabs 2026 — internationell bredd mot SWEDAC-kvalitet</Link></li>
             <li><Link href="/basta-hemtest/" className="text-blue-700 hover:underline">Bästa hemtest 2026 — topplista</Link></li>
           </ul>
         </div>

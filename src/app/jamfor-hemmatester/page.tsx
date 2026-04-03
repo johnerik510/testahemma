@@ -499,6 +499,20 @@ export default function JamforHemmatesterPage() {
               Bäst STI-test hemma — pris, diskrethet och testutbud jämfört
             </div>
           </Link>
+          <Link
+            href="/gettested-vs-werlabs/"
+            className="group block bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-teal-200 transition-all"
+          >
+            <div className="text-xs font-semibold text-teal-600 uppercase tracking-wider mb-1">
+              Direktjämförelse
+            </div>
+            <div className="font-bold text-gray-900 text-base group-hover:text-teal-600 transition-colors">
+              GetTested vs Werlabs 2026
+            </div>
+            <div className="text-sm text-gray-500 mt-1">
+              Internationell bredd mot svensk SWEDAC-kvalitet
+            </div>
+          </Link>
         </div>
 
         {/* FAQ */}
