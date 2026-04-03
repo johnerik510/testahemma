@@ -33,7 +33,7 @@ export default function StickyCTA({ product, price, url, text = 'Best\u00e4ll nu
         </div>
         <a
           href={url}
-          rel="noopener sponsored"
+          rel="noopener noreferrer sponsored"
           target="_blank"
           className="flex-shrink-0 bg-teal-600 hover:bg-teal-700 text-white font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors"
         >

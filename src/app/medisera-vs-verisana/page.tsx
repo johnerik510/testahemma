@@ -114,7 +114,7 @@ export default function MediseraVsVerisanaPage() {
             </p>
             <a
               href="https://www.medisera.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >
@@ -129,7 +129,7 @@ export default function MediseraVsVerisanaPage() {
             </p>
             <a
               href="https://www.verisana.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block bg-violet-700 hover:bg-violet-800 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >

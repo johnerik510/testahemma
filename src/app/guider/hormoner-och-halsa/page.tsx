@@ -148,7 +148,7 @@ export default function HormonerPage() {
 
           <h3>Kronisk stress och kortisoldysreglering</h3>
           <p>
-            Långvarig stress leder inte nödvändigtvis till permanent högt kortisol – mönstret kan se ut på många sätt: högt morgonkortisol, plattat dygnskurva eller till och med lågt kortisol (adrenal utmattning vid extremt kronisk stress). Symptom inkluderar sömnproblem, bukfetma, trötthet vid uppvaknat, sötsug och nedsatt stresstolerans. Regelbunden fysisk aktivitet och <a href="https://strandgatantjugo.se" target="_blank" rel="noopener">medvetna avslappningstekniker</a> kan hjälpa till att återställa en frisk kortisolrytm.
+            Långvarig stress leder inte nödvändigtvis till permanent högt kortisol – mönstret kan se ut på många sätt: högt morgonkortisol, plattat dygnskurva eller till och med lågt kortisol (adrenal utmattning vid extremt kronisk stress). Symptom inkluderar sömnproblem, bukfetma, trötthet vid uppvaknat, sötsug och nedsatt stresstolerans. Regelbunden fysisk aktivitet och <a href="https://strandgatantjugo.se" target="_blank" rel="noopener noreferrer">medvetna avslappningstekniker</a> kan hjälpa till att återställa en frisk kortisolrytm.
           </p>
 
           <h2>DHEA-S – binjurens vitalitetsmarkör</h2>

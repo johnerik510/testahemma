@@ -114,7 +114,7 @@ export default function GetTestedVsTestmottagningenPage() {
             </p>
             <a
               href="https://www.gettested.com/se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block bg-rose-700 hover:bg-rose-800 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >
@@ -129,7 +129,7 @@ export default function GetTestedVsTestmottagningenPage() {
             </p>
             <a
               href="https://testmottagningen.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >
@@ -252,7 +252,7 @@ export default function GetTestedVsTestmottagningenPage() {
             </ul>
             <a
               href="https://www.gettested.com/se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block mt-4 bg-rose-700 hover:bg-rose-800 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >
@@ -270,7 +270,7 @@ export default function GetTestedVsTestmottagningenPage() {
             </ul>
             <a
               href="https://testmottagningen.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block mt-4 bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >

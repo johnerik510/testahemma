@@ -130,7 +130,7 @@ export default function TarmfloraPage() {
             <li><strong>Fermenterade livsmedel</strong> – yoghurt (levande kulturer), kefir, surkål, kimchi, miso och kombucha tillför levande bakterier direkt till tarmen.</li>
             <li><strong>Polyfenolrika livsmedel</strong> – bär, mörkt choklad, olivolja extra virgin och kaffe fungerar som selektiva prebiotika och gynnar nyttiga stammar.</li>
             <li><strong>Undvik ultraprocessad mat</strong> – tillsatser som emulgatorer (karboximetylcellulosa, polysorbat 80) har visats skada tarmbarriären och minska diversiteten i djurstudier.</li>
-            <li><strong>Rörelse</strong> – regelbunden motion ökar bakteriediversiteten och höjer nivåerna av butyratproducerande bakterier, oavsett kost. Även enklare <a href="https://strandgatantjugo.se" target="_blank" rel="noopener">hemmaträning och vardagsrörelse</a> ger mätbar effekt på mikrobiomet.</li>
+            <li><strong>Rörelse</strong> – regelbunden motion ökar bakteriediversiteten och höjer nivåerna av butyratproducerande bakterier, oavsett kost. Även enklare <a href="https://strandgatantjugo.se" target="_blank" rel="noopener noreferrer">hemmaträning och vardagsrörelse</a> ger mätbar effekt på mikrobiomet.</li>
           </ul>
 
           <h2>Tarmfloraanalys hemma – vad ett test visar</h2>

@@ -83,7 +83,7 @@ export default function CancermarkPage() {
         </h1>
         <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
-          Proaktiv hälsokontroll med cancermarkörer – PSA, CA-125, CEA och AFP – utan remiss och utan kö. Cancer är en av Sveriges vanligaste <a href="https://folksjukdomar.se" target="_blank" rel="noopener">folksjukdomar</a>, och tidig upptäckt kan vara avgörande. Hemtester mäter blodnivåer som kan indikera ökad risk och motivera vidare utredning.
+          Proaktiv hälsokontroll med cancermarkörer – PSA, CA-125, CEA och AFP – utan remiss och utan kö. Cancer är en av Sveriges vanligaste <a href="https://folksjukdomar.se" target="_blank" rel="noopener noreferrer">folksjukdomar</a>, och tidig upptäckt kan vara avgörande. Hemtester mäter blodnivåer som kan indikera ökad risk och motivera vidare utredning.
         </p>
 
         <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 text-sm text-red-800 my-4 flex items-start gap-3">

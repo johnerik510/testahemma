@@ -114,7 +114,7 @@ export default function WerlabsVsVerisanaPage() {
             </p>
             <a
               href="https://werlabs.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >
@@ -129,7 +129,7 @@ export default function WerlabsVsVerisanaPage() {
             </p>
             <a
               href="https://www.verisana.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >
@@ -262,7 +262,7 @@ export default function WerlabsVsVerisanaPage() {
             </ul>
             <a
               href="https://werlabs.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block mt-4 bg-blue-700 hover:bg-blue-800 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >
@@ -280,7 +280,7 @@ export default function WerlabsVsVerisanaPage() {
             </ul>
             <a
               href="https://www.verisana.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="inline-block mt-4 bg-amber-600 hover:bg-amber-700 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-colors w-full text-center"
             >

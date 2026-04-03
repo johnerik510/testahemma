@@ -77,7 +77,7 @@ export default function KolesterolVardenPage() {
         <MedicalDisclaimer />
         <div className="prose-guide">
           <p>
-            Högt kolesterol är tyst – det ger inga symtom men ökar risken för hjärtinfarkt och stroke dramatiskt. Hjärt-kärlsjukdom är fortfarande den vanligaste dödsorsaken i Sverige och en av de mest utbredda <a href="https://folksjukdomar.se" target="_blank" rel="noopener">folksjukdomarna</a> – och högt LDL-kolesterol är en av de mest påverkbara riskfaktorerna. Det enda sättet att veta var du står är ett blodprov.
+            Högt kolesterol är tyst – det ger inga symtom men ökar risken för hjärtinfarkt och stroke dramatiskt. Hjärt-kärlsjukdom är fortfarande den vanligaste dödsorsaken i Sverige och en av de mest utbredda <a href="https://folksjukdomar.se" target="_blank" rel="noopener noreferrer">folksjukdomarna</a> – och högt LDL-kolesterol är en av de mest påverkbara riskfaktorerna. Det enda sättet att veta var du står är ett blodprov.
           </p>
           <p>
             Den här guiden förklarar vad kolesterolvärdena betyder, vilka nivåer som är normala respektive farliga, och vad du kan göra för att påverka dina värden.

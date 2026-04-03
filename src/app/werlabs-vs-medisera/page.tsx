@@ -130,7 +130,7 @@ export default function WerlabsVsMediseraPage() {
             </p>
             <a
               href="https://werlabs.se"
-              rel="noopener sponsored"
+              rel="noopener noreferrer sponsored"
               target="_blank"
               className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-4 rounded-lg text-sm transition-colors"
             >
