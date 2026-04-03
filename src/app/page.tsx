@@ -119,7 +119,7 @@ export default function HomePage() {
           </div>
           <div className="space-y-5">
             {topProducts.map((product, i) => (
-              <ProductCard key={product.slug} product={product} position="homepage-featured" rank={i + 1} />
+              <ProductCard key={product.slug} product={product} position="homepage-featured" />
             ))}
           </div>
           <div className="text-center mt-6">
