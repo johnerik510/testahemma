@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -67,37 +68,37 @@ export default function HomePage() {
 
       <main>
         {/* Hero */}
-        <section className="bg-gradient-to-br from-teal-700 via-teal-600 to-cyan-600 text-white py-8 px-4 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.08)_0%,_transparent_60%)] pointer-events-none" aria-hidden="true" />
-          <div className="max-w-4xl mx-auto text-center relative">
-            <div className="inline-flex items-center gap-2 bg-white text-teal-700 rounded-full px-4 py-1.5 text-sm font-bold mb-4 shadow-sm">
-              <span className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></span>
-              Sveriges oberoende hemtestguide 2026
-            </div>
-            <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight mb-3 tracking-tight">
-              Hitta rätt hemtest
-              <span className="block text-cyan-200 mt-1">– direkt hem till dig</span>
-            </h1>
-            <p className="text-base sm:text-lg text-teal-100 mb-5 max-w-2xl mx-auto leading-relaxed">
-              Vi testar och jämför hemtester – blod, hormoner, STI, vitaminer och mer. Svar digitalt inom dagar.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/basta-hemtest/" className="bg-white text-teal-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-cyan-50 transition-colors shadow-lg">
-                Se bästa hemtesterna
-              </Link>
-              <Link href="/guider/vad-ar-hemtest/" className="border-2 border-white/60 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/10 transition-colors">
-                Hur fungerar hemtest?
-              </Link>
-            </div>
-            <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 mt-5 text-xs text-teal-100 font-medium">
-              {["Oberoende tester", "GDPR-säkert", "Ackrediterade laboratorier", "Från 299 kr"].map((t) => (
-                <span key={t} className="flex items-center gap-1.5">
-                  <svg className="w-4 h-4 text-cyan-300" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  {t}
-                </span>
-              ))}
+        <section className="text-white relative overflow-hidden min-h-[420px] sm:min-h-[480px] md:min-h-[540px] flex flex-col justify-center">
+          <Image
+            src="/images/hero-testahemma.webp"
+            alt="Kvinna som tar ett blodprov hemma med ett hemtestningskit"
+            fill
+            className="object-cover -z-10"
+            priority
+            fetchPriority="high"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-teal-900/80 to-teal-700/50 -z-10" aria-hidden="true" />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 relative w-full">
+            <div className="max-w-xl">
+              <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-3 py-1 text-xs font-semibold text-white/80 uppercase tracking-wide mb-4">
+                <span className="w-1.5 h-1.5 bg-teal-300 rounded-full"></span>
+                Oberoende guide 2026
+              </div>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-4">
+                Hitta rätt hemtest
+                <span className="block text-teal-200 mt-1">– direkt hem till dig</span>
+              </h1>
+              <p className="text-lg sm:text-xl text-white/80 mb-8 leading-relaxed">
+                Vi testar och jämför hemtester – blod, hormoner, STI, vitaminer och mer. Svar digitalt inom dagar.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Link href="/basta-hemtest/" className="inline-flex items-center justify-center bg-teal-400 hover:bg-teal-300 text-teal-900 font-bold py-3.5 px-8 rounded-xl transition-colors text-lg shadow-lg">
+                  Se bästa hemtesterna
+                </Link>
+                <Link href="/guider/vad-ar-hemtest/" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold py-3.5 px-8 rounded-xl transition-colors text-lg border border-white/20">
+                  Hur fungerar hemtest?
+                </Link>
+              </div>
             </div>
           </div>
         </section>
