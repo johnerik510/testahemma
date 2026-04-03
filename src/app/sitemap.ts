@@ -16,6 +16,7 @@ const guides = [
   "testosteron-test-hemma", "jarnbrist-symtom", "klamydia-test-hemma",
   "ferritin-normalt-varde", "menopaus-blodprov", "insulinresistens-test", "allergitest-hemma",
   "kortisol-test-hemma",
+  "hba1c-test-hemma",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
