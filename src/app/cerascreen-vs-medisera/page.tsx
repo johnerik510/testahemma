@@ -9,7 +9,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "Cerascreen vs Medisera 2026 — vitamintester och priser jämförda",
+  title: "Cerascreen vs Medisera 2026 — vilket hemtest vinner?",
   description:
     "Vi jämför Cerascreen och Medisera sida vid sida. Vitamintester, allergi, pris och svarstid — vilket hemtest är bäst för vitaminer och hormoner 2026?",
   alternates: { canonical: "https://www.testahemma.se/cerascreen-vs-medisera/" },

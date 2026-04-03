@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Fertilitetstest Hemma 2026 – AMH, FSH och Hormonpanel (Guide)",
+  title: "Fertilitetstest Hemma 2026 – AMH, FSH och Hormonpanel",
   description: "Komplett guide till fertilitetstest hemma 2026. Lär dig vad AMH, FSH och äggstocksreserv innebär, hur du tolkar svaren och vilket test du ska välja.",
   alternates: { canonical: "https://www.testahemma.se/guider/fertilitet-test-hemma/" },
   openGraph: {
-    title: "Fertilitetstest Hemma 2026 – AMH, FSH och Hormonpanel (Guide)",
+    title: "Fertilitetstest Hemma 2026 – AMH, FSH och Hormonpanel",
     description: "Komplett guide till fertilitetstest hemma 2026. Lär dig vad AMH, FSH och äggstocksreserv innebär, hur du tolkar svaren och vilket test du ska välja.",
     url: "https://www.testahemma.se/guider/fertilitet-test-hemma/",
   },

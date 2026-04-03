@@ -9,7 +9,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "Medisera vs Verisana 2026 — vilket hemtest är bäst för hormoner?",
+  title: "Medisera vs Verisana 2026 — vilket hemtest vinner?",
   description:
     "Vi jämför Medisera och Verisana 2026. Medisera bred panel med snabb svarstid. Verisana specialiserat på hormoner och livsstilstester. Vilket passar dig?",
   alternates: { canonical: "https://www.testahemma.se/medisera-vs-verisana/" },
