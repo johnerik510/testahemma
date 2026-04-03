@@ -249,7 +249,6 @@ export default function CeraScreenVsVerisanaPage() {
 
       <StickyCTA
         product="Cerascreen"
-        store="Cerascreen"
         price="från 299 kr"
         url="https://www.cerascreen.se"
       />
