@@ -105,9 +105,9 @@ export default function GetTestedVsMedisera() {
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
         <BreadcrumbNav
           items={[
-            { label: "Hem", href: "/" },
-            { label: "Jämför hemtester", href: "/jamfor-hemmatester/" },
-            { label: "GetTested vs Medisera" },
+            { name: "Hem", href: "/" },
+            { name: "Jämför hemtester", href: "/jamfor-hemmatester/" },
+            { name: "GetTested vs Medisera", href: "" },
           ]}
         />
 
@@ -216,7 +216,7 @@ export default function GetTestedVsMedisera() {
           </div>
         </section>
 
-        <FaqAccordion faqs={faqs} />
+        <FaqAccordion items={faqs} />
 
         {/* Related */}
         <section className="mt-10 pt-8 border-t border-gray-100">
@@ -247,7 +247,7 @@ export default function GetTestedVsMedisera() {
       </main>
 
       <StickyCTA
-        provider="GetTested"
+        product="GetTested"
         price="Från 299 kr"
         url="https://www.gettested.com/sv"
         text="Se tester hos GetTested"

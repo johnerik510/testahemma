@@ -309,7 +309,7 @@ export default function WerlabsVsCerascreenPage() {
 
         {/* FAQ */}
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Vanliga frågor</h2>
-        <FaqAccordion faqs={faqs} />
+        <FaqAccordion items={faqs} />
 
         {/* Related links */}
         <div className="mt-10 p-5 bg-gray-50 rounded-xl border border-gray-200">

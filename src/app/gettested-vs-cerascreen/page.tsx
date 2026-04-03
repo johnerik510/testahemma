@@ -280,7 +280,7 @@ export default function GetTestedVsCeraScreenPage() {
         </div>
       </main>
 
-      <StickyCTA provider="GetTested" price="Från 299 kr" href="https://se.gettested.com" />
+      <StickyCTA product="GetTested" price="Från 299 kr" url="https://se.gettested.com" />
       <Footer />
     </>
   );

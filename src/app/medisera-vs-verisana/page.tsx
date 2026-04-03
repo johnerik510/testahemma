@@ -245,7 +245,7 @@ export default function MediseraVsVerisanaPage() {
           </div>
         </div>
 
-        <FaqAccordion faqs={faqs} />
+        <FaqAccordion items={faqs} />
 
         {/* Related */}
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mt-8">
