@@ -23,30 +23,34 @@ export default function ProductCard({ product, position = "list", rank }: Produc
 
   return (
     <div className="bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow p-4 sm:p-6">
-      <div className="flex items-start gap-3 sm:gap-4">
-        {rank && (
-          <div className="shrink-0 w-7 h-7 sm:w-8 sm:h-8 bg-teal-600 text-white rounded-full flex items-center justify-center text-xs sm:text-sm font-bold">
-            {rank}
-          </div>
-        )}
-        <div className="shrink-0">
-          <div className="w-28 h-28 sm:w-32 sm:h-32 bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center">
+      <div className="flex flex-col sm:flex-row sm:items-start gap-4">
+
+        {/* Image + rank: horizontal on mobile (small logo), stacked on desktop */}
+        <div className="flex items-start gap-3 sm:block">
+          {rank && (
+            <div className="shrink-0 w-7 h-7 bg-teal-600 text-white rounded-full flex items-center justify-center text-xs font-bold sm:mb-2 sm:w-8 sm:h-8 sm:text-sm">
+              {rank}
+            </div>
+          )}
+          <div className="w-20 h-20 sm:w-28 sm:h-28 bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center shrink-0">
             <Image
               src={product.logoUrl}
               alt={`${product.name} logotyp`}
-              width={128}
-              height={128}
+              width={112}
+              height={112}
               className="object-contain w-full h-full p-2"
             />
           </div>
         </div>
+
+        {/* Content */}
         <div className="flex-1 min-w-0">
           <div className="flex items-start justify-between gap-2">
             <Link href={`/recension/${product.slug}/`} className="text-base sm:text-lg font-bold text-gray-900 hover:text-teal-600 transition-colors leading-tight">
               {product.name}
             </Link>
             <div className="text-right shrink-0 ml-2">
-              <div className="text-lg sm:text-xl font-bold text-gray-900 whitespace-nowrap">{product.priceFrom} kr</div>
+              <div className="text-lg sm:text-xl font-bold text-gray-900 whitespace-nowrap">{product.priceFrom}</div>
               <div className="text-xs text-gray-400">från</div>
             </div>
           </div>
@@ -67,7 +71,7 @@ export default function ProductCard({ product, position = "list", rank }: Produc
               ))}
             </div>
             <span className="text-xs sm:text-sm font-semibold text-gray-700">{product.rating.toFixed(1)}/10</span>
-            <span className="hidden sm:inline text-xs text-gray-400">&bull; {product.turnaround}</span>
+            <span className="text-xs text-gray-400">&bull; {product.turnaround}</span>
           </div>
 
           {/* Top features */}
