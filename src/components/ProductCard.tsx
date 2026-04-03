@@ -46,8 +46,8 @@ export default function ProductCard({ product, position = "list", rank }: Produc
                 {product.name}
               </Link>
               <div className="text-right shrink-0">
-                <div className="text-base font-bold text-gray-900 whitespace-nowrap">{product.priceFrom}</div>
                 <div className="text-xs text-gray-400">från</div>
+                <div className="text-base font-bold text-gray-900 whitespace-nowrap">{product.priceFrom}</div>
               </div>
             </div>
             <p className="text-xs text-gray-500 mt-0.5">{product.shortDescription}</p>
@@ -62,8 +62,8 @@ export default function ProductCard({ product, position = "list", rank }: Produc
               {product.name}
             </Link>
             <div className="text-right shrink-0 ml-2">
-              <div className="text-xl font-bold text-gray-900 whitespace-nowrap">{product.priceFrom}</div>
               <div className="text-xs text-gray-400">från</div>
+              <div className="text-xl font-bold text-gray-900 whitespace-nowrap">{product.priceFrom}</div>
             </div>
           </div>
           <p className="text-xs sm:text-sm text-gray-500 mt-0.5">{product.shortDescription}</p>
