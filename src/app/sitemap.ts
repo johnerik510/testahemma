@@ -15,6 +15,7 @@ const guides = [
   "allergitestning-guide", "b12-brist-symtom", "sköldkörteltest-hemma",
   "testosteron-test-hemma", "jarnbrist-symtom", "klamydia-test-hemma",
   "ferritin-normalt-varde", "menopaus-blodprov", "insulinresistens-test", "allergitest-hemma",
+  "kortisol-test-hemma",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
