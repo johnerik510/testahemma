@@ -14,6 +14,7 @@ const guides = [
   "kolesterol-varden", "tarmflora-halsa", "psa-test-prostata",
   "allergitestning-guide", "b12-brist-symtom", "sköldkörteltest-hemma",
   "testosteron-test-hemma", "jarnbrist-symtom", "klamydia-test-hemma",
+  "ferritin-normalt-varde", "menopaus-blodprov", "insulinresistens-test",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -116,7 +116,7 @@ export default function KlamydiaTestHemmaPage() {
 
           <h2>Klamydiatest hemma vs pa mottagning</h2>
           <p>Bada alternativen ger tillförlitliga svar – valet handlar om bekvämlighet och situation:</p>
-          <div className="overflow-x-auto my-4">
+          <div className="my-4">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-gray-100">

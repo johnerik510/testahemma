@@ -97,7 +97,7 @@ export default function KolesterolVardenPage() {
           </p>
         </div>
 
-        <div className="overflow-x-auto rounded-xl border border-gray-100 shadow-sm my-6">
+        <div className="rounded-xl border border-gray-100 shadow-sm my-6">
           <table className="w-full text-sm">
             <thead className="bg-gray-50">
               <tr>

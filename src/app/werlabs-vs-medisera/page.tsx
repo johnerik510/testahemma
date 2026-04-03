@@ -156,7 +156,7 @@ export default function WerlabsVsMediseraPage() {
 
         {/* Comparison table */}
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Jämförelsetabell — Werlabs vs Medisera</h2>
-        <div className="overflow-x-auto mb-10">
+        <div className="mb-10">
           <table className="w-full border border-gray-200 rounded-xl overflow-hidden text-sm">
             <thead>
               <tr className="bg-gray-50 border-b border-gray-200">

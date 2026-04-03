@@ -163,7 +163,7 @@ export default function GetTestedVsMedisera() {
         {/* Comparison table */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-gray-900 mb-5">Jämförelsetabell</h2>
-          <div className="overflow-x-auto">
+          <div className="">
             <table className="w-full border border-gray-200 rounded-xl overflow-hidden text-sm">
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-200">

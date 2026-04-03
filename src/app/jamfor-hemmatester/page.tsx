@@ -234,7 +234,7 @@ export default function JamforHemmatesterPage() {
         </h2>
 
         {/* Desktop table */}
-        <div className="hidden md:block overflow-x-auto rounded-xl border border-gray-100 shadow-sm mb-10">
+        <div className="hidden md:block rounded-xl border border-gray-100 shadow-sm mb-10">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-gray-50 border-b border-gray-100">

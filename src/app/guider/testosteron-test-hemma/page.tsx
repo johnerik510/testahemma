@@ -81,7 +81,7 @@ export default function TestosteronTestHemmaPage() {
 
           <h2>Normalt testosteronvärde – vad säger referensvärdena?</h2>
           <p>Testosteron mäts i blodprov som totalt testosteron och anges i nmol/L. Referensintervallet varierar något mellan laboratorier, men följande gäller som generell riktlinje för vuxna män:</p>
-          <div className="overflow-x-auto my-4">
+          <div className="my-4">
             <table className="min-w-full text-sm border border-gray-200 rounded-lg">
               <thead className="bg-gray-50">
                 <tr>

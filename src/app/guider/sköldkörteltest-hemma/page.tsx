@@ -109,7 +109,7 @@ export default function SkoldkortelTestHemmaPage() {
 
           <h2>Referensvärden för sköldkörtelhormon</h2>
           <p>Nedan visas de referensvärden som används av svenska laboratorier, tillsammans med tolkningsguide:</p>
-          <div className="overflow-x-auto my-4">
+          <div className="my-4">
             <table className="w-full text-sm border-collapse not-prose">
               <thead>
                 <tr className="bg-gray-100">

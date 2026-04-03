@@ -136,7 +136,7 @@ export default function CeraScreenVsVerisanaPage() {
 
         {/* Comparison table */}
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Jämförelsetabell</h2>
-        <div className="overflow-x-auto mb-8">
+        <div className="mb-8">
           <table className="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
             <thead>
               <tr className="bg-gray-50">

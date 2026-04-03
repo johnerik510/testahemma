@@ -146,7 +146,7 @@ export default function KolesteroltesterPage() {
           <p className="text-gray-600 mb-4 leading-relaxed">
             Nedanstående riktvärden gäller friska vuxna utan känd hjärt-kärlsjukdom. Vid konstaterad sjukdom eller hög risk är målvärdena striktare – rådfråga din läkare.
           </p>
-          <div className="overflow-x-auto rounded-lg border border-gray-200">
+          <div className="rounded-lg border border-gray-200">
             <table className="w-full text-sm text-left">
               <thead className="bg-gray-50 text-gray-700 font-semibold">
                 <tr>

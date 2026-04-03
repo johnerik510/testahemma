@@ -140,7 +140,7 @@ export default function WerlabsVsVerisanaPage() {
 
         {/* Comparison table */}
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Jämförelsetabell</h2>
-        <div className="overflow-x-auto rounded-xl border border-gray-200 mb-10">
+        <div className="rounded-xl border border-gray-200 mb-10">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-gray-50">

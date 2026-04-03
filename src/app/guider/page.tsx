@@ -31,6 +31,9 @@ const guides = [
   { slug: "jarnbrist-symtom", title: "Järnbrist: Symtom, orsaker och test hemma", cat: "Blodtester", desc: "Järnbrist drabbar var tredje fertil kvinna i Sverige. Lär dig symtomen, referensvärdena och hur du testar ferritin hemma." },
   { slug: "allergitestning-guide", title: "Allergitestning hemma – mat, pollen och djur", cat: "Allergi", desc: "Hur fungerar hemallergitester? Vad kan testas och hur tillförlitliga är resultaten?" },
   { slug: "klamydia-test-hemma", title: "Klamydia test hemma – diskret, snabbt och enkelt", cat: "STI", desc: "Klamydia är Sveriges vanligaste könssjukdom. Testa hemma diskret utan läkarbesök. Guide till symtom, provtagning och vad ett positivt svar innebär." },
+  { slug: "ferritin-normalt-varde", title: "Ferritin normalt värde – referenstabell och tolkning", cat: "Blodtester", desc: "Vad är normalt ferritinvärde? Referenstabell för kvinnor, män och barn. Vad lågt ferritin betyder och hur du testar järndepåerna hemma." },
+  { slug: "menopaus-blodprov", title: "Menopaus blodprov hemma – vilka hormontest ska du ta?", cat: "Hormoner", desc: "Vilka blodprov bör du ta vid menopaus? Guide till FSH, LH, östradiol och TSH – och hur du testar hormonnivåerna hemma utan remiss." },
+  { slug: "insulinresistens-test", title: "Insulinresistens test hemma – symtom och blodprov", cat: "Blodtester", desc: "Hur testar du insulinresistens? Vilka blodprov bekräftar diagnosen? Se referensvärden för HbA1c, fasteglukos och HOMA-IR." },
 ];
 
 export default function GuiderPage() {
