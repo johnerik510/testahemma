@@ -17,6 +17,7 @@ const guides = [
   "ferritin-normalt-varde", "menopaus-blodprov", "insulinresistens-test", "allergitest-hemma",
   "kortisol-test-hemma",
   "hba1c-test-hemma",
+  "ostrogen-test-hemma",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
