@@ -87,7 +87,7 @@ export default function KolesteroltesterPage() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           Kolesteroltest hemma 2026
         </h1>
-        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad april 2026</p>
         <p className="text-lg text-gray-600 mb-6 leading-relaxed">
           Högt kolesterol är tyst – inga symtom, men stor risk för hjärt-kärlsjukdom. Med ett hemtest kan du mäta LDL, HDL och triglycerider enkelt hemma och agera tidigt.
         </p>

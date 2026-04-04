@@ -99,7 +99,7 @@ export default function HurFungerarPage() {
           ]}
         />
         <div className="text-xs text-gray-400 mb-2">
-          Granskad av Anna Lindström, biomedicinsk analytiker &bull; Uppdaterad mars 2026
+          Granskad av Anna Lindström, biomedicinsk analytiker &bull; Uppdaterad april 2026
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           Hur fungerar hemtest? Steg för steg

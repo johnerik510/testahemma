@@ -16,7 +16,7 @@ export default function IntegritetspolicyPage() {
       <main className="max-w-3xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Integritetspolicy", href: "/integritetspolicy/" }]} />
         <h1 className="text-3xl font-bold text-gray-900 mb-6">Integritetspolicy</h1>
-        <p className="text-sm text-gray-400 mb-6">Senast uppdaterad: mars 2026</p>
+        <p className="text-sm text-gray-400 mb-6">Senast uppdaterad: april 2026</p>
         <div className="prose-guide">
           <h2>Personuppgiftsansvarig</h2>
           <p>Testahemma.se är personuppgiftsansvarig för behandlingen av personuppgifter på denna webbplats. Vi behandlar personuppgifter i enlighet med EU:s dataskyddsförordning (GDPR). Kontakt: <a href="mailto:vpniskguiden@proton.me" className="text-teal-600 hover:underline">vpniskguiden@proton.me</a></p>

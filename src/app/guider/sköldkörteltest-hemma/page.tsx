@@ -58,7 +58,7 @@ export default function SkoldkortelTestHemmaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <main className="max-w-3xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Guider", href: "/guider/" }, { name: "Sköldkörteltest hemma", href: "/guider/sköldkörteltest-hemma/" }]} />
-        <div className="text-xs text-gray-400 mb-2">Granskad av Anna Lindström, biomedicinsk analytiker &bull; Uppdaterad mars 2026</div>
+        <div className="text-xs text-gray-400 mb-2">Granskad av Anna Lindström, biomedicinsk analytiker &bull; Uppdaterad april 2026</div>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Sköldkörteltest hemma: TSH, T4 och vad värdena betyder</h1>
         <MedicalDisclaimer />
         <div className="prose-guide">

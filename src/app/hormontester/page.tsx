@@ -61,7 +61,7 @@ export default function HormontesterPage() {
       <main className="max-w-5xl mx-auto px-4 py-6">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Hormontester", href: "/hormontester/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Hormontester hemma 2026</h1>
-        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad april 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Hormonella obalanser kan orsaka trötthet, viktuppgång och humörsvängningar. Med ett hemhormonstest kan du enkelt kartlägga dina nivåer utan läkarremiss.
         </p>

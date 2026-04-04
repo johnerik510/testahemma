@@ -93,7 +93,7 @@ export default function AllergitesterPage() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
           Allergitester &amp; intolerenstester hemma 2026
         </h1>
-        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
+        <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad april 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Ta reda på exakt vad du reagerar på – mat, pollen, djur eller mögel – med ett enkelt blodprov hemma. Upp till 295 allergiämnen i ett test.
         </p>

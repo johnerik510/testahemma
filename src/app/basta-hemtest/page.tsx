@@ -63,7 +63,7 @@ export default function BastaHemtestPage() {
       <main className="max-w-5xl mx-auto px-4 py-6">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Bästa hemtest", href: "/basta-hemtest/" }]} />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Bästa hemtester April 2026 – komplett jämförelse</h1>
-        <p className="text-sm text-gray-500 mb-2">{sorted.length} tester jämförda – senast uppdaterad mars 2026</p>
+        <p className="text-sm text-gray-500 mb-2">{sorted.length} tester jämförda – senast uppdaterad april 2026</p>
         <AffiliateDisclaimer />
 
         <h2 className="text-2xl font-bold text-gray-900 mt-3 mb-2">Snabbvy – alla hemtester</h2>

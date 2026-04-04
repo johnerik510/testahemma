@@ -110,7 +110,7 @@ export default function WerlabsVsMediseraPage() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
           Werlabs vs Medisera April 2026 — vilket hemtest passar dig bäst?
         </h1>
-        <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: mars 2026</p>
+        <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: april 2026</p>
         <AffiliateDisclaimer />
         <MedicalDisclaimer />
 

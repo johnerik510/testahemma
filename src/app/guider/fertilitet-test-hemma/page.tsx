@@ -73,7 +73,7 @@ export default function FertilitetTestHemmaGuidePage() {
           ]}
         />
         <p className="text-sm text-gray-500 mb-2">
-          Granskad av Anna Lindström, leg. biomedicinsk analytiker &bull; Uppdaterad mars 2026
+          Granskad av Anna Lindström, leg. biomedicinsk analytiker &bull; Uppdaterad april 2026
         </p>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
           Fertilitetstest hemma – komplett guide till AMH, FSH och hormonpanel

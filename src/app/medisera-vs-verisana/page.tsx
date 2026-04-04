@@ -96,7 +96,7 @@ export default function MediseraVsVerisanaPage() {
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
           Medisera vs Verisana April 2026 — bred panel eller hormonspecialist?
         </h1>
-        <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: mars 2026</p>
+        <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: april 2026</p>
         <AffiliateDisclaimer />
         <MedicalDisclaimer />
 

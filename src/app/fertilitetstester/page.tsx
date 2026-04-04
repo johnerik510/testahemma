@@ -110,7 +110,7 @@ export default function FertilitetstesterPage() {
           Fertilitetstester hemma April 2026 – jämförelse av AMH, FSH och hormonpaneler
         </h1>
         <p className="text-sm text-gray-500 mb-3">
-          {products.length} tester jämförda – senast uppdaterad mars 2026
+          {products.length} tester jämförda – senast uppdaterad april 2026
         </p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Fertilitetstester hemma gör det möjligt att mäta centrala hormoner kopplade till fortplantning –

@@ -44,7 +44,7 @@ export default function StiGuide() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <main className="max-w-3xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Guider", href: "/guider/" }, { name: "STI-testning hemma", href: "/guider/sti-testa-hemma/" }]} />
-        <div className="text-xs text-gray-400 mb-2">Granskad av Erik Svensson, legitimerad läkare &bull; Uppdaterad mars 2026</div>
+        <div className="text-xs text-gray-400 mb-2">Granskad av Erik Svensson, legitimerad läkare &bull; Uppdaterad april 2026</div>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">STI-testning hemma – diskret, snabbt och enkelt</h1>
         <MedicalDisclaimer />
         <div className="prose-guide">

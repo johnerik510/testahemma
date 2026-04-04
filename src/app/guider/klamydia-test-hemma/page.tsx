@@ -58,7 +58,7 @@ export default function KlamydiaTestHemmaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <main className="max-w-3xl mx-auto px-4 py-10">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Guider", href: "/guider/" }, { name: "Klamydia test hemma", href: "/guider/klamydia-test-hemma/" }]} />
-        <div className="text-xs text-gray-400 mb-2">Granskad av Anna Lindström, biomedicinsk analytiker &bull; Uppdaterad mars 2026</div>
+        <div className="text-xs text-gray-400 mb-2">Granskad av Anna Lindström, biomedicinsk analytiker &bull; Uppdaterad april 2026</div>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Klamydia test hemma: hur fungerar det och vad gör du sedan?</h1>
         <MedicalDisclaimer />
         <div className="prose-guide">

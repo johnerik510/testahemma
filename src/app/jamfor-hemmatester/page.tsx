@@ -228,7 +228,7 @@ export default function JamforHemmatesterPage() {
           Jämför hemmatester April 2026 — Alla leverantörer
         </h1>
         <p className="text-sm text-gray-500 mb-3">
-          9 leverantörer jämförda — senast uppdaterad mars 2026
+          9 leverantörer jämförda — senast uppdaterad april 2026
         </p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Vi har granskat alla stora hemmatestleverantörer i Sverige och Europa. Jämför pris,

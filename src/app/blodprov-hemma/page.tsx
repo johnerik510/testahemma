@@ -100,7 +100,7 @@ export default function BlodprovHemmaPage() {
           Blodprov hemma April 2026 – ta prov utan remiss
         </h1>
         <p className="text-sm text-gray-500 mb-3">
-          {products.length} tester jämförda – senast uppdaterad mars 2026
+          {products.length} tester jämförda – senast uppdaterad april 2026
         </p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">
           Med hemblodprov kan du mäta över 100 olika blodvärden utan att boka
