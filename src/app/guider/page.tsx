@@ -41,6 +41,8 @@ const guides = [
   { slug: "ostrogen-test-hemma", title: "Östrogen test hemma April 2026 – östrogennivåer och referensvärden", cat: "Hormoner", desc: "Referensvärden för östradiol per cykeldag och klimakteriefas, symtom på östrogenbrist och hur du testar hemma." },
   { slug: "fertilitet-test-hemma", title: "Fertilitet test hemma April 2026 – AMH, FSH och mer", cat: "Hormoner", desc: "AMH, FSH och östradiol: de viktigaste markörerna för äggstocksreserv och fertilitet. Guide till hemtest för fertilitetsutredning." },
   { slug: "allergitest-hemma", title: "Allergitest hemma April 2026 – IgE, mat och pollen", cat: "Allergi", desc: "Hur fungerar hemallergitester med IgE-mätning? Vilka allergener kan testas? Begränsningar vs. klinisk testning." },
+  { slug: "skoldkortel-test-hemma", title: "Sköldkörteltest hemma – TSH, T3 och T4 April 2026", cat: "Hormoner", desc: "Komplett guide till sköldkörteltest hemma: markörer, referensvärden, symtom på hypo- och hypertyreos." },
+  { slug: "inflammationsmarkorer-test", title: "Inflammationsmarkörer – CRP och hsCRP test hemma April 2026", cat: "Blodtester", desc: "Guide till CRP, hsCRP och SR. Vad förhöjda inflammationsmarkörer betyder och hur du sänker dem." },
 ];
 
 export default function GuiderPage() {
