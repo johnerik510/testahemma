@@ -12,7 +12,7 @@ import { categories } from "@/data/categories";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Testahemma.se – Bästa Hemtester för Sverige 2026",
+  title: "Testahemma.se – Bästa Hemtester för Sverige April 2026",
   description:
     "Sveriges guide till hemtestningskit. Vi testar och jämför blodtester, hormontester, STI-tester och vitamintester. Hitta rätt test från 299 kr.",
   alternates: { canonical: "https://www.testahemma.se/" },
@@ -52,7 +52,7 @@ export default function HomePage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Bästa hemtester Sverige 2026",
+    name: "Bästa hemtester Sverige April 2026",
     itemListElement: topProducts.map((p, i) => ({
       "@type": "ListItem",
       position: i + 1,
@@ -291,7 +291,7 @@ export default function HomePage() {
         price={`Från ${topProducts[0].priceFrom} kr`}
         url={buildAffiliateUrl(topProducts[0].affiliateUrl, topProducts[0].network, topProducts[0].adtractionProgramId, topProducts[0].addRevenueProgramId, 'TH-homepage-sticky', topProducts[0].awinProgramId)}
         text="Se bästa hemtestet"
-        label="Bäst i test 2026"
+        label="Bäst i test April 2026"
       />
       <Footer />
     </>

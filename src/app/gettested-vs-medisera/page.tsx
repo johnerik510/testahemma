@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "GetTested vs Medisera 2026 — vilket hemtest ska du välja?",
+  title: "GetTested vs Medisera April 2026 — vilket hemtest ska du välja?",
   description:
     "Vi jämför GetTested och Medisera sida vid sida. Pris, testutbud, laboratoriekvalitet, leveranshastighet och kundservice — skandinavisk bredd mot svenska apotek.",
   alternates: { canonical: "https://www.testahemma.se/gettested-vs-medisera/" },
   openGraph: {
-    title: "GetTested vs Medisera 2026 — vilket hemtest vinner?",
+    title: "GetTested vs Medisera April 2026 — vilket hemtest vinner?",
     description:
       "200+ tester vs apoteksgodkänd kvalitet. Hormoner, vitaminer, STI och blodstatus. Vi jämför GetTested och Medisera direkt.",
     url: "https://www.testahemma.se/gettested-vs-medisera/",
@@ -70,7 +70,7 @@ const faqSchema = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "GetTested vs Medisera 2026 — vilket hemtest ska du välja?",
+  headline: "GetTested vs Medisera April 2026 — vilket hemtest ska du välja?",
   datePublished: "2026-04-03",
   dateModified: "2026-04-03",
   author: { "@type": "Organization", name: "Testahemma" },

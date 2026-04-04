@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "B12-brist: Symtom, Test och Behandling 2026",
+  title: "B12-brist: Symtom, Test och Behandling April 2026",
   description: "B12-brist är vanlig och kan ge allvarliga neurologiska skador om den inte behandlas. Lär dig symtomen, riskgrupperna och hur du testar B12 hemma med ett enkelt blodprov.",
   alternates: { canonical: "https://www.testahemma.se/guider/b12-brist-symtom/" },
   openGraph: {
-    title: "B12-brist: Symtom, Test och Behandling 2026",
+    title: "B12-brist: Symtom, Test och Behandling April 2026",
     description: "B12-brist är vanlig och kan ge allvarliga neurologiska skador om den inte behandlas. Lär dig symtomen, riskgrupperna och hur du testar B12 hemma med ett enkelt blodprov.",
     url: "https://www.testahemma.se/guider/b12-brist-symtom/",
   },

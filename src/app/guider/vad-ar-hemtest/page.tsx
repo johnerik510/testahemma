@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Vad är ett hemtest? – Komplett guide 2026 | Testahemma.se",
+  title: "Vad är ett hemtest? – Komplett guide April 2026 | Testahemma.se",
   description: "Allt du behöver veta om hemtestningskit – hur de fungerar, vad de kostar, vilka är pålitliga och när du bör använda dem.",
   alternates: { canonical: "https://www.testahemma.se/guider/vad-ar-hemtest/" },
   openGraph: {
-    title: "Vad är ett hemtest? – Komplett guide 2026 | Testahemma.se",
+    title: "Vad är ett hemtest? – Komplett guide April 2026 | Testahemma.se",
     description: "Allt du behöver veta om hemtestningskit – hur de fungerar, vad de kostar, vilka är pålitliga och när du bör använda dem.",
     url: "https://www.testahemma.se/guider/vad-ar-hemtest/",
   },
@@ -48,7 +48,7 @@ export default function VadArHemtestPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Vad är ett hemtest? – Komplett guide 2026",
+    headline: "Vad är ett hemtest? – Komplett guide April 2026",
     description: "Allt du behöver veta om hemtestningskit – hur de fungerar, vad de kostar, vilka är pålitliga och när du bör använda dem.",
     datePublished: "2026-01-01",
     dateModified: "2026-03-28",

@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "Werlabs vs Medisera 2026 — vilket hemtest passar dig bäst?",
+  title: "Werlabs vs Medisera April 2026 — vilket hemtest passar dig bäst?",
   description:
     "Vi jämför Werlabs och Medisera sida vid sida. Priser, testutbud, laboratoriekvalitet och svarstid — båda svenska, vilket är bättre 2026?",
   alternates: { canonical: "https://www.testahemma.se/werlabs-vs-medisera/" },
   openGraph: {
-    title: "Werlabs vs Medisera 2026 — vilket hemtest vinner?",
+    title: "Werlabs vs Medisera April 2026 — vilket hemtest vinner?",
     description:
       "SWEDAC vs ISO 15189. Blodvärden, D-vitamin, TSH och hormoner. Vi jämför Sveriges populäraste svenska hemtesttjänster.",
     url: "https://www.testahemma.se/werlabs-vs-medisera/",
@@ -62,7 +62,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Werlabs vs Medisera 2026 — komplett jämförelse",
+      headline: "Werlabs vs Medisera April 2026 — komplett jämförelse",
       datePublished: "2026-03-30",
       dateModified: "2026-03-30",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -108,7 +108,7 @@ export default function WerlabsVsMediseraPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Werlabs vs Medisera 2026 — vilket hemtest passar dig bäst?
+          Werlabs vs Medisera April 2026 — vilket hemtest passar dig bäst?
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: mars 2026</p>
         <AffiliateDisclaimer />

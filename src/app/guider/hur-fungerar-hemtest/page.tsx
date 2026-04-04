@@ -7,11 +7,11 @@ import FaqAccordion from "@/components/FaqAccordion";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Hur fungerar hemtest? Steg för steg 2026 | Testahemma.se",
+  title: "Hur fungerar hemtest? Steg för steg April 2026 | Testahemma.se",
   description: "Steg-för-steg-guide till hemtestningskit. Från beställning och provtagning till analys och svar. Provtagningstyper, tips och vanliga misstag.",
   alternates: { canonical: "https://www.testahemma.se/guider/hur-fungerar-hemtest/" },
   openGraph: {
-    title: "Hur fungerar hemtest? Steg för steg 2026 | Testahemma.se",
+    title: "Hur fungerar hemtest? Steg för steg April 2026 | Testahemma.se",
     description: "Steg-för-steg-guide till hemtestningskit. Från beställning och provtagning till analys och svar. Provtagningstyper, tips och vanliga misstag.",
     url: "https://www.testahemma.se/guider/hur-fungerar-hemtest/",
   },

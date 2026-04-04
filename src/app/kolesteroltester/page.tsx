@@ -13,7 +13,7 @@ import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Kolesteroltest hemma 2026 — Jämförelse | Testahemma.se",
+  title: "Kolesteroltest hemma April 2026 — Jämförelse | Testahemma.se",
   description: "Mät ditt kolesterol hemma utan remiss. Testa LDL, HDL, totalt kolesterol och triglycerider med ackrediterat lab. Från 395 kr – svar inom dagar.",
   alternates: { canonical: "https://www.testahemma.se/kolesteroltester/" },
   openGraph: {
@@ -58,7 +58,7 @@ export default function KolesteroltesterPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Bästa kolesteroltest hemma 2026",
+    name: "Bästa kolesteroltest hemma April 2026",
     url: "https://www.testahemma.se/kolesteroltester/",
     numberOfItems: products.length,
     itemListElement: products.map((p, i) => ({

@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Järnbrist: Symtom, Orsaker och Test Hemma 2026",
+  title: "Järnbrist: Symtom, Orsaker och Test Hemma April 2026",
   description: "Järnbrist är den vanligaste näringsbristsjukdomen i Sverige – drabbar var tredje kvinna. Lär dig symtomen, referensvärdena och hur du testar järnvärdet hemma.",
   alternates: { canonical: "https://www.testahemma.se/guider/jarnbrist-symtom/" },
   openGraph: {
-    title: "Järnbrist: Symtom, Orsaker och Test Hemma 2026",
+    title: "Järnbrist: Symtom, Orsaker och Test Hemma April 2026",
     description: "Järnbrist är den vanligaste näringsbristsjukdomen i Sverige – drabbar var tredje kvinna. Lär dig symtomen, referensvärdena och hur du testar järnvärdet hemma.",
     url: "https://www.testahemma.se/guider/jarnbrist-symtom/",
   },
@@ -44,7 +44,7 @@ export default function JarnbristSymtomPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Järnbrist: Symtom, Orsaker och Test Hemma 2026",
+    headline: "Järnbrist: Symtom, Orsaker och Test Hemma April 2026",
     description: "Järnbrist är den vanligaste näringsbristsjukdomen i Sverige – drabbar var tredje kvinna. Lär dig symtomen, referensvärdena och hur du testar järnvärdet hemma.",
     datePublished: "2026-01-15",
     dateModified: "2026-03-29",

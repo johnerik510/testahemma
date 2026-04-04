@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "Cerascreen vs Verisana 2026 — vilket hemtest passar dig?",
+  title: "Cerascreen vs Verisana April 2026 — vilket hemtest passar dig?",
   description:
     "Vi jämför Cerascreen och Verisana 2026. Cerascreen bäst för vitaminer och allergi. Verisana bäst för hormoner och mikrobiom. Vilket ska du välja?",
   alternates: { canonical: "https://www.testahemma.se/cerascreen-vs-verisana/" },
   openGraph: {
-    title: "Cerascreen vs Verisana 2026 — vitaminer vs hormoner",
+    title: "Cerascreen vs Verisana April 2026 — vitaminer vs hormoner",
     description:
       "Cerascreen dominerar vitamintester och allergi. Verisana specialiserar på hormoner via salivprov och mikrobiomanalys. Vi avgör vilket som passar din hälsokontroll.",
     url: "https://www.testahemma.se/cerascreen-vs-verisana/",
@@ -62,7 +62,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Cerascreen vs Verisana 2026 — komplett jämförelse",
+      headline: "Cerascreen vs Verisana April 2026 — komplett jämförelse",
       datePublished: "2026-04-03",
       dateModified: "2026-04-03",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -94,7 +94,7 @@ export default function CeraScreenVsVerisanaPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Cerascreen vs Verisana 2026 — vitaminer &amp; allergi mot hormoner &amp; mikrobiom
+          Cerascreen vs Verisana April 2026 — vitaminer &amp; allergi mot hormoner &amp; mikrobiom
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: april 2026</p>
         <AffiliateDisclaimer />

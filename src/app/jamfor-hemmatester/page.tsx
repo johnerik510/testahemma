@@ -7,14 +7,14 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Jämför hemmatester 2026 — Alla leverantörer",
+  title: "Jämför hemmatester April 2026 — Alla leverantörer",
   description:
-    "Vi jämför alla hemmatestleverantörer 2026 — pris, testutbud, svarstid och kvalitet. Hitta rätt blodprov, hormontest eller STI-test för dig.",
+    "Vi jämför alla hemmatestleverantörer April 2026 — pris, testutbud, svarstid och kvalitet. Hitta rätt blodprov, hormontest eller STI-test för dig.",
   alternates: { canonical: "https://www.testahemma.se/jamfor-hemmatester/" },
   openGraph: {
-    title: "Jämför hemmatester 2026 — Alla leverantörer",
+    title: "Jämför hemmatester April 2026 — Alla leverantörer",
     description:
-      "Vi jämför alla hemmatestleverantörer 2026 — pris, testutbud, svarstid och kvalitet. Hitta rätt blodprov, hormontest eller STI-test för dig.",
+      "Vi jämför alla hemmatestleverantörer April 2026 — pris, testutbud, svarstid och kvalitet. Hitta rätt blodprov, hormontest eller STI-test för dig.",
     url: "https://www.testahemma.se/jamfor-hemmatester/",
     siteName: "Testahemma.se",
     locale: "sv_SE",
@@ -167,9 +167,9 @@ const faqs = [
 const comparisonSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Jämför hemmatestleverantörer 2026",
+  name: "Jämför hemmatestleverantörer April 2026",
   description:
-    "Jämförelse av alla hemmatestleverantörer i Sverige 2026 — pris, betyg, testutbud och svarstid.",
+    "Jämförelse av alla hemmatestleverantörer i Sverige April 2026 — pris, betyg, testutbud och svarstid.",
   url: "https://www.testahemma.se/jamfor-hemmatester/",
   numberOfItems: sortedProviders.length,
   itemListElement: sortedProviders.map((p, i) => ({
@@ -216,7 +216,7 @@ export default function JamforHemmatesterPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Jämför hemmatester 2026 — Alla leverantörer
+          Jämför hemmatester April 2026 — Alla leverantörer
         </h1>
         <p className="text-sm text-gray-500 mb-3">
           9 leverantörer jämförda — senast uppdaterad mars 2026
@@ -566,7 +566,7 @@ export default function JamforHemmatesterPage() {
             Redo att ta kontroll över din hälsa?
           </h3>
           <p className="text-teal-100 mb-5 max-w-xl mx-auto">
-            Se vår topplista med bästa hemtesterna 2026 — rankade efter betyg, pris och kvalitet.
+            Se vår topplista med bästa hemtesterna April 2026 — rankade efter betyg, pris och kvalitet.
           </p>
           <Link
             href="/basta-hemtest/"

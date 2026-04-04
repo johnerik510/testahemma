@@ -13,11 +13,11 @@ import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Tarmhälsa & Mikrobiomtest Hemma 2026 | Testahemma.se",
+  title: "Tarmhälsa & Mikrobiomtest Hemma April 2026 | Testahemma.se",
   description: "Analysera din tarmflora hemma med avancerad DNA-sekvensering. Jämför mikrobiomtester, få personliga kostråd baserade på dina tarmbakterier. Från 1 495 kr.",
   alternates: { canonical: "https://www.testahemma.se/tarmhalsa/" },
   openGraph: {
-    title: "Tarmhälsa & Mikrobiomtest Hemma 2026 | Testahemma.se",
+    title: "Tarmhälsa & Mikrobiomtest Hemma April 2026 | Testahemma.se",
     description: "Analysera din tarmflora hemma med avancerad DNA-sekvensering. Jämför mikrobiomtester, få personliga kostråd baserade på dina tarmbakterier. Från 1 495 kr.",
     url: "https://www.testahemma.se/tarmhalsa/",
   },
@@ -40,7 +40,7 @@ export default function TarmhalsaPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Bästa tarmfloratester hemma 2026",
+    "name": "Bästa tarmfloratester hemma April 2026",
     "description": "Jämförelse av de bästa hemtesterna för tarmhälsa och mikrobiomanalys tillgängliga i Sverige.",
     "url": "https://www.testahemma.se/tarmhalsa/",
     "numberOfItems": products.length,

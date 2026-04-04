@@ -13,11 +13,11 @@ import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Bästa Blodtester Hemma 2026 — Jämförelse & Guide",
+  title: "Bästa Blodtester Hemma April 2026 — Jämförelse & Guide",
   description: "Jämför Sveriges bästa hemblodtester 2026. Vi testar Werlabs, Diagnostikdirekt och fler. Pris från 395 kr – SWEDAC-ackrediterat lab. Svar inom dagar.",
   alternates: { canonical: "https://www.testahemma.se/blodtester/" },
   openGraph: {
-    title: "Bästa Blodtester Hemma 2026 — Jämförelse & Guide",
+    title: "Bästa Blodtester Hemma April 2026 — Jämförelse & Guide",
     description: "Jämför Sveriges bästa hemblodtester 2026. Vi testar Werlabs, Diagnostikdirekt och fler. Pris från 395 kr – SWEDAC-ackrediterat lab. Svar inom dagar.",
     url: "https://www.testahemma.se/blodtester/",
   },
@@ -35,7 +35,7 @@ const faqs = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Bästa blodtester hemma 2026",
+  "name": "Bästa blodtester hemma April 2026",
   "description": "Jämförelse av Sveriges bästa hemblodtester med pris, innehåll och laboratoriecertifiering.",
   "url": "https://www.testahemma.se/blodtester/",
   "itemListElement": [

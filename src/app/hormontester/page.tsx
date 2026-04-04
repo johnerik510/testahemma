@@ -13,7 +13,7 @@ import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Hormontester hemma 2026 — Jämförelse | Testahemma.se",
+  title: "Hormontester hemma April 2026 — Jämförelse | Testahemma.se",
   description: "Testa dina hormonnivåer hemma utan remiss. Jämför tester för testosteron, östrogen, sköldkörtel och kortisol. Ackrediterat lab – svar inom 3–7 dagar.",
   alternates: { canonical: "https://www.testahemma.se/hormontester/" },
   openGraph: {
@@ -40,7 +40,7 @@ export default function HormontesterPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Bästa hormontester hemma 2026",
+    name: "Bästa hormontester hemma April 2026",
     url: "https://www.testahemma.se/hormontester/",
     numberOfItems: products.length,
     itemListElement: products.map((p, i) => ({

@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "Werlabs vs Verisana 2026 — vilket hemtest passar dig bäst?",
+  title: "Werlabs vs Verisana April 2026 — vilket hemtest passar dig bäst?",
   description:
     "Vi jämför Werlabs och Verisana sida vid sida. SWEDAC vs europeiskt lab, pris, hormontest och svarstid — vilket hemtest ska du välja 2026?",
   alternates: { canonical: "https://www.testahemma.se/werlabs-vs-verisana/" },
   openGraph: {
-    title: "Werlabs vs Verisana 2026 — SWEDAC mot europeiskt hormonlab",
+    title: "Werlabs vs Verisana April 2026 — SWEDAC mot europeiskt hormonlab",
     description:
       "Werlabs dominerar blodvärden. Verisana specialiserar på hormoner och mikrobiom. Vi avgör vilket som passar din hälsokontroll bäst.",
     url: "https://www.testahemma.se/werlabs-vs-verisana/",
@@ -62,7 +62,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Werlabs vs Verisana 2026 — komplett jämförelse",
+      headline: "Werlabs vs Verisana April 2026 — komplett jämförelse",
       datePublished: "2026-03-30",
       dateModified: "2026-03-30",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -94,7 +94,7 @@ export default function WerlabsVsVerisanaPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Werlabs vs Verisana 2026 — blodvärden mot hormonspecialist
+          Werlabs vs Verisana April 2026 — blodvärden mot hormonspecialist
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: mars 2026</p>
         <AffiliateDisclaimer />
@@ -297,8 +297,8 @@ export default function WerlabsVsVerisanaPage() {
         <div className="mt-10 p-5 bg-gray-50 rounded-xl border border-gray-200">
           <h2 className="font-bold text-gray-900 mb-3">Relaterade sidor</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/recension/werlabs/" className="text-blue-700 hover:underline">Werlabs recension 2026 — fullständig genomgång</Link></li>
-            <li><Link href="/recension/verisana/" className="text-blue-700 hover:underline">Verisana recension 2026 — fullständig genomgång</Link></li>
+            <li><Link href="/recension/werlabs/" className="text-blue-700 hover:underline">Werlabs recension April 2026 — fullständig genomgång</Link></li>
+            <li><Link href="/recension/verisana/" className="text-blue-700 hover:underline">Verisana recension April 2026 — fullständig genomgång</Link></li>
             <li><Link href="/werlabs-vs-cerascreen/" className="text-blue-700 hover:underline">Werlabs vs Cerascreen 2026</Link></li>
             <li><Link href="/medisera-vs-verisana/" className="text-blue-700 hover:underline">Medisera vs Verisana 2026</Link></li>
             <li><Link href="/jamfor-hemmatester/" className="text-blue-700 hover:underline">Jämför alla hemmatestleverantörer 2026</Link></li>

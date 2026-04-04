@@ -8,12 +8,12 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Diagnostikdirekt vs Werlabs 2026 — vilket hemtest är bäst?",
+  title: "Diagnostikdirekt vs Werlabs April 2026 — vilket hemtest är bäst?",
   description:
     "Vi jämför Diagnostikdirekt och Werlabs sida vid sida. Pris, testutbud, svarstid och labbkvalitet — vilket hemblodtest passar dig bäst 2026?",
   alternates: { canonical: "https://www.testahemma.se/diagnostikdirekt-vs-werlabs/" },
   openGraph: {
-    title: "Diagnostikdirekt vs Werlabs 2026 — vilket hemtest vinner?",
+    title: "Diagnostikdirekt vs Werlabs April 2026 — vilket hemtest vinner?",
     description: "Lägre pris eller bredare panel? Vi jämför de två populäraste hemblodtesterna i Sverige.",
     url: "https://www.testahemma.se/diagnostikdirekt-vs-werlabs/",
     siteName: "Testahemma.se",
@@ -66,7 +66,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Diagnostikdirekt vs Werlabs 2026 — komplett jämförelse",
+      headline: "Diagnostikdirekt vs Werlabs April 2026 — komplett jämförelse",
       datePublished: "2026-04-03",
       dateModified: "2026-04-03",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -98,7 +98,7 @@ export default function DiagnostikdirektVsWerlabsPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Diagnostikdirekt vs Werlabs 2026 — vilket hemblodtest vinner?
+          Diagnostikdirekt vs Werlabs April 2026 — vilket hemblodtest vinner?
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: april 2026</p>
         <AffiliateDisclaimer />

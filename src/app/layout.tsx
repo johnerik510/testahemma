@@ -8,7 +8,7 @@ const CLARITY_ID = "w2ss43nm9z";
 
 export const metadata: Metadata = {
   title: {
-    default: "Testahemma.se – Bästa Hemtester för Sverige 2026",
+    default: "Testahemma.se – Bästa Hemtester för Sverige April 2026",
     template: "%s | Testahemma.se",
   },
   description:
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     locale: "sv_SE",
     url: "https://www.testahemma.se/",
     siteName: "Testahemma.se",
-    title: "Testahemma.se – Bästa Hemtester för Sverige 2026",
+    title: "Testahemma.se – Bästa Hemtester för Sverige April 2026",
     description: "Sveriges guide till hemtestningskit. Oberoende tester och jämförelser.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Testahemma.se – Bästa Hemtester för Sverige 2026",
+    title: "Testahemma.se – Bästa Hemtester för Sverige April 2026",
     description: "Sveriges guide till hemtestningskit.",
   },
   alternates: {

@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "GetTested vs Testmottagningen 2026 — bäst STI-test hemma?",
+  title: "GetTested vs Testmottagningen April 2026 — bäst STI-test hemma?",
   description:
     "Vi jämför GetTested och Testmottagningen för STI- och sexuell hälsa. Pris, diskrethet, testutbud och svarstid — vilket hemtest ska du välja 2026?",
   alternates: { canonical: "https://www.testahemma.se/gettested-vs-testmottagningen/" },
   openGraph: {
-    title: "GetTested vs Testmottagningen 2026 — bäst STI-test hemma?",
+    title: "GetTested vs Testmottagningen April 2026 — bäst STI-test hemma?",
     description:
       "Båda specialiserar på STI och sexuell hälsa. Vi jämför pris, provtagningsmetod och testutbud — och ger dig ett tydligt svar.",
     url: "https://www.testahemma.se/gettested-vs-testmottagningen/",
@@ -62,7 +62,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "GetTested vs Testmottagningen 2026 — bäst STI-test hemma?",
+      headline: "GetTested vs Testmottagningen April 2026 — bäst STI-test hemma?",
       datePublished: "2026-03-30",
       dateModified: "2026-03-30",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -94,7 +94,7 @@ export default function GetTestedVsTestmottagningenPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          GetTested vs Testmottagningen 2026 — bäst STI-test hemma?
+          GetTested vs Testmottagningen April 2026 — bäst STI-test hemma?
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: mars 2026</p>
         <AffiliateDisclaimer />
@@ -287,12 +287,12 @@ export default function GetTestedVsTestmottagningenPage() {
         <div className="mt-10 p-5 bg-gray-50 rounded-xl border border-gray-200">
           <h2 className="font-bold text-gray-900 mb-3">Relaterade sidor</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/recension/gettested/" className="text-blue-700 hover:underline">GetTested recension 2026 — fullständig genomgång</Link></li>
-            <li><Link href="/recension/testmottagningen/" className="text-blue-700 hover:underline">Testmottagningen recension 2026 — fullständig genomgång</Link></li>
-            <li><Link href="/sti-tester/" className="text-blue-700 hover:underline">Bästa STI-tester 2026 — diskret hemmatest</Link></li>
+            <li><Link href="/recension/gettested/" className="text-blue-700 hover:underline">GetTested recension April 2026 — fullständig genomgång</Link></li>
+            <li><Link href="/recension/testmottagningen/" className="text-blue-700 hover:underline">Testmottagningen recension April 2026 — fullständig genomgång</Link></li>
+            <li><Link href="/sti-tester/" className="text-blue-700 hover:underline">Bästa STI-tester April 2026 — diskret hemmatest</Link></li>
             <li><Link href="/jamfor-hemmatester/" className="text-blue-700 hover:underline">Jämför alla hemmatestleverantörer 2026</Link></li>
-            <li><Link href="/gettested-vs-werlabs/" className="text-blue-700 hover:underline">GetTested vs Werlabs 2026 — internationell bredd mot SWEDAC-kvalitet</Link></li>
-            <li><Link href="/basta-hemtest/" className="text-blue-700 hover:underline">Bästa hemtest 2026 — topplista</Link></li>
+            <li><Link href="/gettested-vs-werlabs/" className="text-blue-700 hover:underline">GetTested vs Werlabs April 2026 — internationell bredd mot SWEDAC-kvalitet</Link></li>
+            <li><Link href="/basta-hemtest/" className="text-blue-700 hover:underline">Bästa hemtest April 2026 — topplista</Link></li>
           </ul>
         </div>
       </main>

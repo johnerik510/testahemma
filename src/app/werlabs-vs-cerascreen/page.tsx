@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "Werlabs vs Cerascreen 2026 — vilket hemtest är bäst?",
+  title: "Werlabs vs Cerascreen April 2026 — vilket hemtest är bäst?",
   description:
     "Vi jämför Werlabs och Cerascreen sida vid sida. Priser, testutbud, laboratoriekvalitet och svarstid — vilket hemtest passar dig bäst 2026?",
   alternates: { canonical: "https://www.testahemma.se/werlabs-vs-cerascreen/" },
   openGraph: {
-    title: "Werlabs vs Cerascreen 2026 — vilket hemtest vinner?",
+    title: "Werlabs vs Cerascreen April 2026 — vilket hemtest vinner?",
     description:
       "SWEDAC vs ISO 15189. Blodvärden vs vitaminer/allergi. Vi jämför Sveriges populäraste hemtesttjänster.",
     url: "https://www.testahemma.se/werlabs-vs-cerascreen/",
@@ -62,7 +62,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Werlabs vs Cerascreen 2026 — komplett jämförelse",
+      headline: "Werlabs vs Cerascreen April 2026 — komplett jämförelse",
       datePublished: "2026-03-30",
       dateModified: "2026-03-30",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -94,7 +94,7 @@ export default function WerlabsVsCerascreenPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Werlabs vs Cerascreen 2026 — vilket hemtest är bäst?
+          Werlabs vs Cerascreen April 2026 — vilket hemtest är bäst?
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: mars 2026</p>
         <AffiliateDisclaimer />
@@ -315,10 +315,10 @@ export default function WerlabsVsCerascreenPage() {
         <div className="mt-10 p-5 bg-gray-50 rounded-xl border border-gray-200">
           <h2 className="font-bold text-gray-900 mb-3">Relaterade sidor</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/recension/werlabs/" className="text-blue-700 hover:underline">Werlabs recension 2026 — fullständig genomgång</Link></li>
-            <li><Link href="/recension/cerascreen/" className="text-blue-700 hover:underline">Cerascreen recension 2026 — fullständig genomgång</Link></li>
+            <li><Link href="/recension/werlabs/" className="text-blue-700 hover:underline">Werlabs recension April 2026 — fullständig genomgång</Link></li>
+            <li><Link href="/recension/cerascreen/" className="text-blue-700 hover:underline">Cerascreen recension April 2026 — fullständig genomgång</Link></li>
             <li><Link href="/jamfor-hemmatester/" className="text-blue-700 hover:underline">Jämför alla hemmatestleverantörer 2026</Link></li>
-            <li><Link href="/basta-hemtest/" className="text-blue-700 hover:underline">Bästa hemtest 2026 — topplista</Link></li>
+            <li><Link href="/basta-hemtest/" className="text-blue-700 hover:underline">Bästa hemtest April 2026 — topplista</Link></li>
             <li><Link href="/vitamintester/" className="text-blue-700 hover:underline">Bästa vitamintester 2026</Link></li>
             <li><Link href="/allergitester/" className="text-blue-700 hover:underline">Bästa allergitester 2026</Link></li>
           </ul>

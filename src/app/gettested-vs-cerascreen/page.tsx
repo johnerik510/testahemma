@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "GetTested vs CeraScreen 2026 — vilket hemtest väljer du?",
+  title: "GetTested vs CeraScreen April 2026 — vilket hemtest väljer du?",
   description:
     "Vi jämför GetTested och CeraScreen sida vid sida. Pris, testutbud, laboratoriekvalitet, allergi- och intoleranstester — internationell bredd mot tyskt specialistkvalitet.",
   alternates: { canonical: "https://www.testahemma.se/gettested-vs-cerascreen/" },
   openGraph: {
-    title: "GetTested vs CeraScreen 2026 — vilket hemtest vinner?",
+    title: "GetTested vs CeraScreen April 2026 — vilket hemtest vinner?",
     description:
       "200+ tester vs tyskt specialistlabb. STI, vitaminer, allergi och livsstilsmarkörer. Vi jämför GetTested och CeraScreen.",
     url: "https://www.testahemma.se/gettested-vs-cerascreen/",
@@ -62,7 +62,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "GetTested vs CeraScreen 2026 — komplett jämförelse",
+      headline: "GetTested vs CeraScreen April 2026 — komplett jämförelse",
       datePublished: "2026-04-03",
       dateModified: "2026-04-03",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -109,7 +109,7 @@ export default function GetTestedVsCeraScreenPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          GetTested vs CeraScreen 2026 — vilket hemtest passar dig bäst?
+          GetTested vs CeraScreen April 2026 — vilket hemtest passar dig bäst?
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: april 2026</p>
         <AffiliateDisclaimer />

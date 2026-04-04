@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "Medisera vs Verisana 2026 — vilket hemtest vinner?",
+  title: "Medisera vs Verisana April 2026 — vilket hemtest vinner?",
   description:
     "Vi jämför Medisera och Verisana 2026. Medisera bred panel med snabb svarstid. Verisana specialiserat på hormoner och livsstilstester. Vilket passar dig?",
   alternates: { canonical: "https://www.testahemma.se/medisera-vs-verisana/" },
   openGraph: {
-    title: "Medisera vs Verisana 2026 — bred panel eller hormonspecialist?",
+    title: "Medisera vs Verisana April 2026 — bred panel eller hormonspecialist?",
     description:
       "Medisera bäst för komplett blodstatus. Verisana bäst för djupgående hormonanalyser. Vi jämför pris, utbud och laboratoriekvalitet.",
     url: "https://www.testahemma.se/medisera-vs-verisana/",
@@ -62,7 +62,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Medisera vs Verisana 2026 — komplett jämförelse",
+      headline: "Medisera vs Verisana April 2026 — komplett jämförelse",
       datePublished: "2026-03-30",
       dateModified: "2026-03-30",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -94,7 +94,7 @@ export default function MediseraVsVerisanaPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Medisera vs Verisana 2026 — bred panel eller hormonspecialist?
+          Medisera vs Verisana April 2026 — bred panel eller hormonspecialist?
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: mars 2026</p>
         <AffiliateDisclaimer />
@@ -252,9 +252,9 @@ export default function MediseraVsVerisanaPage() {
           <h3 className="font-bold text-gray-900 mb-3">Relaterade jämförelser</h3>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              { href: "/werlabs-vs-medisera/", label: "Werlabs vs Medisera 2026", desc: "Blodkvalitet jämförd" },
-              { href: "/cerascreen-vs-medisera/", label: "Cerascreen vs Medisera 2026", desc: "Allergi och vitaminer" },
-              { href: "/werlabs-vs-cerascreen/", label: "Werlabs vs Cerascreen 2026", desc: "SWEDAC vs ISO 15189" },
+              { href: "/werlabs-vs-medisera/", label: "Werlabs vs Medisera April 2026", desc: "Blodkvalitet jämförd" },
+              { href: "/cerascreen-vs-medisera/", label: "Cerascreen vs Medisera April 2026", desc: "Allergi och vitaminer" },
+              { href: "/werlabs-vs-cerascreen/", label: "Werlabs vs Cerascreen April 2026", desc: "SWEDAC vs ISO 15189" },
               { href: "/jamfor-hemmatester/", label: "Jämför alla hemmatester", desc: "Komplett jämförelse" },
             ].map((link) => (
               <Link

@@ -9,12 +9,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import StickyCTA from "@/components/StickyCTA";
 
 export const metadata: Metadata = {
-  title: "Cerascreen vs Medisera 2026 — vilket hemtest vinner?",
+  title: "Cerascreen vs Medisera April 2026 — vilket hemtest vinner?",
   description:
     "Vi jämför Cerascreen och Medisera sida vid sida. Vitamintester, allergi, pris och svarstid — vilket hemtest är bäst för vitaminer och hormoner 2026?",
   alternates: { canonical: "https://www.testahemma.se/cerascreen-vs-medisera/" },
   openGraph: {
-    title: "Cerascreen vs Medisera 2026 — vilket hemtest vinner?",
+    title: "Cerascreen vs Medisera April 2026 — vilket hemtest vinner?",
     description: "50+ vs 150+ tester. Europeisk eller svensk leverantör. Vi jämför pris, kvalitet och utbud.",
     url: "https://www.testahemma.se/cerascreen-vs-medisera/",
     siteName: "Testahemma.se",
@@ -61,7 +61,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Cerascreen vs Medisera 2026 — komplett jämförelse",
+      headline: "Cerascreen vs Medisera April 2026 — komplett jämförelse",
       datePublished: "2026-03-30",
       dateModified: "2026-03-30",
       author: { "@type": "Person", name: "Anna Lindström" },
@@ -106,7 +106,7 @@ export default function CerascreenVsMediseraPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Cerascreen vs Medisera 2026 — vitamintester och hälsokontroller jämförda
+          Cerascreen vs Medisera April 2026 — vitamintester och hälsokontroller jämförda
         </h1>
         <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: mars 2026</p>
         <AffiliateDisclaimer />
