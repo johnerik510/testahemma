@@ -154,7 +154,7 @@ export default function StiGuide() {
 
           <h3>Hemtester – helt anonyma</h3>
           <p>
-            Ledande aktörer som <Link href="/recension/testmottagningen/">Testmottagningen</Link> erbjuder testning utan krav på personnummer. Paketet saknar känslig information på utsidan och levereras som ett vanligt postpaket. Svaren levereras via en säker webbportal med engångskod – aldrig via e-post, sms eller brev. Resultatet registreras inte i din patientjournal.
+            Ledande aktörer som <Link href="/recension/testmottagningen/">Testmottagningen</Link> och <Link href="/recension/gettested/">GetTested</Link> erbjuder laboratorieanalyserade tester utan krav på personnummer. Vill du ha ett snabbtest hemma samma dag finns <Link href="/recension/nordictest/">Nordictest</Link> med CE-märkta snabbtester från 99 kr. Paketet saknar känslig information på utsidan och levereras som ett vanligt postpaket. Svaren levereras via en säker webbportal med engångskod – aldrig via e-post, sms eller brev. Resultatet registreras inte i din patientjournal.
           </p>
 
           <h3>Offentlig vård – sekretess men inte anonymitet</h3>
