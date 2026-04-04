@@ -3,7 +3,7 @@ import Script from "next/script";
 import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
 
-const GA_ID = "G-BNVKZPZ2V4";
+const GA_ID = "G-SKDT3DH6JV";
 const CLARITY_ID = "w2ss43nm9z";
 
 export const metadata: Metadata = {
