@@ -1,11 +1,5 @@
 import type { TestProduct } from "@/types/product";
 
-// AFFILIATE LINKS:
-// Current links are direct merchant URLs.
-// When approved by Adtraction/AddRevenue, replace affiliateUrl with tracking URL:
-// Adtraction: https://track.adtraction.com/t/t?a=PROGRAM_ID&as=YOUR_PUBLISHER_ID&t=2&tk=1&url=ENCODED_DESTINATION
-// AddRevenue: https://www.addrevenue.io/click?program=PROGRAM_ID&epi=TH-[slug]-[page]-[pos]&url=ENCODED_DESTINATION
-
 export const products: TestProduct[] = [
   {
     slug: "werlabs",
@@ -16,8 +10,8 @@ export const products: TestProduct[] = [
     priceFrom: "495 kr",
     priceNote: "Från 495 kr för baspaket – fullständig hälsopanel 1 695 kr",
     affiliateUrl: "https://werlabs.se",
-    network: "awin",
-    awinProgramId: "", // TODO: fill with Awin merchant ID when approved (apply at awin.com, search "Werlabs")
+    network: "direct",
+    awinProgramId: "",
     ctaText: "Beställ hos Werlabs",
     categories: ["blodtester", "hormontester", "vitamintester", "kolesteroltester", "cancermarkorer", "fertilitetstester"],
     rating: 9.2,
@@ -104,7 +98,6 @@ export const products: TestProduct[] = [
     priceFrom: "299 kr",
     priceNote: "Från 299 kr – priser varierar per test",
     affiliateUrl: "https://www.cerascreen.se",
-    // TODO: Replace with Adtraction tracking URL when approved for Cerascreen program
     network: "adtraction",
     ctaText: "Se alla tester hos Cerascreen",
     categories: ["vitamintester", "allergitester", "hormontester", "tarmhalsa", "blodtester", "fertilitetstester"],
@@ -193,7 +186,6 @@ export const products: TestProduct[] = [
     priceFrom: "299 kr",
     priceNote: "Från 299 kr för enskilt test – komplett STI-panel 699 kr",
     affiliateUrl: "https://www.testmottagningen.se",
-    // No confirmed affiliate program found — using direct link
     network: "direct",
     ctaText: "Beställ diskret hos Testmottagningen",
     categories: ["sti-tester", "blodtester"],
@@ -285,8 +277,7 @@ export const products: TestProduct[] = [
     priceFrom: "395 kr",
     priceNote: "Från 395 kr – hälsopanel från 895 kr",
     affiliateUrl: "https://diagnostikdirekt.se",
-    // TODO: Replace with Adtraction tracking URL when approved
-    network: "adtraction",
+    network: "direct",
     ctaText: "Beställ hos Diagnostikdirekt",
     categories: ["blodtester", "cancermarkorer", "kolesteroltester", "hormontester"],
     rating: 8.7,
@@ -368,7 +359,6 @@ export const products: TestProduct[] = [
     priceFrom: "1 495 kr",
     priceNote: "Tarmfloraanalys från 1 495 kr – djupanalys 2 495 kr",
     affiliateUrl: "https://www.biovis.se",
-    // No confirmed affiliate program found — using direct link
     network: "direct",
     ctaText: "Analysera din tarmflora hos Biovis",
     categories: ["tarmhalsa"],
@@ -459,8 +449,7 @@ export const products: TestProduct[] = [
     priceFrom: "349 kr",
     priceNote: "Från 349 kr – priser varierar per testpanel",
     affiliateUrl: "https://verisana.se",
-    // TODO: Replace with Adtraction/AddRevenue tracking URL when approved
-    network: "adtraction",
+    network: "direct",
     ctaText: "Beställ hos Verisana",
     categories: ["hormontester", "sti-tester", "vitamintester", "blodtester", "fertilitetstester"],
     rating: 8.4,
@@ -539,8 +528,7 @@ export const products: TestProduct[] = [
       "Medisera är en svensk tjänst för hälsokontroller via blodprov. Du beställer online, tar provet hemma eller på ett av deras provtagningsställen och får digitala svar. Medisera erbjuder ett brett sortiment av blodtester, vitamintester och hormontester till konkurrenskraftiga priser.",
     priceFrom: "295 kr",
     priceNote: "Från 295 kr – hälsopaket från 595 kr",
-    affiliateUrl: "https://www.medisera.se",
-    // TODO: Replace with Adtraction tracking URL when testahemma.se channel is approved (program ID: 1963727333)
+    affiliateUrl: "https://track.adtraction.com/t/t?a=1963727333&as=2057390123&t=2&tk=1",
     network: "adtraction",
     adtractionProgramId: "1963727333",
     ctaText: "Beställ hos Medisera",
