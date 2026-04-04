@@ -768,6 +768,101 @@ export const products: TestProduct[] = [
     dateModified: "2026-03-28",
     author: "Anna Lindström",
   },
+  {
+    slug: "nordictest",
+    name: "Nordictest",
+    shortDescription: "CE-märkta självtester till Sveriges lägsta priser – STI, blod, allergi, fertilitet",
+    description:
+      "Nordictest är en svensk onlinebutik som säljer CE-märkta hemtester till marknadens lägsta priser. Sortimentet täcker STI-tester (klamydia, HIV, gonorré, syfilis), blodtester, allergi, fertilitet och läkemedelstester. Alla tester är CE-märkta och enkla att utföra hemma utan recept.",
+    priceFrom: "99 kr",
+    priceNote: "Från 99 kr – ett av marknadens billigaste utbud",
+    affiliateUrl: "https://addrevenue.io/t?a=985053&c=3467323",
+    network: "addrevenue",
+    addRevenueProgramId: "985053",
+    ctaText: "Se tester hos Nordictest",
+    categories: ["blodtester", "sti-tester", "vitamintester", "allergitester", "fertilitetstester"],
+    rating: 7.8,
+    ratings: { accuracy: 7.5, ease: 8.5, speed: 8.0, value: 9.5, support: 7.5 },
+    testsIncluded: [
+      "Klamydia (självtest)",
+      "HIV 1+2 (självtest)",
+      "Gonorré (självtest)",
+      "Syfilis (självtest)",
+      "Hepatit B + C",
+      "Vitamin D",
+      "Järn / Ferritin",
+      "Graviditetstest",
+      "Fertilitetstest (FSH)",
+      "Allergitest (inhalationsallergener)",
+      "COVID-19 antigentest",
+      "Narkotikatest",
+    ],
+    sampleType: "Varierar per test: urin, blodstick, näspinne eller salivpinne",
+    turnaround: "Resultat på 5–20 minuter (snabbtester) eller 2–5 dagar (lab-tester)",
+    labCertification: "CE-märkta tester",
+    prescription: false,
+    features: [
+      "CE-märkta tester av hög kvalitet",
+      "Sveriges lägsta priser på hemtester",
+      "Brett sortiment: STI, blod, allergi, fertilitet",
+      "Diskret leverans – neutralt paket",
+      "Snabb leverans, ofta 1–2 dagar",
+      "Snabbtester med svar på några minuter",
+    ],
+    pros: [
+      "Lägst pris på marknaden",
+      "Stor produktbredd – ett stopp för flera tester",
+      "CE-märkta och tillförlitliga",
+      "Ingen läkare eller remiss krävs",
+      "Diskret leverans",
+    ],
+    cons: [
+      "Snabbtester är mindre känsliga än lab-analyser",
+      "Ingen inkluderad läkarkonsultation vid avvikande svar",
+      "Inte SWEDAC-ackrediterat laboratorium för lab-tester",
+    ],
+    review: {
+      intro:
+        "Nordictest är det självklara valet för dig som vill testa dig hemma utan att tömma plånboken. Med priser från 99 kr och ett brett sortiment av CE-märkta tester täcker de de vanligaste behovsområdena.",
+      accuracy:
+        "Alla tester är CE-märkta, vilket är EU:s miniminorm för medicintekniska produkter. Snabbtesterna för STI har god specificitet men lägre sensitivitet än PCR-tester – vid negativt svar och kvarvarande symtom bör man komplettera med labtest.",
+      process:
+        "Beställ online, provtagning hemma med enkla instruktioner. Snabbtester ger svar inom 5–20 minuter. Lab-baserade tester skickas till ett externt laboratorium och svar levereras digitalt.",
+      results:
+        "Snabbtester visar positivt/negativt direkt på testremsan. Lab-tester levererar digitala svar med referensvärden inom 2–5 dagar beroende på analystyp.",
+      price:
+        "Nordictest erbjuder marknadens lägsta priser med enskilda tester från 99 kr. För den prismedvetne konsumenten som behöver ett enkelt screeningtest är det ett utmärkt alternativ.",
+      verdict:
+        "Nordictest är den bästa budgetalternativet för hemtester i Sverige. Passar dig som vill ha en snabb och billig screening – men för klinisk noggrannhet på blodprover rekommenderas SWEDAC-ackrediterade alternativ som Werlabs.",
+    },
+    faqs: [
+      {
+        question: "Är Nordictests tester tillförlitliga?",
+        answer:
+          "Ja, alla Nordictests tester är CE-märkta enligt EU:s regelverk för medicintekniska produkter. Snabbtester är pålitliga för screening men har lägre sensitivitet än PCR-baserade lab-tester. Vid hög risk för infektion och negativt snabbtest bör du komplettera med ett lab-baserat test.",
+      },
+      {
+        question: "Hur snabbt får man svar?",
+        answer:
+          "Snabbtester (klamydia, HIV etc.) ger svar direkt på plats inom 5–20 minuter. Lab-baserade blodtester skickas till laboratorium och svar levereras digitalt inom 2–5 vardagar.",
+      },
+      {
+        question: "Är leveransen diskret?",
+        answer:
+          "Ja. Nordictest skickar alla beställningar i neutrala paket utan logotyp eller innehållsangivelse på utsidan. Avsändaradressen är heller inte avslöjande.",
+      },
+      {
+        question: "Behövs recept för Nordictests tester?",
+        answer:
+          "Nej. Alla tester hos Nordictest kan beställas direkt utan recept eller läkarkonsultation. Du väljer själv vilket test du vill utföra.",
+      },
+    ],
+    logoUrl: "/logos/nordictest.png",
+    productImageUrl: "/logos/nordictest.png",
+    datePublished: "2026-04-04",
+    dateModified: "2026-04-04",
+    author: "Anna Lindström",
+  },
 ];
 
 export function getProductBySlug(slug: string): TestProduct | undefined {
