@@ -104,6 +104,15 @@ const providers = [
     turnaround: "2–4 dagar",
     homeDelivery: true,
   },
+  {
+    name: "Nordictest",
+    slug: "nordictest",
+    rating: 7.8,
+    testRange: "STI/blod/allergi/fertilitet",
+    priceFrom: 99,
+    turnaround: "2–4 dagar",
+    homeDelivery: true,
+  },
 ];
 
 const sortedProviders = [...providers].sort((a, b) => b.rating - a.rating);
