@@ -7,13 +7,13 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Allergitest hemma 2026 – Hur fungerar det och vad mäts?",
+  title: "Allergitest hemma 2026 – IgE-test för mat och pollen",
   description:
-    "Guide om allergitest hemma: vad som kan testas (IgE, mat, pollen, pälsdjur), hur prick-test skiljer sig från blodprov och vilka hemtester som faktiskt fungerar.",
+    "Hur fungerar hemallergitester? IgE-mätning för matvara och luftvägsallergener. Begränsningar vs. klinisk testning. Referensvärden och tolkning av sIgE-klasser.",
   alternates: { canonical: "https://www.testahemma.se/guider/allergitest-hemma/" },
   openGraph: {
-    title: "Allergitest hemma 2026 – Guide till blodtest och IgE-analys",
-    description: "Vad kan du faktiskt testa hemma för allergi? Guide till IgE-blodprov, tolkning av svar och när du bör söka läkare.",
+    title: "Allergitest hemma 2026 – IgE-test för mat och pollen",
+    description: "Hur fungerar hemallergitester? IgE-mätning för matvara och luftvägsallergener. Begränsningar vs. klinisk testning.",
     url: "https://www.testahemma.se/guider/allergitest-hemma/",
     siteName: "Testahemma.se",
     locale: "sv_SE",
@@ -23,34 +23,34 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question: "Kan man verkligen testa allergi hemma?",
+    question: "Vad är skillnaden mellan IgE-test och lapptest?",
     answer:
-      "Ja — med ett IgE-blodprov som du tar hemma med fingerblod. Hemtestet mäter specifika IgE-antikroppar mot ett panel av allergener (pollen, pälsdjur, dammkvalster, livsmedel). Det ger ett indikativt svar om sensibilisering. Det ersätter inte ett hudpricktest (SPT) eller provokationstest hos allergolog, men är ett bra startpunkt för att identifiera troliga allergener.",
+      "IgE-test (blodprov) mäter immunglobulin E-antikroppar mot specifika allergener — det identifierar IgE-medierad allergi (typ 1-överkänslighet), vilket innefattar de flesta pollen-, pälsdjurs- och livsmedelsallergier. Lapptest (epikutant test) utförs av dermatolog och testar kontaktallergi (typ 4-överkänslighet) — reaktioner mot nickel, parfym, gummi och andra ämnen som orsakar kontakteksem. Kontaktallergi involverar inte IgE utan T-lymfocyter. Hemtest kan mäta IgE men kan inte ersätta lapptest.",
   },
   {
-    question: "Vad är skillnaden mellan IgE-blodprov och hudpricktest?",
+    question: "Kan man testa matallergier hemma?",
     answer:
-      "Hudpricktest (SPT) utförs av läkare som applicerar allergener på huden och mäter reaktion. Det anses som guldstandard men kräver läkarbesök och att du inte tar antihistamin 5–7 dagar innan. IgE-blodprov mäter antikroppar i blodet och påverkas inte av antihistamin — det kan tas när som helst. Sensitiviteten och specificiteten är likvärdig för de flesta luftburna allergener. För livsmedelsallergi är blodprov något sämre på att förutsäga klinisk reaktion.",
+      "Ja, med viktiga reservationer. IgE-blodprov för livsmedel (jordnöt, mjölk, ägg, vete, fisk, soja) är tillgängliga som hemtest. Men matallergitester via IgE är sämre prediktorer för klinisk allergi än inhalationsallergentester. En positiv IgE mot ett livsmedel innebär sensibilisering, inte nödvändigtvis klinisk allergi — studier visar att upp till 50% av IgE-positiva individer för vissa livsmedel inte reagerar kliniskt. Guldstandard för matallergidiagnos är fortfarande oralt provokationstest (OPT) under medicinsk övervakning. Hemtest är ett underlag, inte en diagnos.",
   },
   {
-    question: "Vad visar ett IgE-blodprov?",
+    question: "Vad är tot-IgE och vad betyder ett förhöjt värde?",
     answer:
-      "IgE-blodprov mäter sensibilisering — att kroppen producerar IgE-antikroppar mot ett specifikt allergen. Det innebär inte nödvändigtvis klinisk allergi. En person kan ha förhöjt IgE mot björkpollen utan att ha symtom. Omvänt kan man ha allergi med lågt IgE-svar. Positiva svar bör alltid tolkas i relation till symtomhistorik.",
+      "Totalt IgE (tot-IgE) mäter den samlade mängden IgE-antikroppar i blodet oavsett specificitet. Normalvärde: under 100 kE/L (kiloenheter per liter) för vuxna. Förhöjt tot-IgE kan indikera atopisk sjukdom (allergi, eksem, astma), parasitinfektion, eller sällsynta immunologiska tillstånd. Ett förhöjt tot-IgE bekräftar inte specifik allergi — det är ett flaggvärde som motiverar specifik sIgE-testning. Normalt tot-IgE utesluter inte allergi, eftersom specifika IgE-nivåer kan vara förhöjda med normalt totalt IgE.",
   },
   {
-    question: "Vilka allergener kan man testa hemma?",
+    question: "Hur tillförlitliga är hemtester för allergi?",
     answer:
-      "De vanligaste hemtestpanelerna inkluderar: pollen (björk, gräs, gråbo), pälsdjur (katt, hund, häst), dammkvalster, mögel (Cladosporium, Alternaria), och livsmedel (jordnöt, mjölk, ägg, vete, soja, fisk). Werlabs erbjuder en inhalationsallergenspanel med 20+ allergener. Mer sällsynta allergener kräver remiss till specialistlabb.",
+      "Hemtester för inhalationsallergener (pollen, pälsdjur, dammkvalster) har hög specificitet och sensitivitet jämförbar med provtagning på vårdcentral, förutsatt att provet analyseras vid ackrediterat laboratorium. Werlabs använder SWEDAC-ackrediterade laboratorier med ImmunoCAP-metodik — samma metodik som används kliniskt. Tillförlitligheten minskar för livsmedelsallergier och är lägre vid låggradig sensibilisering (klass 1). Hemtest bör ses som ett screening-verktyg som ger vägledning, inte som definitiv diagnos.",
   },
   {
-    question: "Hur lång tid tar det att få svar på ett allergitest hemma?",
+    question: "Behövs läkare för allergiutredning?",
     answer:
-      "Svarstid varierar mellan leverantörerna: Werlabs 2–4 vardagar, Diagnostikdirekt 2–5 vardagar, Verisana 5–10 vardagar. Provet analyseras vid SWEDAC-ackrediterat laboratorium (Werlabs) eller motsvarigt nordiskt lab. Svaret levereras digitalt i app eller webb.",
+      "Det beror på situationen. Hemtest räcker för att bekräfta misstänkt pollen- eller pälsdjursallergi vid milda säsongssymtom, och som underlag inför läkarbesök. Läkare eller allergolog krävs vid: anafylaktiska reaktioner eller misstänkt risk för anafylaxi, misstänkt astma eller allergisk astma, önskan om allergivaccination (immunterapi — kräver bekräftad klinisk diagnos), svårtolkade resultat med oklart samband till symtom, barn med allvarliga reaktioner. Vid positiva IgE-svar på livsmedel utan tydlig symtomhistorik bör alltid allergolog konsulteras.",
   },
   {
-    question: "När ska jag söka läkare för allergi istället för att testa hemma?",
+    question: "Vad är korsreaktioner vid allergi?",
     answer:
-      "Sök läkare om: du har haft anafylaktisk reaktion, du misstänker astma eller allergisk astma, du vill ha immunterapi (allergivaccination) — det kräver bekräftad diagnos från läkare, du vill ha recept på adrenalinpenna (EpiPen). Hemtestet är ett komplement, inte en ersättning för medicinsk utredning vid svåra eller oklara fall.",
+      "Korsreaktioner uppstår när proteiner i olika allergenkällor är strukturellt likartade och IgE-antikroppar reagerar mot båda. Det vanligaste exemplet i Sverige är björkpollen och livsmedel: björkpollenallergi (mot proteinet Bet v 1) korsreagerar med liknande proteiner i äpple, päron, körsbär, plommon, persika (rosaceae-frukter), hasselnöt, mandel, selleri och rå morot. Det kallas oral allergisyndrom (OAS) eller björk-pollen-förenat matallergisyndrom och ger oftast klåda och svullnad i munnen vid intag av råa frukter och nötter. Reaktionerna är sällan allvarliga och försvinner ofta vid upphettning av maten (proteinerna denatureras). Korsreaktioner kan ge IgE-positivt mot ett livsmedel utan att patienten haft direktkontakt med det.",
   },
 ];
 
@@ -59,10 +59,11 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Allergitest hemma 2026 – Guide till IgE-blodprov och hemtester",
-      datePublished: "2026-04-03",
-      dateModified: "2026-04-03",
-      author: { "@type": "Person", name: "Anna Lindström" },
+      headline: "Allergitest hemma 2026 – IgE-test för mat och pollen",
+      description: "Hur fungerar hemallergitester? IgE-mätning för matvara och luftvägsallergener. Begränsningar vs. klinisk testning.",
+      datePublished: "2026-04-04",
+      dateModified: "2026-04-04",
+      author: { "@type": "Person", name: "Anna Lindström", jobTitle: "Biomedicinsk analytiker" },
       publisher: { "@type": "Organization", name: "Testahemma.se", url: "https://www.testahemma.se" },
     },
     {
@@ -98,162 +99,178 @@ export default function AllergiTestHemmaPage() {
           ]}
         />
 
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
-          Allergitest hemma 2026 – Vad kan testas och hur fungerar det?
+        <div className="text-xs text-gray-400 mb-2">
+          Granskad av Anna Lindström, biomedicinsk analytiker &bull; april 2026
+        </div>
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          Allergitest hemma 2026 – IgE-test for mat och pollen
         </h1>
-        <p className="text-sm text-gray-500 mb-4">Senast uppdaterad: april 2026</p>
         <MedicalDisclaimer />
 
         <p className="text-gray-700 leading-relaxed mb-6 mt-4">
-          Allergi drabbar ungefär en tredjedel av den svenska befolkningen. Att veta exakt vad man reagerar mot är
-          startpunkten för rätt behandling. Den här guiden förklarar vad ett hemtest kan — och inte kan — mäta,
-          och när ett läkarbesök är nödvändigt.
+          Allergi drabbar ungefär en tredjedel av den svenska befolkningen. Hemtester baserade på IgE-mätning
+          kan identifiera sensibilisering mot pollen, pälsdjur, dammkvalster och livsmedel utan läkarbesök.
+          Den här guiden förklarar vad IgE-tester faktiskt mäter, hur du tolkar sIgE-klasser och vad
+          hemtestens begränsningar är jämfört med klinisk utredning.
         </p>
 
-        {/* Quick summary box */}
         <div className="bg-teal-50 border border-teal-100 rounded-xl p-5 mb-8">
-          <h2 className="font-bold text-teal-900 mb-2">Det viktigaste på ett ögonblick</h2>
+          <h2 className="font-bold text-teal-900 mb-2">Det viktigaste</h2>
           <ul className="text-sm text-teal-800 space-y-1 list-disc pl-4">
-            <li>Hemtester mäter IgE-antikroppar i blodet — en stark indikator på sensibilisering</li>
-            <li>Täcker vanliga allergener: pollen, pälsdjur, dammkvalster, livsmedel</li>
-            <li>Kräver inte läkarrecept och påverkas inte av antihistamin</li>
-            <li>Positiva svar innebär sensibilisering — inte nödvändigtvis klinisk allergi</li>
-            <li>Ersätter inte allergolog vid svåra fall eller anafylaxihistorik</li>
+            <li>Hemtester mater totalt IgE och specifikt IgE (sIgE) mot ett panel av allergener</li>
+            <li>IgE-positivt innebar sensibilisering -- inte nodvandigtvis klinisk allergi</li>
+            <li>Inhalationsallergentester (pollen, palsjur) ar mer tillforlitliga an mattester</li>
+            <li>Totalt IgE normalt under 100 kE/L; sIgE anges i klasser 0-6</li>
+            <li>Klinisk allergiutredning kravs vid anafylaxirisk, astma eller oklara resultat</li>
           </ul>
         </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Vad kan man testa hemma för allergi?</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Vad mats: totalt IgE och specifikt IgE</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Hemallergitester mater tva typer av IgE-antikroppar i blodet:
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-2">
+          <strong>Totalt IgE (tot-IgE)</strong> ar den samlade mangden IgE-antikroppar oavsett vad de reagerar mot.
+          Normalt varde ar under 100 kE/L for vuxna. Forhojt tot-IgE ar ett flaggvarde som indikerar atopisk
+          konstitution men bekraftar ingen specifik allergi.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-6">
+          <strong>Specifikt IgE (sIgE)</strong> mater antikroppar riktade mot ett bestamt allergen --
+          exempelvis bjorkpollen, katt eller jordnot. Det ar sIgE som avgor om du ar sensibiliserad
+          mot ett specifikt amne. Resultaten anges i kUA/L och klassificeras i klasser 0-6.
+        </p>
 
-        <div className="overflow-x-auto mb-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">sIgE-klasser och referensvardesystem</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Specifikt IgE anges i klasser enligt ett standardiserat system:
+        </p>
+        <ul className="list-disc pl-5 text-gray-700 space-y-1 mb-6 text-sm">
+          <li><strong>Klass 0 (&lt;0,35 kUA/L):</strong> Negativ -- ingen sensibilisering pavisad</li>
+          <li><strong>Klass 1 (0,35-0,69 kUA/L):</strong> Tvetydig -- mojlig sensibilisering, lag klinisk relevans</li>
+          <li><strong>Klass 2 (0,70-3,49 kUA/L):</strong> Lag sensibilisering</li>
+          <li><strong>Klass 3 (3,50-17,49 kUA/L):</strong> Mattlig sensibilisering</li>
+          <li><strong>Klass 4 (17,50-49,99 kUA/L):</strong> Hog sensibilisering</li>
+          <li><strong>Klass 5 (50-99,99 kUA/L):</strong> Mycket hog sensibilisering</li>
+          <li><strong>Klass 6 (&gt;100 kUA/L):</strong> Extremt hog sensibilisering</li>
+        </ul>
+        <p className="text-gray-700 leading-relaxed mb-6">
+          Klass 2 eller hogre med symtom som matchar allergenet tyder pa klinisk allergi. Klass 1 utan
+          symtom ar oftast kliniskt insignifikant. Viktigt: ca 20% av IgE-positiva individer har inga
+          kliniska symtom -- sensibilisering ar inte detsamma som allergi.
+        </p>
+
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Tillgangliga hemtester i Sverige</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Foljande hemtester ar relevanta for allergiutredning pa den svenska marknaden:
+        </p>
+        <div className="space-y-3 mb-8">
+          <div className="border border-gray-200 rounded-xl p-4">
+            <h3 className="font-bold text-gray-900 mb-1">Werlabs Allergipanel</h3>
+            <p className="text-sm text-gray-600 mb-1">
+              Inhalationsallergener: gras, bjork, mogel, dammkvalster, katt, hund, hast.
+              SWEDAC-ackrediterat laboratorium med ImmunoCAP-metodik. Inkluderar lakarkonsultation
+              vid avvikande svar. Svarstid 2-4 vardagar.
+            </p>
+            <p className="text-xs text-gray-500">Tillganglig: werlabs.se</p>
+          </div>
+          <div className="border border-gray-200 rounded-xl p-4">
+            <h3 className="font-bold text-gray-900 mb-1">Diagnostikdirekt Allergitest</h3>
+            <p className="text-sm text-gray-600 mb-1">
+              Tacker de vanligaste allergenerna till lagre prispunkt. Enkel bestellningsprocess
+              utan lakarkonsultation inbyggd. Svarstid 2-5 vardagar.
+            </p>
+            <p className="text-xs text-gray-500">Tillganglig: diagnostikdirekt.se</p>
+          </div>
+          <div className="border border-gray-200 rounded-xl p-4">
+            <h3 className="font-bold text-gray-900 mb-1">Celiaki IgA (Diagnostikdirekt)</h3>
+            <p className="text-sm text-gray-600 mb-1">
+              Mater IgA-antikroppar mot transglutaminas (tTG-IgA) -- screeningtest for celiaki.
+              Notera: celiaki ar en autoimmun sjukdom, inte en allergi, men hemtest ar tillgangligt
+              och anvandbart for initial screening.
+            </p>
+            <p className="text-xs text-gray-500">Tillganglig: diagnostikdirekt.se</p>
+          </div>
+        </div>
+
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Allergen -- oversikt over hemtestbarhet</h2>
+        <div className="mb-8">
           <table className="w-full text-sm border-collapse">
             <thead>
               <tr className="bg-gray-50">
-                <th className="text-left px-4 py-3 font-semibold text-gray-700">Allergengrupp</th>
-                <th className="text-left px-4 py-3 font-semibold text-gray-700">Testbart hemma</th>
-                <th className="text-left px-4 py-3 font-semibold text-gray-700">Noggrannhet</th>
-                <th className="text-left px-4 py-3 font-semibold text-gray-700">Kommentar</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-700 border border-gray-200">Allergen</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-700 border border-gray-200">Vad det testar</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-700 border border-gray-200">Tillgangligt hemma</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-700 border border-gray-200">Klinisk nytta</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               {[
-                ["Pollen (björk, gräs, gråbo)", "Ja", "God", "Bäst lämpad för hemtest"],
-                ["Pälsdjur (katt, hund, häst)", "Ja", "God", "Hög IgE-svar vid allergi"],
-                ["Dammkvalster", "Ja", "God", "Viktig orsak till helårsallergi"],
-                ["Mögel (Cladosporium)", "Ja", "Måttlig", "Kan kräva kompletterande test"],
-                ["Livsmedel (jordnöt, mjölk, ägg)", "Ja", "Måttlig", "Klinisk relevans kräver läkarbedömning"],
-                ["Insektsgift (bi, geting)", "Nej", "–", "Kräver remiss till allergolog"],
-                ["Kontaktallergi (nickel, latex)", "Nej", "–", "Kräver lapptest hos läkare"],
-              ].map(([allergen, testable, accuracy, comment], i) => (
+                ["Bjorkpollen", "sIgE mot Bet v 1 och relaterade proteiner", "Ja (Werlabs, Diagnostikdirekt)", "Hog -- bra prediktor for klinisk pollenallergi"],
+                ["Graspollen", "sIgE mot graspollen-panel", "Ja", "Hog -- vanligaste pollenallergin i Sverige"],
+                ["Katt", "sIgE mot Fel d 1 (kattprotein)", "Ja", "Hog -- stark korrelation sIgE och symtom"],
+                ["Hund", "sIgE mot Can f 1 och Can f 2", "Ja", "God -- nagra falskt positiva"],
+                ["Dammkvalster", "sIgE mot Der p 1 och Der f 1", "Ja", "God -- viktig orsak till helarsallergi"],
+                ["Jordnot", "sIgE mot Ara h 1-9", "Ja (vissa paneler)", "Mattlig -- krav klinisk bedomning vid positivt svar"],
+                ["Komjolksprotein", "sIgE mot kasein, beta-laktoglobulin", "Ja (vissa paneler)", "Mattlig -- korsreaktioner och toleransutveckling vanliga"],
+                ["Insektsgift (bi, geting)", "sIgE mot Api m 1, Ves v 5", "Nej", "Kravs allergologremiss"],
+                ["Kontaktallergi (nickel, latex)", "IgE-negativ -- T-cellsmedierad", "Nej", "Kravs lapptest hos dermatolog"],
+              ].map(([allergen, tests, available, utility], i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="px-4 py-3 font-medium text-gray-700">{allergen}</td>
-                  <td className={`px-4 py-3 ${testable === "Ja" ? "text-green-700 font-medium" : "text-gray-500"}`}>{testable}</td>
-                  <td className="px-4 py-3 text-gray-600">{accuracy}</td>
-                  <td className="px-4 py-3 text-gray-600 text-xs">{comment}</td>
+                  <td className="px-4 py-3 font-medium text-gray-700 border border-gray-200">{allergen}</td>
+                  <td className="px-4 py-3 text-gray-600 border border-gray-200 text-xs">{tests}</td>
+                  <td className={`px-4 py-3 border border-gray-200 ${available.startsWith("Ja") ? "text-green-700 font-medium" : "text-gray-500"}`}>{available}</td>
+                  <td className="px-4 py-3 text-gray-600 border border-gray-200 text-xs">{utility}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Hur fungerar ett IgE-blodprov?</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Begransningar -- vad hemtest inte kan</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          IgE (immunglobulin E) är en antikropp som immunsystemet producerar som svar på allergen. Vid allergi
-          har kroppen bildat specifika IgE-antikroppar riktade mot ett visst ämne — exempelvis björkpollenproteinet
-          Bet v 1 eller kattproteinet Fel d 1.
+          IgE-baserade hemtester har viktiga begransningar som maste forstAs for korrekt tolkning:
         </p>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          Hemtestet fungerar så att du tar ett fingerblodsprov, skickar det till laboratoriet och provet
-          analyseras med ImmunoCAP-metodik (fluoroenzymimmunoassay). Svaret anges i kUA/L (kilo unit per liter):
-        </p>
-        <ul className="list-disc pl-5 text-gray-700 space-y-1 mb-6 text-sm">
-          <li><strong>Klass 0 (&lt;0,35 kUA/L):</strong> Negativ — ingen sensibilisering</li>
-          <li><strong>Klass 1 (0,35–0,69 kUA/L):</strong> Tveksam — möjlig sensibilisering</li>
-          <li><strong>Klass 2 (0,70–3,49 kUA/L):</strong> Låg sensibilisering</li>
-          <li><strong>Klass 3 (3,50–17,49 kUA/L):</strong> Måttlig sensibilisering</li>
-          <li><strong>Klass 4+ (&gt;17,50 kUA/L):</strong> Hög sensibilisering</li>
+        <ul className="list-disc pl-5 text-gray-700 space-y-2 mb-6 text-sm">
+          <li>
+            <strong>Sensibilisering ar inte allergi:</strong> Upp till 20% av IgE-positiva individer har inga
+            kliniska symtom. Positiv IgE maste alltid tolkas mot symtomhistorik.
+          </li>
+          <li>
+            <strong>Matallergitester ar svagare prediktorer:</strong> For livsmedel ar sIgE ett samre
+            diagnostiskt verktyg an for inhalationsallergener. Guldstandard for matallergidiagnos
+            ar oralt provokationstest (OPT) under medicinsk overvakning.
+          </li>
+          <li>
+            <strong>Korsreaktioner skapar falska positiva:</strong> Bjorkpollenallergi orsakar ofta
+            positiva sIgE-svar mot apple, hasselnot och selleri utan att personen har primara
+            livsmedelsallergier mot dessa amnen (oral allergisyndrom, OAS).
+          </li>
+          <li>
+            <strong>Kontaktallergi mats inte:</strong> Nickel-, latex- och parfymallergi ar T-cellsmedierade
+            och kan inte identifieras med IgE-blodprov.
+          </li>
+          <li>
+            <strong>Antihistaminets effekt ar ingen faktor:</strong> Till skillnad fran hudpricktest
+            pAverkas IgE-blodprov inte av antihistaminintag -- ett viktigt praktiskt foretrade.
+          </li>
         </ul>
-        <p className="text-gray-700 leading-relaxed mb-6">
-          Klass 2+ med symtom som matchar allergenet indikerar klinisk allergi. Klass 1 utan symtom är ofta kliniskt
-          insignifikant. Alltid tolka i relation till symtomhistorik.
-        </p>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Bästa hemtester för allergi</h2>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          De bästa hemtestalternativen för allergiutredning i Sverige:
-        </p>
-        <div className="space-y-4 mb-8">
-          {[
-            {
-              name: "Werlabs Allergipaket",
-              pros: ["SWEDAC-ackrediterat lab", "20+ allergener i en panel", "Gratis läkarkonsultation vid avvikande svar", "App med historik"],
-              cons: ["Något dyrare än konkurrenterna"],
-              verdict: "Bäst totalt",
-              href: "/recension/werlabs/",
-              color: "blue",
-            },
-            {
-              name: "Diagnostikdirekt Allergitest",
-              pros: ["Lägre prispunkt", "Täcker de vanligaste allergenerna", "Enkel beställningsprocess"],
-              cons: ["Smalare panel", "Ingen inbyggd läkarkonsultation"],
-              verdict: "Bäst för pris",
-              href: "/recension/diagnostikdirekt/",
-              color: "teal",
-            },
-          ].map(({ name, pros, cons, verdict, href, color }) => (
-            <div key={name} className={`border border-${color}-100 rounded-xl p-5 bg-${color}-50`}>
-              <div className={`text-xs font-bold text-${color}-600 uppercase tracking-wide mb-1`}>{verdict}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{name}</h3>
-              <div className="grid grid-cols-2 gap-4 mb-3">
-                <div>
-                  <p className="text-xs font-semibold text-gray-500 mb-1">Fördelar</p>
-                  <ul className="text-sm text-gray-700 space-y-0.5">
-                    {pros.map(p => <li key={p} className="flex items-start gap-1"><span className="text-green-600 mt-0.5">+</span>{p}</li>)}
-                  </ul>
-                </div>
-                <div>
-                  <p className="text-xs font-semibold text-gray-500 mb-1">Nackdelar</p>
-                  <ul className="text-sm text-gray-700 space-y-0.5">
-                    {cons.map(c => <li key={c} className="flex items-start gap-1"><span className="text-red-500 mt-0.5">–</span>{c}</li>)}
-                  </ul>
-                </div>
-              </div>
-              <Link href={href} className={`text-sm text-${color}-700 font-semibold hover:underline`}>
-                Se fullständig recension →
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Hemtest vs. läkare – när räcker hemtest?</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-          <div className="bg-green-50 border border-green-100 rounded-xl p-5">
-            <h3 className="font-bold text-gray-900 mb-2">Hemtest räcker om:</h3>
-            <ul className="text-gray-700 space-y-1 text-sm list-disc pl-4">
-              <li>Du har milda till måttliga säsongssymtom (rinnande näsa, ögonirritation)</li>
-              <li>Du vill bekräfta misstänkt pälsdjurs- eller pollenallergi</li>
-              <li>Du vill veta om ditt barn verkar reagera på katt</li>
-              <li>Du vill ha ett underlag inför läkarbesök</li>
-            </ul>
-          </div>
-          <div className="bg-orange-50 border border-orange-100 rounded-xl p-5">
-            <h3 className="font-bold text-gray-900 mb-2">Sök läkare om:</h3>
-            <ul className="text-gray-700 space-y-1 text-sm list-disc pl-4">
-              <li>Du har haft anafylaktisk reaktion</li>
-              <li>Du misstänker astma</li>
-              <li>Du vill ha allergivaccination (immunterapi)</li>
-              <li>Barnet reagerar med svullnad, andningssvårigheter</li>
-              <li>Du vill ha adrenalinpenna utskriven</li>
-            </ul>
-          </div>
-        </div>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Riskgrupper -- vem bor testa allergi hemma?</h2>
+        <ul className="list-disc pl-5 text-gray-700 space-y-2 mb-8 text-sm">
+          <li><strong>Eksem/atopisk dermatit:</strong> Atopiskt eksem ar starkt kopplat till IgE-medierad allergi och over 50% av barn med atopiskt eksem har matallergier</li>
+          <li><strong>Astma:</strong> 80% av astmatiker har allergisk komponent -- allergitest kan identifiera utlosande faktorer</li>
+          <li><strong>Kronisk rinnsnuva (allergisk rinit):</strong> Helarsrinit tyder pa inomhusallergener (kvalster, palsdjur), sasongsbunden rinit pa pollenallergi</li>
+          <li><strong>Misstankt celiaki:</strong> IgA-baserat hemtest kan ge forsta indikation innan gastroskopi och tunntarmsbiopsi</li>
+          <li><strong>Foralder till barn med misstankt allergi:</strong> Hemtest kan ge en forsta bild innan barnallergologremiss</li>
+        </ul>
 
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8">
           <h3 className="font-bold text-gray-900 mb-2">Relaterade guider</h3>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/basta-hemtest/" className="text-blue-700 hover:underline">Bästa hemtester 2026 – komplett jämförelse</Link></li>
-            <li><Link href="/guider/ferritin-normalt-varde/" className="text-blue-700 hover:underline">Ferritin normalvärde – tolkning av blodprov</Link></li>
-            <li><Link href="/guider/tolka-blodvarden/" className="text-blue-700 hover:underline">Tolka blodvärden hemma – guide</Link></li>
-            <li><Link href="/diagnostikdirekt-vs-werlabs/" className="text-blue-700 hover:underline">Diagnostikdirekt vs Werlabs – jämförelse</Link></li>
+            <li><Link href="/basta-hemtest/" className="text-blue-700 hover:underline">Basta hemtester 2026 -- komplett jamforelse</Link></li>
+            <li><Link href="/guider/jarnbrist-test-hemma/" className="text-blue-700 hover:underline">Jarnbrist test hemma -- mat ferritin och jarnstatus</Link></li>
+            <li><Link href="/guider/ferritin-normalt-varde/" className="text-blue-700 hover:underline">Ferritin normalvarde -- tolkning av blodprov</Link></li>
+            <li><Link href="/diagnostikdirekt-vs-werlabs/" className="text-blue-700 hover:underline">Diagnostikdirekt vs Werlabs -- jamforelse</Link></li>
           </ul>
         </div>
 
