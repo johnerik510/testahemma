@@ -18,6 +18,8 @@ const guides = [
   "kortisol-test-hemma",
   "hba1c-test-hemma",
   "ostrogen-test-hemma",
+  "jarnbrist-test-hemma",
+  "fertilitet-test-hemma",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
