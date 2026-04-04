@@ -7,12 +7,12 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Allergitest hemma 2026 – IgE-test för mat och pollen",
+  title: "Allergitest hemma April 2026 – IgE-test för mat och pollen",
   description:
     "Hur fungerar hemallergitester? IgE-mätning för matvara och luftvägsallergener. Begränsningar vs. klinisk testning. Referensvärden och tolkning av sIgE-klasser.",
   alternates: { canonical: "https://www.testahemma.se/guider/allergitest-hemma/" },
   openGraph: {
-    title: "Allergitest hemma 2026 – IgE-test för mat och pollen",
+    title: "Allergitest hemma April 2026 – IgE-test för mat och pollen",
     description: "Hur fungerar hemallergitester? IgE-mätning för matvara och luftvägsallergener. Begränsningar vs. klinisk testning.",
     url: "https://www.testahemma.se/guider/allergitest-hemma/",
     siteName: "Testahemma.se",
@@ -59,7 +59,7 @@ const schema = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Allergitest hemma 2026 – IgE-test för mat och pollen",
+      headline: "Allergitest hemma April 2026 – IgE-test för mat och pollen",
       description: "Hur fungerar hemallergitester? IgE-mätning för matvara och luftvägsallergener. Begränsningar vs. klinisk testning.",
       datePublished: "2026-04-04",
       dateModified: "2026-04-04",
@@ -103,7 +103,7 @@ export default function AllergiTestHemmaPage() {
           Granskad av Anna Lindström, biomedicinsk analytiker &bull; april 2026
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          Allergitest hemma 2026 – IgE-test for mat och pollen
+          Allergitest hemma April 2026 – IgE-test for mat och pollen
         </h1>
         <MedicalDisclaimer />
 

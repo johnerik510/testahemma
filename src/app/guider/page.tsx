@@ -34,12 +34,12 @@ const guides = [
   { slug: "ferritin-normalt-varde", title: "Ferritin normalt värde – referenstabell och tolkning", cat: "Blodtester", desc: "Vad är normalt ferritinvärde? Referenstabell för kvinnor, män och barn. Vad lågt ferritin betyder och hur du testar järndepåerna hemma." },
   { slug: "menopaus-blodprov", title: "Menopaus blodprov hemma – vilka hormontest ska du ta?", cat: "Hormoner", desc: "Vilka blodprov bör du ta vid menopaus? Guide till FSH, LH, östradiol och TSH – och hur du testar hormonnivåerna hemma utan remiss." },
   { slug: "insulinresistens-test", title: "Insulinresistens test hemma – symtom och blodprov", cat: "Blodtester", desc: "Hur testar du insulinresistens? Vilka blodprov bekräftar diagnosen? Se referensvärden för HbA1c, fasteglukos och HOMA-IR." },
-  { slug: "jarnbrist-test-hemma", title: "Järnbrist test hemma 2026 – mät ferritin och järnstatus", cat: "Blodtester", desc: "Mät ferritin och järnstatus hemma utan läkarbesök. Guide till referensvärden, riskgrupper och hur du tolkar ditt provsvar." },
-  { slug: "hba1c-test-hemma", title: "HbA1c test hemma 2026 – mät långtidsblodsocker", cat: "Blodtester", desc: "Vad är HbA1c? Referensvärden för prediabetes och diabetes, hur du testar hemma och vad resultaten betyder." },
-  { slug: "kortisol-test-hemma", title: "Kortisol test hemma 2026 – mät stresshormon", cat: "Hormoner", desc: "Kortisolmätning hemma: referensvärden, vad förhöjt och lågt kortisol betyder, och hur dygnsvariationen påverkar resultaten." },
-  { slug: "ostrogen-test-hemma", title: "Östrogen test hemma 2026 – östrogennivåer och referensvärden", cat: "Hormoner", desc: "Referensvärden för östradiol per cykeldag och klimakteriefas, symtom på östrogenbrist och hur du testar hemma." },
-  { slug: "fertilitet-test-hemma", title: "Fertilitet test hemma 2026 – AMH, FSH och mer", cat: "Hormoner", desc: "AMH, FSH och östradiol: de viktigaste markörerna för äggstocksreserv och fertilitet. Guide till hemtest för fertilitetsutredning." },
-  { slug: "allergitest-hemma", title: "Allergitest hemma 2026 – IgE, mat och pollen", cat: "Allergi", desc: "Hur fungerar hemallergitester med IgE-mätning? Vilka allergener kan testas? Begränsningar vs. klinisk testning." },
+  { slug: "jarnbrist-test-hemma", title: "Järnbrist test hemma April 2026 – mät ferritin och järnstatus", cat: "Blodtester", desc: "Mät ferritin och järnstatus hemma utan läkarbesök. Guide till referensvärden, riskgrupper och hur du tolkar ditt provsvar." },
+  { slug: "hba1c-test-hemma", title: "HbA1c test hemma April 2026 – mät långtidsblodsocker", cat: "Blodtester", desc: "Vad är HbA1c? Referensvärden för prediabetes och diabetes, hur du testar hemma och vad resultaten betyder." },
+  { slug: "kortisol-test-hemma", title: "Kortisol test hemma April 2026 – mät stresshormon", cat: "Hormoner", desc: "Kortisolmätning hemma: referensvärden, vad förhöjt och lågt kortisol betyder, och hur dygnsvariationen påverkar resultaten." },
+  { slug: "ostrogen-test-hemma", title: "Östrogen test hemma April 2026 – östrogennivåer och referensvärden", cat: "Hormoner", desc: "Referensvärden för östradiol per cykeldag och klimakteriefas, symtom på östrogenbrist och hur du testar hemma." },
+  { slug: "fertilitet-test-hemma", title: "Fertilitet test hemma April 2026 – AMH, FSH och mer", cat: "Hormoner", desc: "AMH, FSH och östradiol: de viktigaste markörerna för äggstocksreserv och fertilitet. Guide till hemtest för fertilitetsutredning." },
+  { slug: "allergitest-hemma", title: "Allergitest hemma April 2026 – IgE, mat och pollen", cat: "Allergi", desc: "Hur fungerar hemallergitester med IgE-mätning? Vilka allergener kan testas? Begränsningar vs. klinisk testning." },
 ];
 
 export default function GuiderPage() {

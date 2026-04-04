@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Ferritin normalt värde 2026 – Tabell och vad lågt ferritin betyder",
+  title: "Ferritin normalt värde April 2026 – Tabell och vad lågt ferritin betyder",
   description: "Vad är normalt ferritinvärde? Se referenstabell för kvinnor, män och barn. Lär dig vad lågt ferritin betyder och hur du testar järndepåerna hemma.",
   alternates: { canonical: "https://www.testahemma.se/guider/ferritin-normalt-varde/" },
   openGraph: {
-    title: "Ferritin normalt värde 2026 – Tabell och vad lågt ferritin betyder",
+    title: "Ferritin normalt värde April 2026 – Tabell och vad lågt ferritin betyder",
     description: "Vad är normalt ferritinvärde? Se referenstabell för kvinnor, män och barn. Lär dig tolka ditt ferritinprov och vad du bör göra vid lågt värde.",
     url: "https://www.testahemma.se/guider/ferritin-normalt-varde/",
   },

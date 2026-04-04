@@ -13,11 +13,11 @@ import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Cancermarkörer Hemma 2026 – PSA, CA-125 & CEA",
+  title: "Cancermarkörer Hemma April 2026 – PSA, CA-125 & CEA",
   description: "Testa cancermarkörer hemma utan remiss. Jämför PSA för prostata, CA-125, CEA och AFP. Proaktiv hälsokontroll med svar inom dagar – alltid följ upp med läkare.",
   alternates: { canonical: "https://www.testahemma.se/cancermarkorer/" },
   openGraph: {
-    title: "Cancermarkörer Hemma 2026 – PSA, CA-125 & CEA",
+    title: "Cancermarkörer Hemma April 2026 – PSA, CA-125 & CEA",
     description: "Testa cancermarkörer hemma utan remiss. Jämför PSA för prostata, CA-125, CEA och AFP. Proaktiv hälsokontroll med svar inom dagar – alltid följ upp med läkare.",
     url: "https://www.testahemma.se/cancermarkorer/",
   },
@@ -79,7 +79,7 @@ export default function CancermarkPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          Cancermarkörer hemma 2026 – PSA och mer
+          Cancermarkörer hemma April 2026 – PSA och mer
         </h1>
         <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">

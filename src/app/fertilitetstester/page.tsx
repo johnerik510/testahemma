@@ -13,11 +13,11 @@ import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Fertilitetstester hemma 2026 – AMH, FSH, Hormonpanel",
+  title: "Fertilitetstester hemma April 2026 – AMH, FSH, Hormonpanel",
   description: "Testa din fertilitet hemma 2026. Jämför AMH, FSH, äggstocksreserv och spermieanalys. SWEDAC-ackrediterade lab. Svar inom dagar. Pris från 495 kr.",
   alternates: { canonical: "https://www.testahemma.se/fertilitetstester/" },
   openGraph: {
-    title: "Fertilitetstester hemma 2026 – AMH, FSH, Hormonpanel",
+    title: "Fertilitetstester hemma April 2026 – AMH, FSH, Hormonpanel",
     description: "Testa din fertilitet hemma 2026. Jämför AMH, FSH, äggstocksreserv och spermieanalys. SWEDAC-ackrediterade lab. Svar inom dagar. Pris från 495 kr.",
     url: "https://www.testahemma.se/fertilitetstester/",
   },
@@ -107,7 +107,7 @@ export default function FertilitetstesterPage() {
           ]}
         />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          Fertilitetstester hemma 2026 – jämförelse av AMH, FSH och hormonpaneler
+          Fertilitetstester hemma April 2026 – jämförelse av AMH, FSH och hormonpaneler
         </h1>
         <p className="text-sm text-gray-500 mb-3">
           {products.length} tester jämförda – senast uppdaterad mars 2026

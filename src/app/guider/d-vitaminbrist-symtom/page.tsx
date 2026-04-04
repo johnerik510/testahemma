@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "D-vitaminbrist 2026 – 8 Symtom och hur du testar hemma",
+  title: "D-vitaminbrist April 2026 – 8 Symtom och hur du testar hemma",
   description: "D-vitaminbrist är extremt vanlig i Sverige. Lär dig de 8 vanligaste symtomen och hur du enkelt testar dina D-vitaminnivåer hemma med ett blodprov.",
   alternates: { canonical: "https://www.testahemma.se/guider/d-vitaminbrist-symtom/" },
   openGraph: {
-    title: "D-vitaminbrist 2026 – 8 Symtom och hur du testar hemma",
+    title: "D-vitaminbrist April 2026 – 8 Symtom och hur du testar hemma",
     description: "D-vitaminbrist är extremt vanlig i Sverige. Lär dig de 8 vanligaste symtomen och hur du enkelt testar dina D-vitaminnivåer hemma med ett blodprov.",
     url: "https://www.testahemma.se/guider/d-vitaminbrist-symtom/",
   },
@@ -48,7 +48,7 @@ export default function DVitaminbristPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "D-vitaminbrist 2026 – 8 Symtom och hur du testar hemma Hemma",
+    headline: "D-vitaminbrist April 2026 – 8 Symtom och hur du testar hemma Hemma",
     description: "D-vitaminbrist är extremt vanlig i Sverige. Lär dig de 8 vanligaste symtomen och hur du testar hemma.",
     datePublished: "2026-01-01",
     dateModified: "2026-03-28",

@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Insulinresistens test hemma 2026 – Symtom och vilka blodprov du ska ta",
+  title: "Insulinresistens test hemma April 2026 – Symtom och vilka blodprov du ska ta",
   description: "Lär dig känna igen insulinresistens. Vilka blodprov bekräftar diagnosen? Se referensvärden för HbA1c, fasteglukos och HOMA-IR – och hur du testar hemma.",
   alternates: { canonical: "https://www.testahemma.se/guider/insulinresistens-test/" },
   openGraph: {
-    title: "Insulinresistens test hemma 2026 – Symtom och blodprov",
+    title: "Insulinresistens test hemma April 2026 – Symtom och blodprov",
     description: "Komplett guide om insulinresistens: symtom, riskgrupper, vilka blodprov du behöver och hur du testar glukos och HbA1c hemma utan remiss.",
     url: "https://www.testahemma.se/guider/insulinresistens-test/",
   },

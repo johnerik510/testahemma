@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Järnbrist test hemma 2026 – mät ferritin och järnstatus enkelt",
+  title: "Järnbrist test hemma April 2026 – mät ferritin och järnstatus enkelt",
   description: "Guide till järnbrist hemtest: vad ferritin, hemoglobin och transferrinmättnad mäter, referensvärden, symptom på järnbrist och hur du testar järnstatus hemma.",
   alternates: { canonical: "https://www.testahemma.se/guider/jarnbrist-test-hemma/" },
   openGraph: {
-    title: "Järnbrist test hemma 2026 – mät ferritin enkelt",
+    title: "Järnbrist test hemma April 2026 – mät ferritin enkelt",
     description: "Komplett guide till järnbrist hemtest: referensvärden för ferritin, hemoglobin och järnmättnad, och symptom på järnbristanemi.",
     url: "https://www.testahemma.se/guider/jarnbrist-test-hemma/",
   },
@@ -48,7 +48,7 @@ export default function JarnbristTestHemmaPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Järnbrist test hemma 2026 – mät ferritin och järnstatus enkelt",
+    headline: "Järnbrist test hemma April 2026 – mät ferritin och järnstatus enkelt",
     description: "Guide till järnbrist hemtest: ferritin, hemoglobin, symptom och behandling.",
     datePublished: "2026-04-03",
     dateModified: "2026-04-03",

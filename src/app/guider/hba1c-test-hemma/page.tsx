@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "HbA1c test hemma 2026 – mät långtidsblodsocker enkelt",
+  title: "HbA1c test hemma April 2026 – mät långtidsblodsocker enkelt",
   description: "Hur testar du HbA1c hemma? Guide till vad HbA1c mäter, vad referensvärden innebär, hur du förbereder dig och varför det är viktigare än ett vanligt blodsockertest.",
   alternates: { canonical: "https://www.testahemma.se/guider/hba1c-test-hemma/" },
   openGraph: {
-    title: "HbA1c test hemma 2026 – mät långtidsblodsocker",
+    title: "HbA1c test hemma April 2026 – mät långtidsblodsocker",
     description: "Komplett guide till HbA1c: vad det mäter, referensvärden, prediabetes, och hur du testar hemma med ett fingerblodsprov.",
     url: "https://www.testahemma.se/guider/hba1c-test-hemma/",
   },
@@ -48,7 +48,7 @@ export default function HbA1cTestHemmaPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "HbA1c test hemma 2026 – mät långtidsblodsocker enkelt",
+    headline: "HbA1c test hemma April 2026 – mät långtidsblodsocker enkelt",
     description: "Guide till HbA1c: vad det mäter, referensvärden, prediabetes och diabetes, och hur du testar hemma.",
     datePublished: "2026-04-03",
     dateModified: "2026-04-03",

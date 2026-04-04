@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Klamydia Test Hemma 2026 – Diskret, Snabbt och Enkelt",
+  title: "Klamydia Test Hemma April 2026 – Diskret, Snabbt och Enkelt",
   description: "Klamydia är Sveriges vanligaste könssjukdom. Testa hemma diskret på 5 minuter – inga läkarbesök. Guide till symtom, hur testet fungerar och vad du gör om det är positivt.",
   alternates: { canonical: "https://www.testahemma.se/guider/klamydia-test-hemma/" },
   openGraph: {
-    title: "Klamydia Test Hemma 2026 – Diskret, Snabbt och Enkelt",
+    title: "Klamydia Test Hemma April 2026 – Diskret, Snabbt och Enkelt",
     description: "Klamydia är Sveriges vanligaste könssjukdom. Testa hemma diskret på 5 minuter – inga läkarbesök. Guide till symtom, hur testet fungerar och vad du gör om det är positivt.",
     url: "https://www.testahemma.se/guider/klamydia-test-hemma/",
   },
@@ -44,7 +44,7 @@ export default function KlamydiaTestHemmaPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Klamydia Test Hemma 2026 – Diskret, Snabbt och Enkelt",
+    headline: "Klamydia Test Hemma April 2026 – Diskret, Snabbt och Enkelt",
     description: "Klamydia är Sveriges vanligaste könssjukdom. Testa hemma diskret på 5 minuter – inga läkarbesök.",
     datePublished: "2026-01-15",
     dateModified: "2026-03-29",

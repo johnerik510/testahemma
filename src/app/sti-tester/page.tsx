@@ -79,7 +79,7 @@ export default function StiTesterPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          STI-tester hemma 2026 – diskret och snabbt
+          STI-tester hemma April 2026 – diskret och snabbt
         </h1>
         <p className="text-sm text-gray-500 mb-3">{products.length} tester jämförda – senast uppdaterad mars 2026</p>
         <p className="text-lg text-gray-600 mb-2 leading-relaxed">

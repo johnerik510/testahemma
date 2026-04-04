@@ -13,11 +13,11 @@ import { products } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Bästa Hemtest 2026 – Topplista & Jämförelse",
+  title: "Bästa Hemtest April 2026 – Topplista & Jämförelse",
   description: "Vilket hemtest är bäst 2026? Vi testar Werlabs, Cerascreen, Testmottagningen och Biovis. SWEDAC-ackrediterade lab. Pris fr. 299 kr. Se topplistan.",
   alternates: { canonical: "https://www.testahemma.se/basta-hemtest/" },
   openGraph: {
-    title: "Bästa Hemtest 2026 – Topplista & Jämförelse",
+    title: "Bästa Hemtest April 2026 – Topplista & Jämförelse",
     description: "Vilket hemtest är bäst 2026? Vi testar Werlabs, Cerascreen, Testmottagningen och Biovis. SWEDAC-ackrediterade lab. Pris fr. 299 kr. Se topplistan.",
     url: "https://www.testahemma.se/basta-hemtest/",
   },
@@ -62,7 +62,7 @@ export default function BastaHemtestPage() {
       <Header />
       <main className="max-w-5xl mx-auto px-4 py-6">
         <BreadcrumbNav items={[{ name: "Hem", href: "/" }, { name: "Bästa hemtest", href: "/basta-hemtest/" }]} />
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Bästa hemtester 2026 – komplett jämförelse</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Bästa hemtester April 2026 – komplett jämförelse</h1>
         <p className="text-sm text-gray-500 mb-2">{sorted.length} tester jämförda – senast uppdaterad mars 2026</p>
         <AffiliateDisclaimer />
 

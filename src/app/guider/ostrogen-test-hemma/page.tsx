@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Östrogen test hemma 2026 – mät östradiol enkelt",
+  title: "Östrogen test hemma April 2026 – mät östradiol enkelt",
   description: "Guide till östrogen hemtest: vad östradiol mäter, referensvärden per fas och ålder, symptom på östrogenbrist och överskott, och hur du testar hemma.",
   alternates: { canonical: "https://www.testahemma.se/guider/ostrogen-test-hemma/" },
   openGraph: {
-    title: "Östrogen test hemma 2026 – mät östradiol enkelt",
+    title: "Östrogen test hemma April 2026 – mät östradiol enkelt",
     description: "Komplett guide till östrogen (östradiol E2): referensvärden, symptom på obalans, menopaus, och hur du testar hormonerna hemma.",
     url: "https://www.testahemma.se/guider/ostrogen-test-hemma/",
   },
@@ -48,7 +48,7 @@ export default function OstrogenTestHemmaPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Östrogen test hemma 2026 – mät östradiol enkelt",
+    headline: "Östrogen test hemma April 2026 – mät östradiol enkelt",
     description: "Guide till östrogen hemtest: referensvärden per fas, symptom på östrogenbrist och överskott, och hur du testar hemma.",
     datePublished: "2026-04-03",
     dateModified: "2026-04-03",

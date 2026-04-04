@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Testosteron Test Hemma 2026 – Symtom, Värden & Guide",
+  title: "Testosteron Test Hemma April 2026 – Symtom, Värden & Guide",
   description: "Lågt testosteron drabbar var fjärde man över 40. Lär dig symtomen, vad referensvärdena innebär och hur du enkelt testar testosteron hemma med ett blodprov.",
   alternates: { canonical: "https://www.testahemma.se/guider/testosteron-test-hemma/" },
   openGraph: {
-    title: "Testosteron Test Hemma 2026 – Symtom, Värden & Guide",
+    title: "Testosteron Test Hemma April 2026 – Symtom, Värden & Guide",
     description: "Lågt testosteron drabbar var fjärde man över 40. Lär dig symtomen, vad referensvärdena innebär och hur du enkelt testar testosteron hemma med ett blodprov.",
     url: "https://www.testahemma.se/guider/testosteron-test-hemma/",
   },
@@ -44,7 +44,7 @@ export default function TestosteronTestHemmaPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Testosteron Test Hemma 2026 – Symtom, Värden & Guide",
+    headline: "Testosteron Test Hemma April 2026 – Symtom, Värden & Guide",
     description: "Lågt testosteron drabbar var fjärde man över 40. Lär dig symtomen, vad referensvärdena innebär och hur du enkelt testar testosteron hemma med ett blodprov.",
     datePublished: "2026-01-15",
     dateModified: "2026-03-29",

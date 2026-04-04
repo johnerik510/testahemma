@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sköldkörteltest Hemma 2026 – TSH, T4 och symtom",
+  title: "Sköldkörteltest Hemma April 2026 – TSH, T4 och symtom",
   description: "Sköldkörtelproblem drabbar 1 av 10 svenskar. Testa TSH och T4 hemma med ett enkelt blodprov. Guide till symtom, referensvärden och bästa testerna.",
   alternates: { canonical: "https://www.testahemma.se/guider/sköldkörteltest-hemma/" },
   openGraph: {
-    title: "Sköldkörteltest Hemma 2026 – TSH, T4 och symtom",
+    title: "Sköldkörteltest Hemma April 2026 – TSH, T4 och symtom",
     description: "Sköldkörtelproblem drabbar 1 av 10 svenskar. Testa TSH och T4 hemma med ett enkelt blodprov. Guide till symtom, referensvärden och bästa testerna.",
     url: "https://www.testahemma.se/guider/sköldkörteltest-hemma/",
   },

@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Kortisol test hemma 2026 – mät ditt stresshormon med blodprov",
+  title: "Kortisol test hemma April 2026 – mät ditt stresshormon med blodprov",
   description: "Hur testar du kortisol hemma? Guide till kortisolvärden, symtom på högt och lågt kortisol, och hur du väljer rätt test – morgonkortisol vs dygnsprofil.",
   alternates: { canonical: "https://www.testahemma.se/guider/kortisol-test-hemma/" },
   openGraph: {
-    title: "Kortisol test hemma 2026 – mät ditt stresshormon",
+    title: "Kortisol test hemma April 2026 – mät ditt stresshormon",
     description: "Mät ditt kortisolnivå hemma. Guide till kortisolvärden, symtom på högt och lågt kortisol, och hur du tolkar provsvar.",
     url: "https://www.testahemma.se/guider/kortisol-test-hemma/",
   },
@@ -48,7 +48,7 @@ export default function KortisolTestHemmaPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Kortisol test hemma 2026 – mät ditt stresshormon med blodprov",
+    headline: "Kortisol test hemma April 2026 – mät ditt stresshormon med blodprov",
     description: "Guide till kortisolvärden, symtom på högt och lågt kortisol, och hur du testar kortisol hemma.",
     datePublished: "2026-04-03",
     dateModified: "2026-04-03",
@@ -89,7 +89,7 @@ export default function KortisolTestHemmaPage() {
           { name: "Kortisol test hemma", href: "/guider/kortisol-test-hemma/" }
         ]} />
         <div className="text-xs text-gray-400 mb-2">Granskad av Anna Lindström, biomedicinsk analytiker &bull; Uppdaterad april 2026</div>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Kortisol test hemma 2026 – mät ditt stresshormon</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Kortisol test hemma April 2026 – mät ditt stresshormon</h1>
         <MedicalDisclaimer />
         <div className="prose-guide">
           <p>Kortisol kallas ofta stresshormonet men det är mycket mer än så. Det styr energimetabolism, immunförsvar, blodtryck och hjärnfunktion. Kroniskt för högt eller för lågt kortisol kan ha allvarliga hälsokonsekvenser. Med ett hemtest kan du mäta dina kortisolnivåer enkelt — utan att boka läkartid.</p>

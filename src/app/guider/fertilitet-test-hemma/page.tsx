@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Fertilitetstest Hemma 2026 – AMH, FSH och Hormonpanel",
+  title: "Fertilitetstest Hemma April 2026 – AMH, FSH och Hormonpanel",
   description: "Komplett guide till fertilitetstest hemma 2026. Lär dig vad AMH, FSH och äggstocksreserv innebär, hur du tolkar svaren och vilket test du ska välja.",
   alternates: { canonical: "https://www.testahemma.se/guider/fertilitet-test-hemma/" },
   openGraph: {
-    title: "Fertilitetstest Hemma 2026 – AMH, FSH och Hormonpanel",
+    title: "Fertilitetstest Hemma April 2026 – AMH, FSH och Hormonpanel",
     description: "Komplett guide till fertilitetstest hemma 2026. Lär dig vad AMH, FSH och äggstocksreserv innebär, hur du tolkar svaren och vilket test du ska välja.",
     url: "https://www.testahemma.se/guider/fertilitet-test-hemma/",
   },
@@ -43,7 +43,7 @@ const faqs = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Fertilitetstest hemma 2026 – komplett guide till AMH, FSH och hormonpanel",
+  "headline": "Fertilitetstest hemma April 2026 – komplett guide till AMH, FSH och hormonpanel",
   "description": "Guide om hur fertilitetstest hemma fungerar, vilka hormoner som mäts och hur du tolkar resultaten.",
   "url": "https://www.testahemma.se/guider/fertilitet-test-hemma/",
   "author": { "@type": "Person", "name": "Anna Lindström" },

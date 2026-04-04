@@ -7,11 +7,11 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Menopaus blodprov hemma 2026 – Vilka hormontest ska man ta?",
+  title: "Menopaus blodprov hemma April 2026 – Vilka hormontest ska man ta?",
   description: "Vilka blodprov bör du ta vid menopaus? Lär dig om FSH, LH, östradiol och TSH – och hur du enkelt testar hormonnivåerna hemma utan remiss.",
   alternates: { canonical: "https://www.testahemma.se/guider/menopaus-blodprov/" },
   openGraph: {
-    title: "Menopaus blodprov hemma 2026 – Vilka hormontest ska man ta?",
+    title: "Menopaus blodprov hemma April 2026 – Vilka hormontest ska man ta?",
     description: "Komplett guide: vilka hormontest vid menopaus, vad FSH och östradiol-värden betyder, och hur du testar hemma utan att boka tid på vårdcentral.",
     url: "https://www.testahemma.se/guider/menopaus-blodprov/",
   },

@@ -13,12 +13,12 @@ import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
 
 export const metadata: Metadata = {
-  title: "Blodprov Hemma 2026 – Beställ utan Remiss från 295 kr",
+  title: "Blodprov Hemma April 2026 – Beställ utan Remiss från 295 kr",
   description:
     "Ta blodprov hemma utan remiss. Vi jämför Sveriges bästa hemblodprov – Werlabs, Diagnostikdirekt och fler. SWEDAC-ackrediterade lab. Svar inom 2–5 dagar.",
   alternates: { canonical: "https://www.testahemma.se/blodprov-hemma/" },
   openGraph: {
-    title: "Blodprov Hemma 2026 – Beställ utan Remiss från 295 kr",
+    title: "Blodprov Hemma April 2026 – Beställ utan Remiss från 295 kr",
     description:
       "Ta blodprov hemma utan remiss. Vi jämför Sveriges bästa hemblodprov – Werlabs, Diagnostikdirekt och fler. SWEDAC-ackrediterade lab. Svar inom 2–5 dagar.",
     url: "https://www.testahemma.se/blodprov-hemma/",
@@ -97,7 +97,7 @@ export default function BlodprovHemmaPage() {
           ]}
         />
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          Blodprov hemma 2026 – ta prov utan remiss
+          Blodprov hemma April 2026 – ta prov utan remiss
         </h1>
         <p className="text-sm text-gray-500 mb-3">
           {products.length} tester jämförda – senast uppdaterad mars 2026
