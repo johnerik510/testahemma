@@ -777,8 +777,7 @@ export const products: TestProduct[] = [
     priceFrom: "99 kr",
     priceNote: "Från 99 kr – ett av marknadens billigaste utbud",
     affiliateUrl: "https://addrevenue.io/t?a=985053&c=3467323",
-    network: "addrevenue",
-    addRevenueProgramId: "985053",
+    network: "direct",
     ctaText: "Se tester hos Nordictest",
     categories: ["blodtester", "sti-tester", "vitamintester", "allergitester", "fertilitetstester"],
     rating: 7.8,
@@ -859,6 +858,178 @@ export const products: TestProduct[] = [
     ],
     logoUrl: "/logos/nordictest.png",
     productImageUrl: "/logos/nordictest.png",
+    datePublished: "2026-04-04",
+    dateModified: "2026-04-04",
+    author: "Anna Lindström",
+  },
+  {
+    slug: "snabbtesta",
+    name: "Snabbtesta.se",
+    shortDescription: "CE-märkta snabbtester för STI och droger – svar inom 15 min, diskret leverans från 1–2 dagar",
+    description:
+      "Snabbtesta.se är en svensk webbutik specialiserad på CE-märkta snabbtester du utför hemma. Sortimentet täcker STI-tester (klamydia, gonorré, syfilis), drogtester (cannabis, kokain, amfetamin m.fl.) och graviditetstester. Testerna är enkla att använda och ger svar direkt på plats – utan att skicka prov till ett labb.",
+    priceFrom: "99 kr",
+    priceNote: "Från 99 kr per test – paket och flerpack tillgängliga",
+    affiliateUrl: "https://addrevenue.io/t?a=987645&c=3467323",
+    network: "direct",
+    ctaText: "Se tester hos Snabbtesta",
+    categories: ["sti-tester"],
+    rating: 7.6,
+    ratings: { accuracy: 7.5, ease: 9.0, speed: 9.5, value: 9.0, support: 7.0 },
+    testsIncluded: [
+      "Klamydia (snabbtest)",
+      "Gonorré (snabbtest)",
+      "Syfilis (snabbtest)",
+      "HIV 1+2 (snabbtest)",
+      "Cannabis / THC",
+      "Kokain",
+      "Amfetamin",
+      "Drogtest 12-panel",
+      "Graviditetstest",
+      "Superpaket kvinna (STI-kombination)",
+    ],
+    sampleType: "Urin, svabb eller blodstick beroende på test",
+    turnaround: "Svar direkt på plats – 5–20 minuter",
+    labCertification: "CE-märkta tester",
+    prescription: false,
+    features: [
+      "Svar direkt hemma – inget labb-väntan",
+      "CE-märkta tester av hög kvalitet",
+      "Diskret leverans inom 1–2 dagar",
+      "Brett sortiment: STI, drogtester, graviditet",
+      "Inget recept eller läkarbesök krävs",
+    ],
+    pros: [
+      "Svar direkt hemma på 5–20 minuter",
+      "Låga priser – enskilda tester från 99 kr",
+      "Enkla och diskreta att beställa",
+      "Bra för snabb screening av STI",
+      "Inga abonnemang – beställ det du behöver",
+    ],
+    cons: [
+      "Snabbtester är mindre känsliga än PCR-labb-tester",
+      "Inget ackrediterat laboratorium i kedjan",
+      "Ingen inkluderad läkarkonsultation",
+      "Positiva snabbresultat bör alltid bekräftas med labb-test",
+    ],
+    review: {
+      intro:
+        "Snabbtesta.se är den rätta lösningen när du vill ha svar nu – inte om 3–5 dagar. Webbbutiken säljer CE-märkta snabbtester primärt för STI och droger, med leverans inom 1–2 dagar och tester du utför hemma på ett kvart.",
+      accuracy:
+        "Snabbtester är CE-märkta men har lägre sensitivitet än PCR-baserade laboratoriemetoder. För STI-tester innebär det att ett negativt snabbresultat inte utesluter infektion vid hög risk – ett kompletterande labb-test rekommenderas alltid vid kvarstående symtom.",
+      process:
+        "Beställ online och paketet levereras i ett neutralt kuvert. Följ de bifogade instruktionerna för provtagning (urin, svabb eller blodstick beroende på test). Lägg testkassetten på en plan yta och avläs resultatet efter 5–20 minuter.",
+      results:
+        "Resultatet visas direkt på testkassettens streck – ett eller två streck avläses enligt medföljande instruktion. Inget digitalt svar eller app behövs. Positiva resultat bör alltid bekräftas med ett laboratorie-test hos en vårdcentral.",
+      price:
+        "Snabbtesta.se är priskonkurrenta med tester från 99 kr per styck. Flerpack och kombinationspaket ger ytterligare rabatt. För den som behöver ett snabbt svar utan att betala för ett fullständigt labb-paket är det ett ekonomiskt val.",
+      verdict:
+        "Snabbtesta.se är idealisk för snabb STI-screening hemma – när du vill ha svar direkt och inte kan vänta på labb-analys. Kom ihåg att ett negativt snabbresultat inte är detsamma som ett kliniskt friintyg. Vill du ha det mest tillförlitliga svaret välj ett SWEDAC-ackrediterat alternativ som Werlabs.",
+    },
+    faqs: [
+      {
+        question: "Hur tillförlitliga är Snabbtesta.se:s tester?",
+        answer:
+          "Testerna är CE-märkta, vilket uppfyller EU:s krav för medicintekniska produkter. Snabbtester har generellt lägre sensitivitet (känslighet) än PCR-tester. Det innebär att ett falskt negativt resultat är möjligt – särskilt tidigt i en infektion. Positivt resultat är mer tillförlitligt.",
+      },
+      {
+        question: "Hur lång tid tar leveransen?",
+        answer:
+          "Snabbtesta.se levererar normalt inom 1–2 vardagar efter belagd beställning. Paketet skickas i en diskret förpackning utan avsändarinformation som avslöjar innehållet.",
+      },
+      {
+        question: "Behöver jag recept för att beställa?",
+        answer:
+          "Nej. Alla tester hos Snabbtesta.se säljs receptfritt och kan beställas direkt utan läkarinblandning.",
+      },
+      {
+        question: "Vad gör jag om testet är positivt?",
+        answer:
+          "Kontakta en vårdcentral eller STI-mottagning för bekräftande labb-test och behandling. Snabbtestets positiva resultat ska alltid verifieras – det är inte tillräckligt som klinisk diagnos.",
+      },
+    ],
+    logoUrl: "/logos/snabbtesta.png",
+    productImageUrl: "/logos/snabbtesta.png",
+    datePublished: "2026-04-04",
+    dateModified: "2026-04-04",
+    author: "Anna Lindström",
+  },
+  {
+    slug: "testivo",
+    name: "Testivo",
+    shortDescription: "Hemtester till låga priser – snabb leverans 1–3 dagar, CE-märkta tester utan recept",
+    description:
+      "Testivo är en svensk onlinebutik som erbjuder CE-märkta hemtester till konkurrenskraftiga priser. Med snabb leverans och ett sortiment av vanliga hemtester är de ett prisvärt alternativ för den som vill göra en snabb hälsokoll hemma utan att behöva boka läkartid.",
+    priceFrom: "99 kr",
+    priceNote: "Konkurrenskraftiga priser – kolla aktuella erbjudanden på sajten",
+    affiliateUrl: "https://addrevenue.io/t?a=987744&c=3467323",
+    network: "direct",
+    ctaText: "Se tester hos Testivo",
+    categories: ["sti-tester", "blodtester"],
+    rating: 7.5,
+    ratings: { accuracy: 7.5, ease: 8.5, speed: 8.5, value: 9.0, support: 7.5 },
+    testsIncluded: [
+      "STI-tester (klamydia, gonorré, syfilis)",
+      "HIV-test",
+      "Blodtester (hemma)",
+      "Graviditetstest",
+      "Drogtester",
+    ],
+    sampleType: "Varierar per test – urin, svabb eller blodstick",
+    turnaround: "Snabbtester: svar direkt på plats. Övriga: 2–5 dagar",
+    labCertification: "CE-märkta tester",
+    prescription: false,
+    features: [
+      "Kvalitetsprodukter till låga priser",
+      "Leverans inom 1–3 dagar",
+      "CE-märkta tester",
+      "Inget recept krävs",
+      "Enkel beställning online",
+    ],
+    pros: [
+      "Konkurrenskraftiga priser",
+      "Snabb leverans 1–3 dagar",
+      "Enkelt att beställa utan recept",
+      "CE-märkta tester",
+    ],
+    cons: [
+      "Snabbtester är mindre känsliga än labb-PCR-tester",
+      "Inget SWEDAC-ackrediterat laboratorium",
+      "Ingen inkluderad läkarkonsultation",
+    ],
+    review: {
+      intro:
+        "Testivo erbjuder CE-märkta hemtester till konkurrenskraftiga priser med snabb leverans inom 1–3 dagar. Ett prisvärt val för den som söker en enkel hälsokoll hemma.",
+      accuracy:
+        "Testerna är CE-märkta enligt EU:s standard för medicintekniska produkter. Snabbtester har lägre sensitivitet än laboratoriemetoder – vid positiva resultat eller kvarstående symtom bör du alltid kontakta sjukvården för bekräftelse.",
+      process:
+        "Beställ online och få paketet hem på 1–3 dagar. Följ instruktionerna för provtagning och avläs resultatet direkt eller via inlämning till labb beroende på testtyp.",
+      results:
+        "Snabbtester ger svar direkt på plats. Labb-baserade tester levererar digitala svar inom 2–5 dagar. Avvikande svar bör alltid följas upp hos läkare.",
+      price:
+        "Testivo erbjuder konkurrenskraftiga priser och är ett prisvärt alternativ för den som vill göra en hemtestkontroll utan att betala för ett fullständigt labbpaket.",
+      verdict:
+        "Testivo är ett prisvärt och smidigt alternativ för grundläggande hemtester med snabb leverans. För mer avancerade analyser och klinisk precision rekommenderas SWEDAC-ackrediterade alternativ som Werlabs.",
+    },
+    faqs: [
+      {
+        question: "Hur snabb är leveransen från Testivo?",
+        answer:
+          "Testivo levererar normalt inom 1–3 vardagar. Paketet skickas diskret utan avsändarinformation som avslöjar innehållet.",
+      },
+      {
+        question: "Behöver jag recept för att beställa hos Testivo?",
+        answer:
+          "Nej. Alla tester kan beställas direkt utan recept eller läkarkonsultation.",
+      },
+      {
+        question: "Är Testivos tester tillförlitliga?",
+        answer:
+          "Testerna är CE-märkta vilket uppfyller EU:s krav för medicintekniska produkter. Snabbtester är bra för screening men labb-PCR är mer känsligt. Positiva snabbresultat bör alltid bekräftas med ett labb-test hos sjukvården.",
+      },
+    ],
+    logoUrl: "/logos/testivo.png",
+    productImageUrl: "/logos/testivo.png",
     datePublished: "2026-04-04",
     dateModified: "2026-04-04",
     author: "Anna Lindström",
