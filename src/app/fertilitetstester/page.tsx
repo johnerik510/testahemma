@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Fertilitetstester hemma April 2026 – AMH, FSH, Hormonpanel",
@@ -50,34 +51,6 @@ const faqs = [
   },
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Bästa fertilitetstester hemma 2026",
-  "description": "Jämförelse av hemtester för fertilitet – AMH, FSH, könshormonpanel och spermieanalys.",
-  "url": "https://www.testahemma.se/fertilitetstester/",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Werlabs Hormonpanel",
-      "url": "https://www.testahemma.se/recension/werlabs/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Cerascreen Fertilitetstest",
-      "url": "https://www.testahemma.se/recension/cerascreen/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Verisana Hormonpanel",
-      "url": "https://www.testahemma.se/recension/verisana/"
-    }
-  ]
-};
-
 export default function FertilitetstesterPage() {
   const products = getProductsByCategory("fertilitetstester");
   const top = products[0];
@@ -91,6 +64,12 @@ export default function FertilitetstesterPage() {
         top.awinProgramId
       )
     : "";
+  const jsonLd = buildProductListSchema(
+    "Bästa fertilitetstester hemma 2026",
+    "https://www.testahemma.se/fertilitetstester/",
+    "Jämförelse av hemtester för fertilitet – AMH, FSH, könshormonpanel och spermieanalys.",
+    products,
+  );
 
   return (
     <>

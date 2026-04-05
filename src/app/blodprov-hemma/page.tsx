@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Blodprov Hemma April 2026 – Beställ utan Remiss från 295 kr",
@@ -67,20 +68,12 @@ export default function BlodprovHemmaPage() {
       )
     : "";
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Blodprov hemma 2026",
-    description:
-      "Jämförelse av Sveriges bästa hemblodprov utan remiss – pris, innehåll och laboratoriecertifiering.",
-    url: "https://www.testahemma.se/blodprov-hemma/",
-    itemListElement: products.map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: p.name,
-      url: `https://www.testahemma.se/recension/${p.slug}/`,
-    })),
-  };
+  const jsonLd = buildProductListSchema(
+    "Blodprov hemma 2026",
+    "https://www.testahemma.se/blodprov-hemma/",
+    "Jämförelse av Sveriges bästa hemblodprov utan remiss – pris, innehåll och laboratoriecertifiering.",
+    products,
+  );
 
   return (
     <>

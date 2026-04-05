@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "STI-tester Hemma 2026 — Diskret & Snabbt | Testahemma.se",
@@ -50,18 +51,16 @@ const faqs = [
   },
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Bästa STI-tester hemma 2026",
-  "description": "Jämförelse av de bästa STI-hemtesterna på den svenska marknaden.",
-  "url": "https://www.testahemma.se/sti-tester/",
-};
-
 export default function StiTesterPage() {
   const products = getProductsByCategory("sti-tester");
   const top = products[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-sti-tester-sticky`, top.awinProgramId) : "";
+  const jsonLd = buildProductListSchema(
+    "Bästa STI-tester hemma 2026",
+    "https://www.testahemma.se/sti-tester/",
+    "Jämförelse av de bästa STI-hemtesterna på den svenska marknaden.",
+    products,
+  );
 
   return (
     <>

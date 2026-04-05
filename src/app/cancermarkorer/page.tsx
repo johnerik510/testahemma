@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Cancermarkörer Hemma April 2026 – PSA, CA-125 & CEA",
@@ -50,19 +51,16 @@ const faqs = [
   },
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Bästa hemtester för cancermarkörer 2026",
-  "description": "Rankad lista över hemtester för cancermarkörer – PSA, CA-125, CEA och AFP.",
-  "url": "https://www.testahemma.se/cancermarkorer/",
-  "itemListOrder": "https://schema.org/ItemListOrderDescending",
-};
-
 export default function CancermarkPage() {
   const products = getProductsByCategory("cancermarkorer");
   const top = products[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-cancermarkorer-sticky`, top.awinProgramId) : "";
+  const jsonLd = buildProductListSchema(
+    "Bästa hemtester för cancermarkörer 2026",
+    "https://www.testahemma.se/cancermarkorer/",
+    "Rankad lista över hemtester för cancermarkörer – PSA, CA-125, CEA och AFP.",
+    products,
+  );
   return (
     <>
       <script

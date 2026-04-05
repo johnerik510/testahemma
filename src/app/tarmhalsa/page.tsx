@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Tarmhälsa & Mikrobiomtest Hemma April 2026 | Testahemma.se",
@@ -37,20 +38,12 @@ export default function TarmhalsaPage() {
   const top = products[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-tarmhalsa-sticky`, top.awinProgramId) : "";
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Bästa tarmfloratester hemma April 2026",
-    "description": "Jämförelse av de bästa hemtesterna för tarmhälsa och mikrobiomanalys tillgängliga i Sverige.",
-    "url": "https://www.testahemma.se/tarmhalsa/",
-    "numberOfItems": products.length,
-    "itemListElement": products.map((p, i) => ({
-      "@type": "ListItem",
-      "position": i + 1,
-      "name": p.name,
-      "url": `https://www.testahemma.se/recension/${p.slug}/`,
-    })),
-  };
+  const jsonLd = buildProductListSchema(
+    "Bästa tarmfloratester hemma April 2026",
+    "https://www.testahemma.se/tarmhalsa/",
+    "Jämförelse av de bästa hemtesterna för tarmhälsa och mikrobiomanalys tillgängliga i Sverige.",
+    products,
+  );
 
   return (
     <>

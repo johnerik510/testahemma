@@ -11,6 +11,7 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { products } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Bästa Hemtest April 2026 – Topplista & Jämförelse",
@@ -37,21 +38,12 @@ export default function BastaHemtestPage() {
   const top = sorted[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-basta-hemtest-sticky`, top.awinProgramId) : "";
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Bästa hemtester 2026",
-    description: "Rankad lista över Sveriges bästa hemtestningskit för blodvärden, hormoner, STI, vitaminer och tarmhälsa.",
-    url: "https://www.testahemma.se/basta-hemtest/",
-    numberOfItems: sorted.length,
-    itemListElement: sorted.map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: p.name,
-      url: `https://www.testahemma.se/recension/${p.slug}/`,
-      description: p.shortDescription,
-    })),
-  };
+  const jsonLd = buildProductListSchema(
+    "Bästa hemtester 2026",
+    "https://www.testahemma.se/basta-hemtest/",
+    "Rankad lista över Sveriges bästa hemtestningskit för blodvärden, hormoner, STI, vitaminer och tarmhälsa.",
+    sorted,
+  );
 
   return (
     <>

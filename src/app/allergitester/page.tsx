@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Allergitester Hemma April 2026 – Mat, pollen och djur (jämförelse)",
@@ -61,19 +62,12 @@ export default function AllergitesterPage() {
   const top = products[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-allergitester-sticky`, top.awinProgramId) : "";
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Bästa allergitesterna hemma 2026",
-    url: "https://www.testahemma.se/allergitester/",
-    numberOfItems: products.length,
-    itemListElement: products.map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: p.name,
-      url: `https://www.testahemma.se/recension/${p.slug}/`,
-    })),
-  };
+  const jsonLd = buildProductListSchema(
+    "Bästa allergitesterna hemma 2026",
+    "https://www.testahemma.se/allergitester/",
+    "Jämförelse av de bästa hemallergitesterna på den svenska marknaden.",
+    products,
+  );
 
   return (
     <>

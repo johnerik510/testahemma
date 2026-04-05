@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Kolesteroltest hemma April 2026 — Jämförelse | Testahemma.se",
@@ -55,19 +56,12 @@ export default function KolesteroltesterPage() {
   const top = products[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-kolesteroltester-sticky`, top.awinProgramId) : "";
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Bästa kolesteroltest hemma April 2026",
-    url: "https://www.testahemma.se/kolesteroltester/",
-    numberOfItems: products.length,
-    itemListElement: products.map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: p.name,
-      url: `https://www.testahemma.se/recension/${p.slug}/`,
-    })),
-  };
+  const jsonLd = buildProductListSchema(
+    "Bästa kolesteroltest hemma April 2026",
+    "https://www.testahemma.se/kolesteroltester/",
+    "Jämförelse av hemtester för kolesterol – LDL, HDL, triglycerider och lipidprofil.",
+    products,
+  );
 
   return (
     <>

@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import BreadcrumbNav from "@/components/BreadcrumbNav";
 import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import FaqAccordion from "@/components/FaqAccordion";
+import { products as allProducts } from "@/data/products";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Jämför hemmatester April 2026 — Alla leverantörer",
@@ -173,21 +175,17 @@ const faqs = [
   },
 ];
 
-const comparisonSchema = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  name: "Jämför hemmatestleverantörer April 2026",
-  description:
-    "Jämförelse av alla hemmatestleverantörer i Sverige April 2026 — pris, betyg, testutbud och svarstid.",
-  url: "https://www.testahemma.se/jamfor-hemmatester/",
-  numberOfItems: sortedProviders.length,
-  itemListElement: sortedProviders.map((p, i) => ({
-    "@type": "ListItem",
-    position: i + 1,
-    name: p.name,
-    url: `https://www.testahemma.se/recension/${p.slug}/`,
-  })),
-};
+// Build schema from the actual product data for full Product schema with all required fields
+const comparisonProducts = sortedProviders
+  .map((p) => allProducts.find((prod) => prod.slug === p.slug))
+  .filter(Boolean) as typeof allProducts;
+
+const comparisonSchema = buildProductListSchema(
+  "Jämför hemmatestleverantörer April 2026",
+  "https://www.testahemma.se/jamfor-hemmatester/",
+  "Jämförelse av alla hemmatestleverantörer i Sverige April 2026 — pris, betyg, testutbud och svarstid.",
+  comparisonProducts,
+);
 
 const breadcrumbLd = {
   "@context": "https://schema.org",

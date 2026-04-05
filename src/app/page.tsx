@@ -10,6 +10,7 @@ import StickyCTA from "@/components/StickyCTA";
 import { getTopProducts } from "@/data/products";
 import { categories } from "@/data/categories";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Testahemma.se – Bästa Hemtester för Sverige April 2026",
@@ -49,17 +50,12 @@ const homepageFaqs = [
 export default function HomePage() {
   const topProducts = getTopProducts(9);
 
-  const itemListSchema = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Bästa hemtester Sverige April 2026",
-    itemListElement: topProducts.map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: p.name,
-      url: `https://www.testahemma.se/recension/${p.slug}/`,
-    })),
-  };
+  const itemListSchema = buildProductListSchema(
+    "Bästa hemtester Sverige April 2026",
+    "https://www.testahemma.se/",
+    "Sveriges guide till hemtestningskit – blodtester, hormontester, STI-tester och vitamintester.",
+    topProducts,
+  );
 
   return (
     <>

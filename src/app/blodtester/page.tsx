@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Bästa Blodtester Hemma April 2026 — Jämförelse & Guide",
@@ -32,32 +33,16 @@ const faqs = [
   { question: "Vad kostar ett hemblodtest?", answer: "Ett baspaket med de viktigaste värdena (blodstatus, järn, kolesterol, blodsocker) kostar vanligtvis 295–495 kr. Fullständiga hälsopaneler med 30–60 parametrar, hormoner och vitaminer ligger på 895–1 695 kr beroende på aktör och panel." },
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Bästa blodtester hemma April 2026",
-  "description": "Jämförelse av Sveriges bästa hemblodtester med pris, innehåll och laboratoriecertifiering.",
-  "url": "https://www.testahemma.se/blodtester/",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Werlabs Stor hälsokontroll",
-      "url": "https://www.testahemma.se/recension/werlabs/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Diagnostikdirekt Baspaket",
-      "url": "https://www.testahemma.se/recension/diagnostikdirekt/"
-    }
-  ]
-};
-
 export default function BlodtesterPage() {
   const products = getProductsByCategory("blodtester");
   const top = products[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-blodtester-sticky`, top.awinProgramId) : "";
+  const jsonLd = buildProductListSchema(
+    "Bästa blodtester hemma April 2026",
+    "https://www.testahemma.se/blodtester/",
+    "Jämförelse av Sveriges bästa hemblodtester med pris, innehåll och laboratoriecertifiering.",
+    products,
+  );
   return (
     <>
       <script

@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Hormontester hemma April 2026 — Jämförelse | Testahemma.se",
@@ -37,19 +38,12 @@ export default function HormontesterPage() {
   const top = products[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-hormontester-sticky`, top.awinProgramId) : "";
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Bästa hormontester hemma April 2026",
-    url: "https://www.testahemma.se/hormontester/",
-    numberOfItems: products.length,
-    itemListElement: products.map((p, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: p.name,
-      url: `https://www.testahemma.se/recension/${p.slug}/`,
-    })),
-  };
+  const jsonLd = buildProductListSchema(
+    "Bästa hormontester hemma April 2026",
+    "https://www.testahemma.se/hormontester/",
+    "Jämförelse av hemtester för testosteron, östrogen, sköldkörtel och kortisol.",
+    products,
+  );
 
   return (
     <>

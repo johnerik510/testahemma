@@ -14,6 +14,7 @@ import ProductCard from "@/components/ProductCard";
 import StickyCTA from "@/components/StickyCTA";
 import { products, getProductBySlug, getAllProductSlugs } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildReviewSchema } from "@/lib/schema";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -57,42 +58,7 @@ export default async function RecensionPage({ params }: Props) {
     p.awinProgramId
   );
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    name: `${p.name} recension 2026`,
-    reviewBody: p.review.verdict,
-    datePublished: p.datePublished,
-    dateModified: p.dateModified,
-    reviewRating: {
-      "@type": "Rating",
-      ratingValue: p.rating,
-      bestRating: 10,
-      worstRating: 1,
-    },
-    author: {
-      "@type": "Person",
-      name: p.author || "Anna Lindström",
-      url: "https://www.testahemma.se/om-oss/",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Testahemma.se",
-      url: "https://www.testahemma.se",
-    },
-    itemReviewed: {
-      "@type": "Product",
-      name: p.name,
-      url: p.affiliateUrl,
-      description: p.description,
-      offers: {
-        "@type": "Offer",
-        priceCurrency: "SEK",
-        price: p.priceFrom.replace(/[^0-9]/g, ""),
-        availability: "https://schema.org/InStock",
-      },
-    },
-  };
+  const reviewSchema = buildReviewSchema(p);
 
   const breadcrumbLd = {
     "@context": "https://schema.org",

@@ -11,6 +11,7 @@ import AffiliateDisclaimer from "@/components/AffiliateDisclaimer";
 import StickyCTA from "@/components/StickyCTA";
 import { getProductsByCategory } from "@/data/products";
 import { buildAffiliateUrl } from "@/lib/tracking";
+import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Vitamintester Hemma April 2026 – D-vitamin, B12 & Mer",
@@ -21,22 +22,6 @@ export const metadata: Metadata = {
     description: "Testa dina vitaminnivåer hemma utan remiss. Jämför D-vitamintest, B12-test och omega-3 index. Ackrediterat lab, svar inom 3–5 dagar. Pris från 299 kr.",
     url: "https://www.testahemma.se/vitamintester/",
   },
-};
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Bästa vitamintester hemma 2026",
-  "description": "Jämförelse av de bästa hemtesterna för D-vitamin, B12, folat, järn och omega-3 på den svenska marknaden.",
-  "url": "https://www.testahemma.se/vitamintester/",
-  "numberOfItems": 5,
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "D-vitamintest hemma" },
-    { "@type": "ListItem", "position": 2, "name": "B12-test hemma" },
-    { "@type": "ListItem", "position": 3, "name": "Omega-3 index hemma" },
-    { "@type": "ListItem", "position": 4, "name": "Folattest hemma" },
-    { "@type": "ListItem", "position": 5, "name": "Järn och ferritin hemma" },
-  ],
 };
 
 const faqs = [
@@ -52,6 +37,12 @@ export default function VitamintesterPage() {
   const products = getProductsByCategory("vitamintester");
   const top = products[0];
   const topUrl = top ? buildAffiliateUrl(top.affiliateUrl, top.network, top.adtractionProgramId, top.addRevenueProgramId, `TH-${top.slug}-vitamintester-sticky`, top.awinProgramId) : "";
+  const jsonLd = buildProductListSchema(
+    "Bästa vitamintester hemma 2026",
+    "https://www.testahemma.se/vitamintester/",
+    "Jämförelse av de bästa hemtesterna för D-vitamin, B12, folat, järn och omega-3 på den svenska marknaden.",
+    products,
+  );
   return (
     <>
       <script
