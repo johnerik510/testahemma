@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Annonsering & Affiliatepolicy | Testahemma.se",
   description: "Läs om hur Testahemma.se finansieras via affiliatelänkar och hur det påverkar (eller inte påverkar) våra recensioner.",
   alternates: { canonical: "https://www.testahemma.se/annonsering/" },
+  robots: { index: false, follow: false },
 };
 
 export default function AnnonseringPage() {
