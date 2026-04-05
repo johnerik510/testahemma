@@ -2,7 +2,12 @@ import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: { userAgent: "*", allow: "/" },
+    rules: [
+      { userAgent: "*", allow: "/" },
+      { userAgent: "GPTBot", disallow: "/" },
+      { userAgent: "ChatGPT-User", disallow: "/" },
+      { userAgent: "CCBot", disallow: "/" },
+    ],
     sitemap: "https://www.testahemma.se/sitemap.xml",
   };
 }
