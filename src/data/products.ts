@@ -92,7 +92,7 @@ export const products: TestProduct[] = [
   {
     slug: "cerascreen",
     name: "Cerascreen",
-    shortDescription: "50+ hemtester: D-vitamin, B12, allergi (295 ämnen), kortisol, tarmflora – från 299 kr",
+    shortDescription: "Cerascreen hemtest: 50+ tester för D-vitamin, B12, allergi, kortisol och tarmflora. Europas största hemtest-varumärke, pris fr. 299 kr.",
     description:
       "Cerascreen är Europas mest sålda hemtest-varumärke med över 2 miljoner sålda tester. De erbjuder ett brett sortiment: vitamintester (D-vitamin, B12, omega-3), allergitester, hormontester och tarmhälsatester. Prover tas med fingerblod eller salivprov.",
     priceFrom: "299 kr",
@@ -689,7 +689,7 @@ export const products: TestProduct[] = [
   {
     slug: "holistic",
     name: "Holistic",
-    shortDescription: "Naturliga kosttillskott och hälsotester i ett – vetenskapsbaserat",
+    shortDescription: "Holistic hälsotester: vitaminer, mineraler, hormoner och tarmhälsa. Svenskt varumärke med ISO-lab och personliga rekommendationer, fr. 549 kr.",
     description:
       "Holistic är ett välkänt svenskt varumärke inom naturliga kosttillskott som även erbjuder professionella hälsotester. Deras testsortiment täcker vitaminer, mineraler, hormoner och tarmhälsa med ISO-certifierade laboratorieanalyser. Resultat inkluderar personliga rekommendationer kopplade till deras kosttillskott.",
     priceFrom: "549 kr",

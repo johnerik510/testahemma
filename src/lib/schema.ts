@@ -1,6 +1,51 @@
 import type { TestProduct } from "@/types/product";
 
 /**
+ * Build an Article schema for guide/informational pages.
+ * Ensures consistent E-E-A-T signals across all editorial content.
+ */
+export function buildArticleSchema({
+  headline,
+  description,
+  datePublished,
+  dateModified,
+  url,
+  authorName = "John Erik Johansson",
+  authorUrl = "https://www.testahemma.se/om-oss/",
+  authorJobTitle = "Grundare & hälsotestexpert",
+}: {
+  headline: string;
+  description: string;
+  datePublished: string;
+  dateModified: string;
+  url: string;
+  authorName?: string;
+  authorUrl?: string;
+  authorJobTitle?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline,
+    description,
+    datePublished,
+    dateModified,
+    author: {
+      "@type": "Person",
+      name: authorName,
+      url: authorUrl,
+      jobTitle: authorJobTitle,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Testahemma.se",
+      url: "https://www.testahemma.se",
+    },
+    mainEntityOfPage: url,
+  };
+}
+
+/**
  * Shared shipping details for all products on testahemma.se.
  * These are home-testing kits shipped within Sweden.
  */

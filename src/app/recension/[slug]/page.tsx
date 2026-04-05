@@ -29,8 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = getProductBySlug(slug);
   if (!p) return { title: "Hittades inte" };
   return {
-    title: `${p.name} Recension April 2026 – Är det värt det? | Testahemma.se`,
-    description: `Läs vår kompletta ${p.name} recension. Vi testar noggrannhet, provtagning, resultat och pris. ${p.shortDescription}`,
+    title: `${p.name} Recension 2026 – Test, Pris och Omdöme | Testahemma`,
+    description: `${p.name} recension 2026: vi testar noggrannhet, provtagning, resultat och pris. ${p.shortDescription}`,
     alternates: { canonical: `https://www.testahemma.se/recension/${slug}/` },
     openGraph: {
       title: `${p.name} Recension 2026`,

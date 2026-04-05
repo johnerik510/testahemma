@@ -111,6 +111,8 @@ export default function Footer() {
               <li><Link href="/guider/" className="text-sm hover:text-white transition-colors">Alla guider</Link></li>
               <li><Link href="/om-oss/" className="text-sm hover:text-white transition-colors">Om oss</Link></li>
               <li><Link href="/hur-vi-testar/" className="text-sm hover:text-white transition-colors">Hur vi testar</Link></li>
+              <li><Link href="/sa-testar-vi/" className="text-sm hover:text-white transition-colors">Så testar vi</Link></li>
+              <li><Link href="/redaktionell-policy/" className="text-sm hover:text-white transition-colors">Redaktionell policy</Link></li>
               <li><Link href="/annonsering/" className="text-sm hover:text-white transition-colors">Annonsering & affiliate</Link></li>
               <li><Link href="/integritetspolicy/" className="text-sm hover:text-white transition-colors">Integritetspolicy</Link></li>
               <li><Link href="/kontakt/" className="text-sm hover:text-white transition-colors">Kontakt</Link></li>

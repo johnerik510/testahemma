@@ -22,6 +22,25 @@ const personSchema = {
     name: "Testahemma.se",
     url: "https://www.testahemma.se",
   },
+  knowsAbout: [
+    "Hemtestningskit",
+    "Blodprov hemma",
+    "Laboratorieackreditering",
+    "SWEDAC",
+    "ISO 15189",
+    "Hormontester",
+    "STI-testning",
+    "Vitamintester",
+    "Allergitester",
+    "Tarmhälsa och mikrobiomanalys",
+    "Cancermarkörer",
+    "Kolesteroltester",
+    "Preventiv hälsa",
+    "Biomarkörer",
+    "CE-märkning medicintekniska produkter",
+  ],
+  sameAs: [],
+  url: "https://www.testahemma.se/om-oss/",
 };
 
 const organizationSchema = {

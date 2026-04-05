@@ -13,9 +13,9 @@ import { buildAffiliateUrl } from "@/lib/tracking";
 import { buildProductListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Testahemma.se – Bästa Hemtester för Sverige April 2026",
+  title: "Testahemma.se – Bästa Hemtest 2026 (Werlabs, Cerascreen m.fl.)",
   description:
-    "Sveriges guide till hemtestningskit. Vi testar och jämför blodtester, hormontester, STI-tester och vitamintester. Hitta rätt test från 299 kr.",
+    "Bästa hemtest 2026: vi jämför Werlabs, Cerascreen, Holistic och fler. Blodtester, hormontester, vitamintester och STI-tester. Pris fr. 299 kr.",
   alternates: { canonical: "https://www.testahemma.se/" },
 };
 

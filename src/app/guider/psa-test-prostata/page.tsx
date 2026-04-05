@@ -7,12 +7,12 @@ import FaqAccordion from "@/components/FaqAccordion";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "PSA-test Hemma – Prostatahälsa och PSA-värden",
-  description: "Guide till PSA-testning hemma. Vad är normalt PSA-värde per åldersgrupp? Vem bör testa sig och hur ofta? Allt om PSA och prostatacancer.",
+  title: "Vad är Normalt PSA-värde? PSA-prov Hemma 2026 – Guide",
+  description: "Vad är normalt PSA-värde per åldersgrupp? Komplett guide till PSA-prov hemma. Se referensvärden, när du bör testa dig och vad förhöjt PSA betyder.",
   alternates: { canonical: "https://www.testahemma.se/guider/psa-test-prostata/" },
   openGraph: {
-    title: "PSA-test Hemma – Prostatahälsa och PSA-värden",
-    description: "Guide till PSA-testning hemma. Vad är normalt PSA-värde per åldersgrupp? Vem bör testa sig och hur ofta? Allt om PSA och prostatacancer.",
+    title: "Vad är Normalt PSA-värde? PSA-prov Hemma 2026",
+    description: "Vad är normalt PSA-värde per åldersgrupp? Guide till PSA-prov hemma med referensvärden och vad förhöjt PSA betyder.",
     url: "https://www.testahemma.se/guider/psa-test-prostata/",
   },
 };
@@ -72,7 +72,7 @@ export default function PsaTestPage() {
           Granskad av Anna Lindström, biomedicinsk analytiker &bull; Uppdaterad april 2026
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          PSA-test hemma – prostatahälsa och vad värdet betyder
+          Vad är normalt PSA-värde? PSA-prov hemma 2026
         </h1>
         <MedicalDisclaimer />
         <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 text-sm text-red-800 my-4">
@@ -80,7 +80,7 @@ export default function PsaTestPage() {
         </div>
         <div className="prose-guide">
           <p>
-            PSA (prostataspecifikt antigen) är ett protein som produceras av prostatakörtelns celler. Det finns naturligt i blodet i låga koncentrationer, men förhöjda nivåer kan signalera att något är fel med prostatan – från godartad förstoring till prostatacancer. PSA-testning är i dag ett av de viktigaste verktygen för proaktiv prostatahälsa hos män över 45–50 år.
+            Vad är normalt PSA-värde? PSA (prostataspecifikt antigen) är ett protein som produceras av prostatakörtelns celler. Det finns naturligt i blodet i låga koncentrationer, men förhöjda nivåer kan signalera att något är fel med prostatan — från godartad förstoring till prostatacancer. Du kan ta PSA-prov hemma med ett enkelt hemtestkit, och i denna guide går vi igenom referensvärden per åldersgrupp, vad som räknas som normalt PSA-värde och vad förhöjt PSA kan betyda.
           </p>
           <p>
             Prostatacancer är den vanligaste cancerformen bland män i Sverige – varje år diagnostiseras drygt 10 000 nya fall. Tidig upptäckt via PSA-screening ökar möjligheten till kurativt syftande behandling och är en av anledningarna till att dödligheten i prostatacancer har minskat de senaste decennierna.

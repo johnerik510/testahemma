@@ -66,6 +66,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/werlabs-vs-verisana/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/om-oss/`, lastModified: now, changeFrequency: "yearly", priority: 0.5 },
     { url: `${BASE}/hur-vi-testar/`, lastModified: now, changeFrequency: "yearly", priority: 0.5 },
+    { url: `${BASE}/sa-testar-vi/`, lastModified: now, changeFrequency: "yearly", priority: 0.5 },
+    { url: `${BASE}/redaktionell-policy/`, lastModified: now, changeFrequency: "yearly", priority: 0.5 },
     { url: `${BASE}/annonsering/`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE}/integritetspolicy/`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE}/kontakt/`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
