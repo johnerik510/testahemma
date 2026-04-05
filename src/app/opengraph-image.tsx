@@ -1,4 +1,6 @@
 import { ImageResponse } from "next/og";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 
 export const alt = "Testahemma.se – Sveriges guide till hemtestningskit";
 export const size = {
@@ -7,7 +9,12 @@ export const size = {
 };
 export const contentType = "image/png";
 
-export default function Image() {
+export default async function Image() {
+  const [arialRegular, arialBold] = await Promise.all([
+    readFile(join(process.cwd(), "assets/Arial.ttf")),
+    readFile(join(process.cwd(), "assets/Arial-Bold.ttf")),
+  ]);
+
   return new ImageResponse(
     (
       <div
@@ -22,6 +29,7 @@ export default function Image() {
           justifyContent: "center",
           color: "white",
           padding: "60px",
+          fontFamily: "Arial",
         }}
       >
         <div
@@ -74,6 +82,20 @@ export default function Image() {
     ),
     {
       ...size,
+      fonts: [
+        {
+          name: "Arial",
+          data: arialRegular,
+          style: "normal",
+          weight: 400,
+        },
+        {
+          name: "Arial",
+          data: arialBold,
+          style: "normal",
+          weight: 700,
+        },
+      ],
     }
   );
 }
